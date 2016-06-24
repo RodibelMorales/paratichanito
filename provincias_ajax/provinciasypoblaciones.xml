@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lista>
+<provincia id="cozumel">
+		<nombre><![CDATA[Cozumel]]></nombre>
+		<localidades>
+			<localidad C="0"><![CDATA[Eliga una Opción]]></localidad>
+			<localidad c="0"><![CDATA[San miguel de cozumel]]></localidad>
+			<localidad c="0"><![CDATA[Las fincas KM 4 y medio]]></localidad>
+			<localidad c="0"><![CDATA[La estrella]]></localidad>
+			<localidad c="0"><![CDATA[El cedral]]></localidad>	
+		</localidades>
+	</provincia>
+		<provincia id="felipe-carrillo-puerto">
+		<nombre><![CDATA[Felipe Carrillo Puerto]]></nombre>
+		<localidades>
+			<localidad C="0"><![CDATA[Eliga una Opción]]></localidad>
+			<localidad c="0"><![CDATA[Felipe Carrilo Puerto]]></localidad>
+			<localidad c="0"><![CDATA[Tihosuco]]></localidad>
+			<localidad c="0"><![CDATA[Chunhuhub]]></localidad>
+			<localidad c="0"><![CDATA[Señor]]></localidad>
+			<localidad c="0"><![CDATA[Tepich]]></localidad>
+			<localidad c="0"><![CDATA[Noh-Bec]]></localidad>
+			<localidad c="0"><![CDATA[X-Hazil Sur]]></localidad>
+			<localidad c="0"><![CDATA[X-Pichil]]></localidad>
+			<localidad c="0"><![CDATA[Polyuc]]></localidad>
+			<localidad c="0"><![CDATA[Dzulá]]></localidad>
+			<localidad c="0"><![CDATA[Santa Rosa Segundo]]></localidad>
+			<localidad c="0"><![CDATA[Presidente Juárez]]></localidad>
+		</localidades>
+	</provincia>
+		<provincia id="isla-mujeres">
+		<nombre><![CDATA[Isla Mujeres]]></nombre>
+		<localidades>
+			<localidad C="0"><![CDATA[Eliga una Opción]]></localidad>
+			<localidad c="0"><![CDATA[Isla Mujeres]]></localidad>
+			<localidad c="0"><![CDATA[Zona Urbana Ejido]]></localidad>
+			<localidad c="0"><![CDATA[Francisco May]]></localidad>
+			<localidad c="0"><![CDATA[Punta Sam]]></localidad>
+		</localidades>
+	</provincia>
+		<provincia id="O-P-Blanco">
+		<nombre><![CDATA[Oth&oacuten P.Blanco]]></nombre>
+		<localidades>
+			<localidad C="0"><![CDATA[Eliga una Opción]]></localidad>
+			<localidad c="0"><![CDATA[Chetumal]]></localidad>
+			<localidad c="0"><![CDATA[Calderitas]]></localidad>
+			<localidad c="0"><![CDATA[Nicolás Bravo]]></localidad>
+			<localidad c="0"><![CDATA[Javier Rojo Gómez]]></localidad>
+			<localidad c="0"><![CDATA[Álvaro Obregón]]></localidad>
+			<localidad c="0"><![CDATA[Sergio Butrón Casas]]></localidad>
+			<localidad c="0"><![CDATA[Cacao]]></localidad>
+			<localidad c="0"><![CDATA[Xul-Ha]]></localidad>
+			<localidad c="0"><![CDATA[Maya Balam]]></localidad>
+			<localidad c="0"><![CDATA[Subteniente López]]></localidad>
+			<localidad c="0"><![CDATA[Pucté]]></localidad>
+			<localidad c="0"><![CDATA[Carlos A. Madrazo]]></localidad>
+			<localidad c="0"><![CDATA[Huay-Pix]]></localidad>
+			<localidad c="0"><![CDATA[Ucum]]></localidad>
+			<localidad c="0"><![CDATA[La Unión]]></localidad>
+			<localidad c="0"><![CDATA[Mahahual]]></localidad>
+			<localidad c="0"><![CDATA[Xcalak]]></localidad>
+		</localidades>
+	</provincia>
+		<provincia id="benito-juarez">
+		<nombre><![CDATA[Benito Ju&aacuterez]]></nombre>
+		<localidades>
+			<localidad C="0"><![CDATA[Eliga una Opción]]></localidad>
+			<localidad c="0"><![CDATA[Cancún]]></localidad>
+			<localidad c="0"><![CDATA[Alfredo V. Bonfil]]></localidad>
+			<localidad c="0"><![CDATA[Puerto Morelos]]></localidad>
+			<localidad c="0"><![CDATA[Leona Vicario]]></localidad>
+			<localidad c="0"><![CDATA[El Porvenir]]></localidad>
+			<localidad c="0"><![CDATA[Central Vallarta]]></localidad>
+		</localidades>
+	</provincia>
+		<provincia id="morelos">
+		<nombre><![CDATA[Jos&eacute Mar&iacutea Morelos]]></nombre>
+		<localidades>
+			<localidad C="0"><![CDATA[Eliga una Opción]]></localidad>
+			<localidad c="0"><![CDATA[José María Morelos]]></localidad>
+			<localidad c="0"><![CDATA[Dziuché]]></localidad>
+			<localidad c="0"><![CDATA[Sabán]]></localidad>
+			<localidad c="0"><![CDATA[Huay Max]]></localidad>
+			<localidad c="0"><![CDATA[La presumida]]></localidad>
+			<localidad c="0"><![CDATA[X-cabil]]></localidad>
+			<localidad c="0"><![CDATA[Kancabchén]]></localidad>
+			<localidad c="0"><![CDATA[Sacalaca]]></localidad>
+		</localidades>
+	</provincia>
+		<provincia id="l-cardenas">
+		<nombre><![CDATA[L&aacutezaro C&aacuterdenas]]></nombre>
+		<localidades>
+			<localidad C="0"><![CDATA[Eliga una Opción]]></localidad>
+			<localidad c="0"><![CDATA[Kantunilkín]]></localidad>
+			<localidad c="0"><![CDATA[Ignacio Zaragoza]]></localidad>
+			<localidad c="0"><![CDATA[Holbox]]></localidad>
+			<localidad c="0"><![CDATA[Chiquilá]]></localidad>
+			<localidad c="0"><![CDATA[Nuevo Valladolid]]></localidad>
+			<localidad c="0"><![CDATA[Nuevo Xcán]]></localidad>
+			<localidad c="0"><![CDATA[El tintal]]></localidad>
+			<localidad c="0"><![CDATA[Solferino]]></localidad>
+			<localidad c="0"><![CDATA[San Angel]]></localidad>
+			<localidad c="0"><![CDATA[Pacchen]]></localidad>
+		</localidades>
+	</provincia>
+	<provincia id="solidaridad">
+		<nombre><![CDATA[Solidaridad]]></nombre>
+		<localidades>
+			<localidad C="0"><![CDATA[Eliga una Opción]]></localidad>
+			<localidad c="0"><![CDATA[Playa Del Carmen]]></localidad>
+			<localidad c="0"><![CDATA[Puerto Aventuras]]></localidad>
+		</localidades>
+	</provincia>
+		<provincia id="tulum">
+		<nombre><![CDATA[Tulum]]></nombre>
+		<localidades>
+			<localidad C="0"><![CDATA[Eliga una Opción]]></localidad>
+			<localidad c="0"><![CDATA[Tulum]]></localidad>
+			<localidad c="0"><![CDATA[Cuidad Chemuyil]]></localidad>
+			<localidad c="0"><![CDATA[Akumal]]></localidad>
+			<localidad c="0"><![CDATA[Cobá]]></localidad>
+			<localidad c="0"><![CDATA[Chanchen Primero]]></localidad>
+			<localidad c="0"><![CDATA[Francisco Uh May]]></localidad>
+			<localidad c="0"><![CDATA[San Juan]]></localidad>
+			<localidad c="0"><![CDATA[Macario Gómez]]></localidad>
+			<localidad c="0"><![CDATA[Punta Allen]]></localidad>
+		</localidades>
+	</provincia>
+		<provincia id="bacalar">
+		<nombre><![CDATA[Bacalar]]></nombre>
+		<localidades>
+			<localidad C="0"><![CDATA[Eliga una Opción]]></localidad>
+			<localidad c="0"><![CDATA[Bacalar]]></localidad>
+			<localidad c="0"><![CDATA[Bacalar]]></localidad>
+			<localidad c="0"><![CDATA[Limones]]></localidad>
+			<localidad c="0"><![CDATA[Maya Balam]]></localidad>
+			<localidad c="0"><![CDATA[Pedro Antonio Santos]]></localidad>
+		</localidades>
+	</provincia>
+
+
+
+
+	
+</lista>

@@ -1,0 +1,5058 @@
+/*dispositivos Watch*/
+@media screen and (min-width:0px){
+	/*Estilos para el index*/
+		.anchocustom {
+		    height: 48px;
+		    position: absolute;
+		    top: 45%;
+		    z-index: 10;
+		    left: 0%;
+		    width: 100%;
+		    margin: auto;
+		}
+		.iconosRedes {
+		    width: 30px;
+		    height: 30px;
+		    float: left;
+		    margin: 5px;
+		    position: relative;
+		    left: 20px;
+		}
+	/*Estilos para el menu*/
+		#contenedorMenu {
+		    width: 100%;
+		    height: 70px;
+		    background-color: rgb(42, 43, 41);
+		    z-index: 15;
+		    position: relative;
+		}
+		.contenedorLogoChanitoCamara {
+    		display: none;
+		}
+		.CLCCResponsive {
+		    display: block;
+		    width: 100px;
+		    height: 50px;
+		    float: left;
+		    margin: 10px;
+		    position: fixed;
+		    z-index: 1002;
+		}
+	    .logoChanitoCamaraR{
+	    	width: 100px;
+	    	height: 50px;
+	    }
+		.secciones {
+		    width: 100% !important;
+		    /* max-width: 1600px; */
+		    /* min-width: 960px; */
+		    z-index: 10;
+		    position: relative;
+		    /* margin: 0 auto; */
+		    /* padding: 0 0 2px 0; */
+		}
+		.inicio {
+		    height: auto;
+		}	
+		.menu{
+			width: 100%;
+			height: 16.5%;
+			margin: 0;
+			left: -100%;
+			position: fixed;
+			padding-right: 0px;
+			-webkit-transition: all 0.3s ease-in-out;
+		}
+		.menu_responsive {
+		    display: block;
+		    width: 100%;
+		    position: fixed;
+		    z-index: 1001;
+		    -webkit-transition: all 0.3s ease-in-out;
+		    float: right;
+		}
+		.menufix {
+		    background-color: #444141;
+		    width: 100%;
+		    z-index: 1000;
+		    top: 0;
+		    margin-top: 0px;
+		    padding-right: 0px;
+		    position: fixed;
+		    -webkit-transition: all 1s ease-in-out;
+		    -moz-transition: all 1s ease-in-out;
+		    -o-transition: all 1s ease-in-out;
+		    transition: all 1s ease-in-out;
+		}
+		.menu_responsive .bt-menu {
+		    display: block;
+		    padding: 20px;
+		    padding-top: 20px;
+		    padding-right: 20px;
+		    padding-bottom: 20px;
+		    padding-left: 20px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-weight: bold;
+		    font-size: 25px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    width: 70px;
+		    padding-bottom: 10px;
+		    float: right;
+		}
+		.menu_responsive span {
+			float:right;
+			font-size:40px;
+		}
+		.btnMenuR{
+			font-size: 25pt;
+		}
+		.vermenu{
+			left: 0px;
+		}
+		header nav ul {
+		    list-style: none;
+		    /* overflow: hidden; */
+		    float: none;
+		    margin-bottom: 0px;
+		    margin-top: 0px;
+		    background-color: #444141;
+		    width: 100%;
+		    height: 100%;
+		    padding-left: 0px;
+		    overflow-x: auto;
+		    -webkit-overflow-scrolling: touch;
+		    white-space: nowrap;
+		    overflow-y: auto;
+		    -webkit-overflow-scrolling: touch;
+		    -ms-overflow-style: -ms-autohiding-scrollbar;
+		    position: fixed;
+		    padding-top: 80px;
+		}
+		header nav ul li {
+		    display: block;
+		    float: none;
+		    margin: 0px;
+		    cursor: pointer;
+		}
+		header nav ul li a {
+		    position: relative;
+		    padding: 0px;
+		    padding-top: 0px;
+		    padding-right: 0px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-size: 18pt;
+		    padding-bottom: 3px;
+		    display: inline-block;
+		    text-align: center;
+		    margin-right: 0px;
+		    margin-left: 20px;
+		    left: 2px;
+		}
+		.btnEncuesta {
+	    	display: inline-block;
+		    padding: 6px 12px;
+		    margin: 8px;
+		    line-height: 1.42857143;
+		    text-align: center;
+		    text-decoration: none;
+		    white-space: nowrap;
+		    vertical-align: middle;
+		    -ms-touch-action: manipulation;
+		    touch-action: manipulation;
+		    cursor: pointer;
+		    -webkit-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		    background-image: none;
+		    border: 1px solid transparent;
+		    border-radius: 4px;
+		    color: #fff;
+		    background-color: rgba(2, 255, 2, 0.49);
+		    border-color: #4B8C4B;
+		    transition: width .5s ease, background-color .5s ease;
+		    width: 95%;
+		}
+		#logochanito {
+		    margin-top: -15px;
+		    margin-left: 40px;
+		    margin-right: 0%;
+		    margin-bottom: 5%;
+		}
+		.fondo {
+	    	width: 100%;
+	    	height: 100%;
+	    	background-color: rgba(42, 43, 41, 0.57);
+		}
+	/*EStilos para los iconos redes sociales*/
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 85%;
+		    margin: 0 auto;
+		}
+	    .iconosSocialmedia {
+	        width: 40px;
+	        height: 40px;
+	        float: left;
+	        margin-top: 2%;
+	        margin-right: 5px;
+	        margin-left: 4%;
+	        position: relative;
+	        right: 0px;
+	    }
+	    .iconofacebook{
+	        background-image: url("../img/iconosResponsive/facebook.png");
+	        background-size: cover;
+	        width: 30px;
+	        height: 30px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconotwitter{
+	        background-image: url("../img/iconosResponsive/twitter.png");
+	        background-size: cover;
+	        width: 30px;
+	        height: 30px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconoyoutube{
+	        background-image: url("../img/iconosResponsive/youtube.png");
+	        background-size: cover;
+	        width: 30px;
+	        height: 30px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconogoogleplus{
+	        background-image: url("../img/iconosResponsive/googleplus.png");
+	        background-size: cover;
+	        width: 30px;
+	        height: 30px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;  
+	    }
+	    .iconoinstagram{
+	        background-image: url("../img/iconosResponsive/instagram.png");
+	        background-size: cover;
+	        width: 30px;
+	        height: 30px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	/*Estilos hover para los iconos*/
+	    .iconofacebook:hover{
+	        background-image: url("../img/iconosResponsive/facebookHover.png");
+	        background-size: cover;
+	        width: 30px;
+	        height: 30px;
+	        opacity: 1;
+	    }
+	    .iconotwitter:hover{
+	        background-image: url("../img/iconosResponsive/twitterHover.png");
+	        background-size: cover;
+	        width: 30px;
+	        height: 30px;
+	    }
+	    .iconoyoutube:hover{
+	        background-image: url("../img/iconosResponsive/youtubeHover.png");
+	        background-size: cover;
+	        width: 30px;
+	        height: 30px;
+	    }
+	    .iconogoogleplus:hover{
+	        background-image: url("../img/iconosResponsive/googleplusHover.png");
+	        background-size: cover;
+	        width: 30px;
+	        height: 30px;  
+	    }
+	    .iconoinstagram:hover{
+	        background-image: url("../img/iconosResponsive/instagramHover.png");
+	        background-size: cover;
+	        width: 30px;
+	        height: 30px;  
+	    }
+    /*Estilos para los titulos*/
+		h1#tituloBlog {
+		    text-align: center;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    width: 100%;
+		    margin-bottom: 2px;
+		}
+		h2#subtituloBlog {
+		    text-align: center;
+		    font-size: 12pt;
+		    width: 100%;
+		    margin-top: 1px;
+		}
+	/*Estilos para las entradas del blog*/
+		.img-responsiveblog {
+		    width: 100%;
+		    height: 230px;
+		    overflow: hidden;
+		}
+		.efectoBlog{
+			width: 100%;
+			margin-bottom: 1.5px;
+		}
+		.efectoBlog section {
+		    margin: 0;
+		    padding: 0;
+		    position: relative;
+		    cursor: pointer;
+		    width: 100%;
+		    height: 230px;
+		}
+	/*Estilos para los articulos textos*/
+		.titleBlog {
+		    color: #000;
+		    font-size: 12pt;
+		    text-align: center;
+		    margin-top: 10%;
+		    font-weight: bold;
+		}
+		.vermas {
+		    font-size: 12pt;
+		    color: #009688;
+		}
+		.textblog {
+		    display: block;
+		    font-size: 10pt;
+		    margin-left: 10px;
+		    margin-right: 10px;
+		    color: #fff;
+		    text-align: center;
+		    line-height: 15pt;
+		}
+	/*Estilos para el footer*/
+		.titulosigueme {
+		    color: #fff;
+		    font-weight: bold;
+		    margin-left: 0%;
+		    font-size: 20pt;
+		    text-align: center;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 10%;
+		}
+		.subtituloFooter {
+			text-align: center;
+		    color: #fff;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    letter-spacing: 4px;
+		    margin-top: 5px;
+		    width: 100%;
+		    margin-left: 0%;
+		}
+		.line {
+		    margin-left: 0;
+		    float: left;
+		    display: none;
+		}
+		.seccionIconos {
+		    margin: 0 auto;
+		    width: 90%;
+		}
+	/*Estilos para el modulo cv*/
+		#imgCV {
+		    background: url(../img/fondoCV.png) no-repeat center center fixed;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		    width: 100%;
+		    height: 30%;
+		    border-bottom-style: solid;
+		    border-bottom-color: #EA0000;
+		    border-bottom-width: 5px;
+		    background-position: 0px 0px;
+		}
+		.cv-circulo {
+		    width: 120px;
+		    height: 120px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 30%;
+		    margin-top: -25%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+		h1#tituloPrincipalCV {
+		    margin-left: 5%;
+		    font-size: 18pt;
+		    font-weight: bold;
+		    border-bottom-style: solid;
+		    width: 90%;
+		    text-align: center;
+		    color: #000;
+		    margin-top: 20px;
+		}
+		.contenedorInfoCV {
+	    	margin-left: 5%;
+	    	margin-right: 5%;
+	    	margin-top: 0px;
+		}
+		h1.tituloCV {
+	    	color: #fff;
+	    	font-weight: bold;
+	    	line-height: 70px;
+	    	font-size: 17pt;
+		}
+		#headerCardCV1 {
+		    position: relative;
+		    height: 80px;
+		    background-color: #9E9E9E;
+		    text-align: center;
+		    border-radius: 1px;
+		    z-index: 0;
+		}
+		#headerCardCV2 {
+		    position: relative;
+		    height: 80px;
+		    background-color: #22242f;
+		    text-align: center;
+		    border-radius: 1px;
+		    z-index: 0;
+		}
+		#headerCardCV3 {
+	    	position: relative;
+	    	height: 80px;
+	    	background-color: rgb(0, 86, 79);
+	    	text-align: center;
+	    	border-radius: 1px;
+		    z-index: 0;
+		}
+		label.fechasCV {
+		    font-weight: bold;
+		    font-size: 13pt;
+		    line-height: 40px;
+		}
+		p.textoInfoCV {
+	    	font-size: 12pt;
+	    	text-align: justify;
+		}
+		article.bloquesCV{
+			width: 100%;
+		    background-color: #fff;
+		    box-shadow: 0px 0px 3px 2px;
+		    border-radius: 2px;
+		    -webkit-box-shadow: 0px 0px 3px 2px #000;
+		    -webkit-border-radius: 2px;
+		    margin: 0 auto;	
+		}
+	/*EStilos para el modulo multimedia*/
+		#headerMultimediaFiltroBuscaImagenes {
+	    	background-color: rgba(42, 43, 41, 0.57);
+	    	z-index: 15;
+	    	position: relative;
+	    	height: 77px;
+		}
+		section.contenedorMultimedia {
+		    width: 100%;
+		    height: 100%
+		    position: relative;
+		    z-index: 15;
+		    background-image: url("../img/fondoMultimedia980x1280.png");
+		}
+		div#formularioBusqueda {
+		    position: absolute;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 45%;
+		    width: 100%;
+		    left: 0%;
+		    top: 0%;
+		}
+		.form-inline .form-group {
+    		display: block !important;
+    		margin-bottom: 15px;
+    		vertical-align: middle;
+    		/* margin-bottom: 0px !important; */
+		}
+		div#tituloMultimedia {
+		    font-size: 25pt;
+		    line-height: 35px;
+		    width: 100%;
+		    margin-left: 0%;
+		    font-weight: bold;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    margin-bottom: 40px;
+		    position: relative;
+		    top: 0px;
+		    color: #fff;
+		    text-align: center;
+		}
+		#chanitoMultimedia {
+			background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 225px;
+		    height: 75px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 30px;
+		    margin-top: -40%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		select#selectfiltro {
+		    width: 100%;
+		    height: 60px;
+		    margin-left: 2px;
+		}
+		#inputfiltro {
+		    width: 100%;
+		    height: 60px;
+		}
+		form.form-inline {
+		    margin: 10px;
+		}
+		.btn-success {
+		    color: #fff;
+		    background-color: #5cb85c;
+		    border-color: #4cae4c;
+		    width: 100%;
+		    height: 60px;
+		}
+		span.fa.fa-search {
+		    font-size: 15pt;
+		}
+	/*Estilos para el modulo galeria*/
+		.itemMulti {
+		    width: 100%;
+		    float: none;
+		    margin-bottom: 2px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    display: block;
+		    margin-top: 1px;
+		}
+		.anchoColumna {
+		    width: 100%;
+		    overflow-y: hidden;
+		}
+		.divDescarga {
+		    width: 96px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+	    	width: 96px;
+	    	height: 40px;
+	    	float: left;
+		}
+		.divShareTwitt {
+	    	width: 96px;
+	    	height: 40px;
+	    	float: left;
+		}
+		a.btn.btnDescargas {
+		    background: #4CAF50;
+		    font-size: 10pt;
+		    color: #fff;
+		    width: 99%;
+		    margin: 1px;
+		}
+		a.btn.btnShareFacebook {
+		    width: 99%;
+		    background-color: #428BCA;
+		    color: #fff;
+		    margin: 1px;
+		    font-size: 10pt;
+		}
+		a.btn.btnShareTwitter {
+		    width: 99%;
+		    background-color: #66A1D4;
+		    margin: 1px;
+		    color: #fff;
+		    font-size: 10pt;
+		}
+		#fotoNotFound {
+    		margin-left: 28%;
+    		margin-right: 41%;
+    		margin-top: 20%;
+		}
+		.tituloError {
+		    text-align: center;
+		    font-size: 15pt;
+		    line-height: 2;
+		}
+		.botonF1beforeScroll {
+		    width: 80px;
+		    height: 80px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 45%;
+		    bottom: 0px;
+		    position: fixed;
+		    margin-right: 0px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 14;
+		}
+	/*Estilos para los botones contacto*/
+	   	button.btn.btnDescargas{
+	        width: 99%;
+	        background-color: #2CA944;
+	        color: #fff;
+	        margin: 1px;
+	    }
+	    button.btn.btnDescargas:hover{
+	        background: rgb(10, 97, 26);
+	        color: #fff;
+	    }
+	    a.btn.btnShareFacebook {
+	        width: 99%;
+	        background-color: #428BCA;
+	        color: #fff;
+	        margin: 1px;
+	    }
+	    a.btn.btnShareTwitter {
+	        width: 99%;
+	        background-color: #66A1D4;
+	        margin: 1px;
+	        color: #fff;
+	    }
+    /*estilos para el boton nueva busqueda*/
+	    .botonF1beforeScroll {
+		    width: 80px;
+		    height: 80px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 40%;
+		    bottom: 0px;
+		    position: fixed;
+		    margin-right: 0px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 14;
+		}
+		.botonF1AfterScroll {
+			width: 80px;
+		    height: 80px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 70%;
+		    bottom: 38%;
+		    position: fixed;
+		    margin-right: 16px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+	/*Estilos para el modal nueva busqueda*/
+		#formularioBusquedaFiltro {
+	    	z-index: 12;
+	    	margin-top: 0%;
+	    	width: 100%;
+		}
+
+		.formFiltro {
+		    width: 100%;
+		    margin: 0px !important;
+		}
+		#tituloMultimediaFiltro {
+		    font-size: 25pt;
+		    line-height: 15px;
+		    width: 100%;
+		    font-weight: bold;
+		    text-align: center;
+		    margin-left: 0px;
+		}
+		#chanitoMultimediaFiltro {
+		    background-image: url("../img/chanitoResponsiveRojo.png");
+		    background-repeat: no-repeat;
+		    width: 270px;
+		    height: 85px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 0px;
+		    margin-top: 0px;
+		    background-size: cover;
+		}
+		#selectfiltroMultimedia {
+	    	width: 100%;
+	    	height: 60px;
+		}
+		#inputfiltroMultimedia {
+	    	width: 100%;
+	    	height: 60px;
+		}
+		button#btnSearch {
+	    	width: 100%;
+		}
+	/*Estilos modulos multimedia*/
+		#headerMultimedia {
+		    background-color: rgb(42, 43, 41);
+		    z-index: 17;
+		    position: relative;
+		    height: 70px;
+		}
+		#headerMultimediaFiltroBuscaImagenes{
+			background-color: rgba(42, 43, 41, 0.57);
+	    	z-index: 15;
+	    	position: relative;
+	    	height: 77px;
+		}
+		#galeriaChanito {
+	    	overflow-x: hidden !important;
+	    	margin-bottom: 45px;
+	    	overflow-y:hidden;
+		}
+		.btnFancyGaleriaBefore {
+	    	color: #FFF;
+	    	background-color: #2D2D2D;
+	    	border-color: #0C6122;
+	    	width: 49%;
+	    	height: 40px;
+		}
+		.btnFancyGaleriaNext {
+	    	color: #fff;
+	    	background-color: #2D2D2D;
+	    	border-color: #0C6122;
+	    	width: 49%;
+	    	height: 40px;
+		}
+	/*Estilos para el modulo contacto*/
+		.piePagina{
+			width: 100%;
+			height: auto;
+			background:#444141;
+			z-index: 10;
+		}
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 10%;
+		    height: auto;
+		}
+		#formulario {
+		    margin: 10px;
+		    position: relative;
+		    top: 0px;
+		}
+		.formularioContacto {
+		    width: 100%;
+		    margin: 0px;
+		    position: relative;
+		    top: 10px;
+		    height: 100%;
+		}	
+		#tituloFormulario {
+		    font-size: 20pt;
+		    text-align: center;
+		    font-weight: bold;
+		    border-bottom-style: solid;
+		    width: 90%;
+		    margin-left: 5%;
+		    margin-right: 5%;
+		}
+		#btn_envia {
+		    color: #fff;
+		    background-color: #00BE65;
+		    border-color: #00BE65;
+		    width: 100%;
+		    font-weight: bold;
+		    margin-bottom:10px;
+		}
+		#btn_cancela {
+		    color: #FFF;
+		    background-color: #DE2626;
+		    border-color: #E00202;
+		    width: 100%;
+		    font-weight: bold;
+		}
+		.cb-slideshow, .cb-slideshow:after {
+		    position: fixed;
+		    width: 100%;
+		    height: 100%;
+		    top: 0px;
+		    left: 0px;
+		    z-index: 0;
+		    list-style: none;
+		    padding: 0px;
+		    display: none;
+		}
+		.form-horizontal .form-group {
+	    	margin-right: 0px;
+	    	margin-left: 0px;
+		}																	
+}
+@media screen and (min-width:320px){
+	/*Estilos para el menu Responsive*/
+		.lineMenuR{
+			border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    border-bottom-color: #fff;
+		    box-shadow: 0px 0px 9px 0px;
+		}
+		.menu_responsive {
+		    display: block;
+		    width: 100%;
+		    position: fixed;
+		    z-index: 1001;
+		    -webkit-transition: all 0.3s ease-in-out;
+
+		}
+		.menu_responsive .bt-menu {
+		    display: block;
+		    padding: 20px;
+		    padding-top: 20px;
+		    padding-right: 20px;
+		    padding-bottom: 20px;
+		    padding-left: 20px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-weight: bold;
+		    font-size: 25px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    width: 70px;
+		    padding-bottom: 10px;
+		}	
+	/*Estilos para el index*/
+		#logochanito {
+		    margin-top: 80px;
+		    margin-left: 60px;
+		    margin-right: 0%;
+		    margin-bottom: 0%;
+		}
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 85%;
+		    margin: 0 auto;
+		}
+		header nav ul {
+		    list-style: none;
+		    /* overflow: hidden; */
+		    float: none;
+		    margin-bottom: 0px;
+		    margin-top: 0px;
+		    background-color: #444141;
+		    width: 100%;
+		    height: 100%;
+		    padding-left: 0px;
+		    overflow-x: auto;
+		    -webkit-overflow-scrolling: touch;
+		    white-space: nowrap;
+		    overflow-y: auto;
+		    -webkit-overflow-scrolling: touch;
+		    -ms-overflow-style: -ms-autohiding-scrollbar;
+		    position: fixed;
+		    padding-top: 80px;
+		}
+		header nav ul li {
+		    height: 60px;
+		}
+		header nav ul li a {
+		    position: relative;
+		    padding: 0px;
+		    padding-top: 15px;
+		    padding-right: 0px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-size: 18pt;
+		    padding-bottom: 3px;
+		    display: block;
+		    text-align: center;
+		    margin-right: 0px;
+		    margin-left: 0px;
+		    left: 0px;
+		    letter-spacing: 10px;
+		    font-weight: bold;
+		}
+		/*seccion blog*/
+		.textblog {
+		    display: block;
+		    font-size: 11pt;
+		    margin-left: 10px;
+		    margin-right: 10px;
+		    color: #fff;
+		    text-align: justify;
+		    line-height: 15pt;
+		}
+		.iconosRedes {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin: 5px;
+		    position: relative;
+		    left: 20px;
+		}
+
+	/*Estilos para el modulo multimedia*/
+		section.contenedorMultimedia {
+		    width: 100%;
+		    height: auto;
+		    position: relative;
+		    z-index: 15;
+		    background-image: url("../img/fondoMultimedia980x1280.png");
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 225px;
+		    height: 75px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 45px;
+		    margin-top: 0%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		div#formularioBusqueda {
+		    position: relative;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0%;
+		    width: 100%;
+		    height: 500px;
+		    left: 0%;
+		    top: 0%;
+		}
+		div#tituloMultimedia {
+		    font-size: 25pt;
+		    line-height: 35px;
+		    width: 100%;
+		    margin-left: 0%;
+		    font-weight: bold;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    margin-bottom: 40px;
+		    position: relative;
+		    top: 50px;
+		    color: #fff;
+		    text-align: center;
+		}
+	/*Estilos para el modulo Resultados Multimedia*/
+		.divDescarga {
+		    width: 96px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+		    width: 96px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareTwitt {
+		    width: 96px;
+		    height: 40px;
+		    float: left;
+		}
+	/*Estilos para el modulo Contacto*/
+		header#headerContacto {
+		    background-color: rgba(68, 65, 65, 0.81);
+		    position: relative;
+		    height: 70px;
+		    border-bottom-style: solid;
+		    border-bottom-color: #fff;
+		}
+		#formulario {
+		    margin: 18px;
+		    position: relative;
+		    top: 0px;
+		}
+	/*Estilos para el footer*/
+		.iconosSocialmedia {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-top: 2%;
+		    margin-right: 5px;
+		    margin-left: 1%;
+		    position: relative;
+		    right: 0px;
+		    left: 20px;
+		}
+		.piePagina {
+		    width: 100%;
+		    height: 200px;
+		    background: #444141;
+		    z-index: 10;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 19pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 10%;
+		}
+		.subtituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 17pt;
+		    font-weight: bold;
+		    letter-spacing: 4px;
+		    margin-top: 5px;
+		    width: 100%;
+		    margin-left: 0%;
+		}
+}
+@media screen and (min-width: 360px){
+	/*Estilos para el index*/
+		.fondo {
+		    width: 100%;
+		    background-color: rgba(42, 43, 41, 0.57);
+		}
+		#logochanito {
+		    margin-top: 150px;
+		    margin-left: 70px;
+		    margin-right: 0%;
+		    margin-bottom: 0%;
+		}
+		.iconosRedes {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin: 5px;
+		    position: relative;
+		    left: 35px;
+		}
+		/*Seccion blog*/
+		h2#subtituloBlog {
+		    text-align: center;
+		    font-size: 15pt;
+		    width: 100%;
+		    margin-top: 1px;
+		    font-weight: bold;
+		}
+	/*Estilos para CV*/
+		.cv-circulo {
+		    width: 120px;
+		    height: 120px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 35%;
+		    margin-top: -25%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+	/*Estilos para el modulo multimedia*/
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 225px;
+		    height: 75px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 62px;
+		    margin-top: 15%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		div#tituloMultimedia {
+		    font-size: 25pt;
+		    line-height: 35px;
+		    width: 100%;
+		    margin-left: 0%;
+		    font-weight: bold;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    margin-bottom: 0px;
+		    position: relative;
+		    top: 65px;
+		    color: #fff;
+		    text-align: center;
+		}
+		div#formularioBusqueda {
+		    position: relative;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    width: 100%;
+		    left: 0%;
+		    top: 0%;
+		}
+	/*Estilos para el modulo resultado busqueda*/
+		#headerMultimediaFiltroBuscaImagenes {
+		    background-color: rgba(42, 43, 41, 0.57);
+		    z-index: 15;
+		    position: relative;
+		    height: 70px;
+		}
+		.divDescarga {
+		    width: 33.33%;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+		    width: 33.33%;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareTwitt {
+		    width: 33.33%;
+		    height: 40px;
+		    float: left;
+		}
+		.modal-dialog.modal-lg.modalGaleria {
+		    position: relative;
+		    top: 90px;
+		}
+		.botonF1AfterScroll {
+		    width: 80px;
+		    height: 80px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 75%;
+		    bottom: 23%;
+		    position: fixed;
+		    margin-right: 16px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+		#chanitoMultimediaFiltro {
+		    background-image: url("../img/chanitoResponsiveRojo.png");
+		    background-repeat: no-repeat;
+		    width: 270px;
+		    height: 85px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 20px;
+		    margin-top: 0px;
+		    background-size: cover;
+		}
+	/*Estilos para el footer*/
+		.iconosSocialmedia {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-top: 0%;
+		    margin-right: 0px;
+		    margin-left: 0px;
+		    position: relative;
+		    right: 0px;
+		    margin: 3px;
+		    left: 0px;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 19pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 5.5%;
+		}
+		.seccionIconos {
+		    margin: 0 auto;
+		    width: 70%;
+		    height: 40px;
+		}
+		.iconofacebook{
+			width: 40px;
+			height: 40px;
+		}
+		.iconotwitter{
+			width: 40px;
+			height: 40px;
+		}
+		.iconoyoutube{
+			width: 40px;
+			height: 40px;
+		}
+		.iconogoogleplus{
+			width: 40px;
+			height: 40px;
+		}
+		.iconoinstagram{
+			width: 40px;
+			height: 40px;
+		}
+		.iconofacebook:hover{
+			width: 40px;
+			height: 40px;
+		}
+		.iconotwitter:hover{
+			width: 40px;
+			height: 40px;
+		}
+		.iconoyoutube:hover{
+			width: 40px;
+			height: 40px;
+		}
+		.iconogoogleplus:hover{
+			width: 40px;
+			height: 40px;
+		}
+		.iconoinstagram:hover{
+			width: 40px;
+			height: 40px;
+		}
+}
+@media screen and (min-width: 375px){
+	/*Estilos para el index*/
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 85%;
+		    margin: 0 auto;
+		}
+	/*Estilos para CV*/
+		.cv-circulo {
+		    width: 120px;
+		    height: 120px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 35%;
+		    margin-top: -25%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+	/*Estilos para el contacto*/
+		.seccionIconos {
+		    margin: 0 auto;
+		    width: 67%;
+		    height: 45px;
+		}
+	/*Estilos para el footer*/
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 19pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 5%;
+		}
+}
+@media screen and (min-width: 384px){
+    /*Estilos para el CV*/
+		.cv-circulo {
+		    width: 120px;
+		    height: 120px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 34%;
+		    margin-top: -25%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+    /*Estilos para el modulo multimedia*/
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 225px;
+		    height: 75px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 73px;
+		    margin-top: 12%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		div#tituloMultimedia {
+		    font-size: 25pt;
+		    line-height: 35px;
+		    width: 100%;
+		    margin-left: 0%;
+		    font-weight: bold;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    margin-bottom: 0px;
+		    position: relative;
+		    top: 60px;
+		    color: #fff;
+		    text-align: center;
+		}
+    /*Estilos para el modulo resultados busquedas*/
+		.divDescarga {
+		    width: 33.33%;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+		    width: 33.33%;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareTwitt {
+		    width: 33.33%;
+		    height: 40px;
+		    float: left;
+		}
+    /*Estilos para el footer*/
+		.seccionIconos {
+		    margin: 0 auto;
+		    width: 100%;
+		    height: 45px;
+		}	  	
+	  	.iconosSocialmedia {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-top: 2%;
+		    margin-right: 5px;
+		    margin-left: 18px;
+		    position: relative;
+		    right: 0px;
+		    left: 13px;
+		}
+}
+@media screen and (min-width: 411px){
+	/*Estilos para el index*/
+		#logochanito {
+		    margin-top: 150px;
+		    margin-left: 80px;
+		    margin-right: 0%;
+		    margin-bottom: 0%;
+		}
+		.iconosRedes {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin: 5px;
+		    position: relative;
+		    left: 75px;
+		}
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 95%;
+		    margin: 0 auto;
+		}
+		.iconofacebook{
+			width: 40px;
+			height: 40px;
+		}
+		.iconotwitter{
+			width: 40px;
+			height: 40px;
+		}
+		.iconoyoutube{
+			width: 40px;
+			height: 40px;
+		}
+		.iconogoogleplus{
+			width: 40px;
+			height: 40px;
+		}
+		.iconoinstagram{
+			width: 40px;
+			height: 40px;
+		}
+		.iconofacebook:hover{
+			width: 40px;
+			height: 40px;
+		}
+		.iconotwitter:hover{
+			width: 40px;
+			height: 40px;
+		}
+		.iconoyoutube:hover{
+			width: 40px;
+			height: 40px;
+		}
+		.iconogoogleplus:hover{
+			width: 40px;
+			height: 40px;
+		}
+		.iconoinstagram:hover{
+			width: 40px;
+			height: 40px;
+		}
+	/*Estilos para multimedia*/
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 240px;
+		    height: 75px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 85px;
+		    margin-top: 10%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		div#tituloMultimedia {
+		    font-size: 25pt;
+		    line-height: 35px;
+		    width: 100%;
+		    margin-left: 0%;
+		    font-weight: bold;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    margin-bottom: 0px;
+		    position: relative;
+		    top: 50px;
+		    color: #fff;
+		    text-align: center;
+		}
+		div#formularioBusqueda {
+		    position: relative;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    width: 100%;
+		    left: 0%;
+		    top: -5%;
+		}
+		form.form-inline {
+		    margin: 20px;
+		}
+	/*EStilos para el resultado multimedia*/
+		.divDescarga {
+		    width: 123.297px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+		    width: 123.297px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareTwitt {
+		    width: 123.297px;
+		    height: 40px;
+		    float: left;
+		}
+		#chanitoMultimediaFiltro {
+		    background-image: url("../img/chanitoResponsiveRojo.png");
+		    background-repeat: no-repeat;
+		    width: 270px;
+		    height: 85px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 45px;
+		    margin-top: 0px;
+		    background-size: cover;
+		}
+	/*Estilos para el footer*/
+		.iconosSocialmedia {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-top: 2%;
+		    margin-right: 5px;
+		    margin-left: 18px;
+		    position: relative;
+		    right: 0px;
+		    left: 25px;
+		}
+}
+@media screen and (min-width: 435px){
+	/*Estilos para el index*/
+		#logochanito {
+		    margin-top: 150px;
+		    margin-left: 90px;
+		    margin-right: 0%;
+		    margin-bottom: 0%;
+		}
+		.iconosRedes {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin: 5px;
+		    position: relative;
+		    left: 90px;
+		}
+		.iconosSocialmedia {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-top: 2%;
+		    margin-right: 5px;
+		    margin-left: 18px;
+		    position: relative;
+		    right: 0px;
+		    left: 35px;
+		}
+	/*Estilos para multimedia*/
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 260px;
+		    height: 75px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 85px;
+		    margin-top: 30%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		div#tituloMultimedia {
+		    font-size: 25pt;
+		    line-height: 35px;
+		    width: 100%;
+		    margin-left: 0%;
+		    font-weight: bold;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    margin-bottom: -55px;
+		    position: relative;
+		    top: 90px;
+		    color: #fff;
+		    text-align: center;
+		}
+		div#formularioBusqueda {
+		    position: relative;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    width: 100%;
+		    left: 0%;
+		    top: 0%;
+		}
+    /*Estilos para resultado busqueda*/
+    .divDescarga {
+	    width: 130.5px;
+	    height: 40px;
+	    float: left;
+	}
+	.divShareFace {
+	    width: 130.5px;
+	    height: 40px;
+	    float: left;
+	}
+	.divShareTwitt {
+	    width: 130.5px;
+	    height: 40px;
+	    float: left;
+	}
+}
+@media screen and (min-width: 479px){
+	/*Estilos para el index*/
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 90%;
+		    margin: 0 auto;
+		    height: 50px;
+		}
+	/*Estilos para la seccion blog*/
+		.efectoBlog section {
+		    margin: 0;
+		    padding: 0;
+		    position: relative;
+		    cursor: pointer;
+		    width: 100%;
+		    height: 300px;
+		}
+		.img-responsiveblog {
+		    width: 100%;
+		    height: 300px;
+		    overflow: hidden;
+		}
+		.titleBlog {
+		    color: #000;
+		    font-size: 14pt;
+		    text-align: center;
+		    margin-top: 15%;
+		    font-weight: bold;
+		}
+		.textblog {
+		    display: block;
+		    font-size: 12pt;
+		    margin-left: 10px;
+		    margin-right: 10px;
+		    color: #fff;
+		    text-align: justify;
+		    line-height: 15pt;
+		}
+	/*Estilos para CV*/
+		#imgCV {
+		    background: url(../img/fondoCV.png) no-repeat center center fixed;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		    width: 100%;
+		    height: 20%;
+		    border-bottom-style: solid;
+		    border-bottom-color: #EA0000;
+		    border-bottom-width: 5px;
+		    background-position: 0px 0px;
+		}
+		.cv-circulo {
+		    width: 120px;
+		    height: 120px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 40%;
+		    margin-top: -20%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+	/*Estilos para Multimedia*/
+		section.contenedorMultimedia {
+		    width: 100%;
+		    height: 80%;
+		    position: relative;
+		    z-index: 15;
+		    background-image: url("../img/fondoMultimedia980x1280.png");
+		}
+		div#formularioBusqueda {
+		    position: relative;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    width: 100%;
+		    left: 0%;
+		    top: 10%;
+		}
+	/*Estilos para resultado busquedas*/
+		#chanitoMultimediaFiltro {
+		    background-image: url("../img/chanitoResponsiveRojo.png");
+		    background-repeat: no-repeat;
+		    width: 270px;
+		    height: 85px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 0px;
+		    margin-top: 0px;
+		    background-size: cover;
+		    margin: auto;
+		}
+		.divDescarga{
+			width: 33.33%;
+			height: 40px;
+			float: left;
+		}
+		.divShareFace{
+			width: 33.33%;
+			height: 40px;
+			float: left;
+		}
+		.divShareTwitt{
+			width: 33.33%;
+			height: 40px;
+			float: left;
+		}
+}
+@media screen and (min-width: 539px){
+	/*Estilos index*/
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 80%;
+		    margin: 0 auto;
+		    height: 50px;
+		}
+	/*Estilos para multimedia*/
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 260px;
+		    height: 75px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 25%;
+		    margin-top: 40%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		div#tituloMultimedia {
+		    font-size: 25pt;
+		    line-height: 35px;
+		    width: 100%;
+		    margin-left: 0%;
+		    font-weight: bold;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    margin-bottom: -55px;
+		    position: relative;
+		    top: 170px;
+		    color: #fff;
+		    text-align: center;
+		}
+
+	/*Estilos contacto*/
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 17.2%;
+		    height: auto;
+		}
+	/*Estilos para el footer*/
+		.seccionIconos {
+		    margin: 0 auto;
+		    width: 80%;
+		    height: 45px;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 19pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 3.3%;
+		}
+}
+@media screen and (min-width: 568px){
+	/*Estilos para el index*/
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 70%;
+		    height: 40px;
+		    margin: 0 auto;
+		}
+		/*Estilos seccion blog*/
+		.efectoBlog section {
+		    margin: 0;
+		    padding: 0;
+		    position: relative;
+		    cursor: pointer;
+		    width: 100%;
+		    height: 350px;
+		}
+		.img-responsiveblog {
+		    width: 100%;
+		    height: 350px;
+		    overflow: hidden;
+		}
+		.titleBlog {
+		    color: #000;
+		    font-size: 18pt;
+		    text-align: center;
+		    margin-top: 10%;
+		    font-weight: bold;
+		}
+		.textblog {
+		    display: block;
+		    font-size: 15pt;
+		    margin-left: 10px;
+		    margin-right: 10px;
+		    color: #fff;
+		    text-align: justify;
+		    line-height: 20pt;
+		}
+	/*Estilos para el footer*/
+		.seccionIconos {
+		    margin: 0 auto;
+		    width: 70%;
+		}
+	/*Estilos para CV*/
+		#imgCV {
+		    background: url(../img/fondoCV.png) no-repeat center center fixed;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		    width: 100%;
+		    height: 20%;
+		    border-bottom-style: solid;
+		    border-bottom-color: #EA0000;
+		    border-bottom-width: 5px;
+		    background-position: 0px 0px;
+		}
+		.cv-circulo {
+		    width: 120px;
+		    height: 120px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 40%;
+		    margin-top: -15%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+	/*Estilos para multimedia*/
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 260px;
+		    height: 75px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 26%;
+		    margin-top: 25%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		section.contenedorMultimedia {
+		    width: 100%;
+		    height: 80%;
+		    position: relative;
+		    z-index: 15;
+		    background-image: url("../img/fondoMultimedia980x1280.png");
+		}
+		div#formularioBusqueda {
+		    position: relative;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    width: 100%;
+		    left: 0%;
+		    top: 12%;
+		}
+		.divDescarga {
+		    width: 33.33%;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+		    width: 33.33%;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareTwitt {
+		    width: 33.33%;
+		    height: 40px;
+		    float: left;
+		}
+	/*Estilos para contacto*/
+		.cb-slideshow, .cb-slideshow:after {
+		    position: fixed;
+		    width: 100%;
+		    height: 100%;
+		    top: 0px;
+		    left: 0px;
+		    z-index: 0;
+		    list-style: none;
+		    padding: 0px;
+		    display: none;
+		}
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 10%;
+		    height: 80%;
+		}
+		.formularioContacto {
+		    width: 90%;
+		    margin: auto;
+		    position: relative;
+		    top: 100px;
+		    height: 100%;
+		}
+	/*Estilos para el footer*/
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 19pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 2.5%;
+		}
+}
+@media screen and (min-width: 600px){
+	/*Estilos para multimedia*/
+		div#tituloMultimedia {
+		    font-size: 25pt;
+		    line-height: 35px;
+		    width: 100%;
+		    margin-left: 0%;
+		    font-weight: bold;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    margin-bottom: -55px;
+		    position: relative;
+		    top: 110px;
+		    color: #fff;
+		    text-align: center;
+		}
+
+}
+@media screen and (min-width: 640px){
+	/*Estilos para el menu*/
+		.btnMenuR {
+		    font-size: 25pt;
+		}
+	/*Estilos para index*/
+		.inicio {
+		    height: 100%;
+		    height: auto;
+		}
+		.iconosRedes {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin: 5px;
+		    position: relative;
+		    left: 0px;
+		}
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 40%;
+		    height: 40px;
+		    margin: 0 auto;
+		}
+		/*Modulo blog*/
+		.efectoBlog section {
+		    margin: 0;
+		    padding: 0;
+		    position: relative;
+		    cursor: pointer;
+		    width: 100%;
+		    height: 400px;
+		}
+		.img-responsiveblog {
+		    width: 100%;
+		    height: 400px;
+		    overflow: hidden;
+		}
+		.titleBlog {
+		    color: #000;
+		    font-size: 20pt;
+		    text-align: center;
+		    margin-top: 15%;
+		    font-weight: bold;
+		}
+	/*Estilos para multimedia*/
+		.botonF1beforeScroll {
+		    width: 80px;
+		    height: 80px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 45%;
+		    bottom: 0px;
+		    position: fixed;
+		    margin-right: 0px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 14;
+		}
+	/*Estilos para contacto*/
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 24.9%;
+		    height: auto;
+		    position: relative;
+		    top: 0px;
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 370px;
+		    height: 90px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 23%;
+		    margin-top: 20%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+	/*Estilos para el footer*/
+		.seccionIconos {
+		    margin: 0 auto;
+		    width: 40%;
+		}		
+		.iconosSocialmedia {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-top: 2%;
+		    margin-right: 0px;
+		    margin-left: 0px;
+		    position: relative;
+		    right: 0px;
+		    left: 0px;
+		    margin: 4px;
+		}
+}
+@media screen and (min-width: 667px){
+	/*Estilos para el index*/
+		.inicio{
+			height: 100%;
+		}
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 40%;
+		    height: 40px;
+		    margin: 0 auto;
+		}
+		.iconosRedes {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin: 5px;
+		    position: relative;
+		    left: 0px;
+		}
+		.iconofacebook {
+		    width: 40px;
+		    height: 40px;
+		}
+		.iconotwitter{
+			width: 40px;
+		    height: 40px;
+		}
+		.iconoyoutube{
+			width: 40px;
+		    height: 40px;	
+		}
+		.iconogoogleplus{
+			width: 40px;
+		    height: 40px;			
+		}
+		.iconoinstagram{
+			width: 40px;
+		    height: 40px;
+		}
+		.iconofacebook:hover {
+		    width: 40px;
+		    height: 40px;
+		}
+		.iconotwitter:hover{
+			width: 40px;
+		    height: 40px;
+		}
+		.iconoyoutube:hover{
+			width: 40px;
+		    height: 40px;	
+		}
+		.iconogoogleplus:hover{
+			width: 40px;
+		    height: 40px;			
+		}
+		.iconoinstagram:hover{
+			width: 40px;
+		    height: 40px;
+		}
+		.anchocustom {
+		    height: 48px;
+		    position: absolute;
+		    top: 60%;
+		    z-index: 10;
+		    left: 0%;
+		    width: 100%;
+		    margin: auto;
+		}
+		.btnMenuR {
+		    font-size: 25pt;
+		}
+		/*Seccion blog*/
+		.efectoBlog section {
+		    margin: 0;
+		    padding: 0;
+		    position: relative;
+		    cursor: pointer;
+		    width: 100%;
+		    height: 400px;
+		}
+		.img-responsiveblog {
+		    width: 100%;
+		    height: 400px;
+		    overflow: hidden;
+		}
+		.titleBlog {
+		    color: #000;
+		    font-size: 23pt;
+		    text-align: center;
+		    margin-top: 15%;
+		    font-weight: bold;
+		}
+		.textblog {
+		    display: block;
+		    font-size: 14pt;
+		    margin-left: 10px;
+		    margin-right: 10px;
+		    color: #fff;
+		    text-align: justify;
+		    line-height: 23pt;
+		}
+	/*Estilos para multimedia*/
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 370px;
+		    height: 90px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 23%;
+		    margin-top: 20%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		#chanitoMultimediaFiltro {
+		    background-image: url("../img/chanitoResponsiveRojo.png");
+		    background-repeat: no-repeat;
+		    width: 270px;
+		    height: 85px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 27%;
+		    margin-top: 0px;
+		    background-size: cover;
+		}
+		.botonF1beforeScroll {
+		    width: 80px;
+		    height: 80px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 45%;
+		    bottom: 0px;
+		    position: fixed;
+		    margin-right: 0px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 14;
+		}
+	/*Estilos para el footer*/
+		.seccionIconos {
+		    margin: 0 auto;
+		    width: 50%;
+		}
+		.iconosSocialmedia {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-top: 2%;
+		    margin-right: 5px;
+		    margin-left: 18px;
+		    position: relative;
+		    right: 0px;
+		    left: 0px;
+		}
+}
+@media screen and (min-width: 736px){
+	/*Estilos index*/
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 34.5%;
+		    height: 40px;
+		    margin: 0 auto;
+		}
+		.efectoBlog section {
+		    margin: 0;
+		    padding: 0;
+		    position: relative;
+		    cursor: pointer;
+		    width: 100%;
+		    height: 420px;
+		}
+		.img-responsiveblog {
+		    width: 100%;
+		    height: 420px;
+		    overflow: hidden;
+		}
+	/*Estilos para multimedia*/
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 370px;
+		    height: 90px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 25%;
+		    margin-top: 15%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+}
+@media screen and (min-width: 768px){
+	/*Estilos para el index*/
+		.inicio {
+		    height: auto;
+		    /* height: 0px; */
+		}
+		.fondo {
+		    width: 100%;
+		    background-color: rgba(42, 43, 41, 0.57);
+		}
+		#logochanito {
+		    margin-top: 300px;
+		    margin-left: 140px;
+		    margin-right: 0%;
+		    margin-bottom: 0%;
+		}
+		.iconosRedes {
+		    width: 45px;
+		    height: 45px;
+		    float: left;
+		    margin: 5px;
+		    position: relative;
+		    left: 0px;
+		    margin-right: 0px;
+		    margin: 10px;
+		}
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 45%;
+		    height: 40px;
+		    margin: 0 auto;
+		}
+		/*Estilos seccion blog*/
+		h1#tituloBlog {
+		    text-align: center;
+		    font-size: 35pt;
+		    font-weight: bold;
+		    width: 100%;
+		    margin-bottom: 2px;
+		}
+		.efectoBlog section {
+		    margin: 0;
+		    padding: 0;
+		    position: relative;
+		    cursor: pointer;
+		    width: 100%;
+		    height: auto;
+		}
+		.img-responsiveblog {
+		    width: 100%;
+		    height: auto;
+		    overflow: hidden;
+		}
+		.titleBlog {
+		    color: #000;
+		    font-size: 26pt;
+		    text-align: center;
+		    margin-top: 145px;
+		    font-weight: bold;
+		    margin-bottom: 10px;
+		}
+		.textblog {
+		    display: block;
+		    font-size: 20pt;
+		    margin-left: 10px;
+		    margin-right: 10px;
+		    color: #fff;
+		    text-align: justify;
+		    line-height: 25pt;
+		}
+		.vermas {
+		    font-size: 20pt;
+		    color: #009688;
+		}
+	/*Estilos para el modulo cv*/
+		#imgCV {
+		    background: url(../img/fondoCV.png) no-repeat center center fixed;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		    width: 100%;
+		    height: 30%;
+		    border-bottom-style: solid;
+		    border-bottom-color: #EA0000;
+		    border-bottom-width: 5px;
+		    background-position: 0px 0px;
+		}
+		.cv-circulo {
+		    width: 200px;
+		    height: 200px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 38%;
+		    margin-top: -19%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+	/*Estilos para el modulo multimedia*/
+		.form-inline .form-control {
+		    width: auto;
+		    vertical-align: middle;
+		    margin-bottom: 15px;
+		}
+		select#selectfiltro {
+		    width: 100%;
+		    height: 60px;
+		    margin-left: 0px;
+		}
+		div#formularioBusqueda {
+		    position: relative;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    width: 100%;
+		    height: 1024px;
+		    left: 0%;
+		    top: 0%;
+		}
+		div#tituloMultimedia {
+		    font-size: 40pt;
+		    line-height: 35px;
+		    width: 100%;
+		    margin-left: 0%;
+		    font-weight: bold;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    margin-bottom: 0px;
+		    position: relative;
+		    top: 240px;
+		    color: #fff;
+		    text-align: center;
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive980x1280.png");
+		    background-repeat: no-repeat;
+		    width: 400px;
+		    height: 105px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 175px;
+		    margin-top: 30%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		form.form-inline {
+		    margin: 40px;
+		}
+	/*Estilos para buscaImagenes Resultado*/
+		.divDescarga {
+		    width: 230.4px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+		    width: 230.4px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareTwitt {
+		    width: 230.4px;
+		    height: 40px;
+		    float: left;
+		}
+		.botonF1beforeScroll {
+		    width: 80px;
+		    height: 80px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 45%;
+		    bottom: 0px;
+		    position: fixed;
+		    margin-right: 0px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 14;
+		}
+		.botonF1AfterScroll {
+		    width: 80px;
+		    height: 80px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 85%;
+		    bottom: 13.5%;
+		    position: fixed;
+		    margin-right: 16px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+	/*Estilos para contacto*/
+		#formulario {
+		    margin: 60px;
+		    position: relative;
+		    top: 0px;
+		}
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 17.5%;
+		    height: auto;
+		}
+		.formularioContacto {
+		    width: 90%;
+		    margin: auto;
+		    position: relative;
+		    top: 40px;
+		    height: 100%;
+		}
+	/*Estilos para el footer*/
+		.piePagina {
+		    width: 100%;
+		    height: 220px;
+		    background: #444141;
+		    z-index: 10;
+		}
+		.seccionIconos {
+		    margin: 0 auto;
+		    width: 40%;
+		}
+		.iconosSocialmedia {
+		    width: 45px;
+		    height: 45px;
+		    float: left;
+		    margin-top: 0%;
+		    margin-right: 0px;
+		    margin-left: 0px;
+		    position: relative;
+		    right: 0px;
+		    left: 0px;
+		    margin: 5px;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 25pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 15px;
+		}
+		.subtituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    letter-spacing: 10px;
+		    margin-top: 5px;
+		    width: 100%;
+		    margin-left: 0%;
+		}
+		.iconofacebook{
+			width: 45px;
+    		height: 45px;
+		}
+		.iconotwitter{
+			width: 45px;
+    		height: 45px;
+		}
+		.iconoyoutube{
+			width: 45px;
+    		height: 45px;
+		}
+		.iconogoogleplus{
+			width: 45px;
+    		height: 45px;
+		}
+		.iconoinstagram{
+			width: 45px;
+    		height: 45px;
+		}
+		.iconofacebook:hover{
+			width: 45px;
+    		height: 45px;
+		}
+		.iconotwitter:hover{
+			width: 45px;
+    		height: 45px;
+		}
+		.iconoyoutube:hover{
+			width: 45px;
+    		height: 45px;
+		}
+		.iconogoogleplus:hover{
+			width: 45px;
+    		height: 45px;
+		}
+		.iconoinstagram:hover{
+			width: 45px;
+    		height: 45px;
+		}
+}
+@media screen and (min-width: 800px){
+	/*Estilos para el index*/
+		.menu_responsive .bt-menu {
+		    display: block;
+		    padding: 20px;
+		    padding-top: 27px;
+		    padding-right: 20px;
+		    padding-bottom: 20px;
+		    padding-left: 20px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-weight: bold;
+		    font-size: 25px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    width: 70px;
+		    padding-bottom: 10px;
+		}		
+		.menu_responsive {
+		    display: block;
+		    width: 100%;
+		    height: 90px;
+		    position: fixed;
+		    z-index: 1001;
+		    -webkit-transition: all 0.3s ease-in-out;
+		}
+		.CLCCResponsive {
+		    display: block;
+		    width: 130px;
+		    height: 60px;
+		    float: left;
+		    margin: 15px;
+		    position: fixed;
+		    z-index: 1002;
+		}
+		.logoChanitoCamaraR {
+		    width: 130px;
+		    height: 60px;
+		}
+		header nav ul {
+		    list-style: none;
+		    overflow: hidden;
+		    float: none;
+		    margin-bottom: 0px;
+		    margin-top: 0px;
+		    background-color: #444141;
+		    width: 100%;
+		    padding-left: 0px;
+		}
+	/*Estilos para el CV*/
+		.cv-circulo {
+		    width: 200px;
+		    height: 200px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 38%;
+		    margin-top: -19%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+		h1#tituloPrincipalCV {
+		    margin-left: 7.9%;
+		    font-size: 30pt;
+		    font-weight: bold;
+		    border-bottom-style: solid;
+		    width: 85%;
+		    text-align: center;
+		    color: #000;
+		    margin-top: 20px;
+		}
+	/*Estilos para el modulo multimedia*/
+		#headerMultimediaFiltroBuscaImagenes {
+		    background-color: rgba(42, 43, 41, 0.57);
+		    z-index: 15;
+		    position: relative;
+		    height: 90px;
+		}
+		#headerMultimedia {
+		    background-color: rgb(42, 43, 41);
+		    z-index: 17;
+		    position: relative;
+		    height: 90px;
+		}
+		div#tituloMultimedia {
+		    font-size: 40pt;
+		    line-height: 35px;
+		    width: 100%;
+		    margin-left: 0%;
+		    font-weight: bold;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    margin-bottom: 0px;
+		    position: relative;
+		    top: 280px;
+		    color: #fff;
+		    text-align: center;
+		}
+		div#formularioBusqueda {
+		    position: relative;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    width: 100%;
+		    left: 0%;
+		    top: 0%;
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive980x1280.png");
+		    background-repeat: no-repeat;
+		    width: 500px;
+		    height: 150px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 145px;
+		    margin-top: 33%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+	/*Estilos para los resultados busqueda*/
+		.divDescarga {
+		    width: 240px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+		    width: 240px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareTwitt {
+		    width: 240px;
+		    height: 40px;
+		    float: left;
+		}
+		.botonF1AfterScroll {
+		    width: 80px;
+		    height: 80px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 85%;
+		    bottom: 10.5%;
+		    position: fixed;
+		    margin-right: 16px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+		#fotoNotFound {
+		    margin-left: 40%;
+		    margin-right: 41%;
+		    margin-top: 20%;
+		}
+		.tituloError {
+		    text-align: center;
+		    font-size: 30pt;
+		    line-height: 1.5;
+		}
+    /*Estilos contacto*/
+    	header#headerContacto {
+		    background-color: rgba(68, 65, 65, 0.81);
+		    position: relative;
+		    height: 90px;
+		}
+    	section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 47.9%;
+		    height: auto;
+		}
+		.form-control {
+		    display: block;
+		    width: 100%;
+		    height: 50px;
+		    padding: 6px 12px;
+		    font-size: 14px;
+		    line-height: 1.42857143;
+		    color: #555;
+		    background-color: #fff;
+		    background-image: none;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+		    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+		    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+		    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+		    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+		}
+		#tituloFormulario {
+		    font-size: 25pt;
+		    text-align: center;
+		    font-weight: bold;
+		    border-bottom-style: solid;
+		    width: 90%;
+		    margin-left: 5%;
+		    margin-right: 5%;
+		}
+		#formulario {
+		    margin: 60px;
+		    position: relative;
+		    top: 40px;
+		}
+		.formularioContacto {
+		    width: 90%;
+		    margin: auto;
+		    position: relative;
+		    top: 140px;
+		    height: 100%;
+		}
+	/*Estilos para el footer*/
+		.iconosSocialmedia {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-top: 0%;
+		    margin-right: 0px;
+		    margin-left: 0px;
+		    position: relative;
+		    right: 0px;
+		    left: 0px;
+		    margin: 10px;
+		}
+		.seccionIconos {
+		    margin: 0 auto;
+		    width: 42%;
+		}
+}
+@media screen and (min-width: 960px){
+	/*Estilos para el index*/
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 35%;
+		    height: 40px;
+		    margin: 0 auto;
+		}
+		/*Seccion blog*/
+		.titleBlog {
+		    color: #000;
+		    font-size: 26pt;
+		    text-align: center;
+		    margin-top: 180px;
+		    font-weight: bold;
+		    margin-bottom: 10px;
+		}
+	/*Estilos para C.V*/
+		#imgCV {
+		    background: url(../img/fondoCV.png) no-repeat center center fixed;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		    width: 100%;
+		    height: 50%;
+		    border-bottom-style: solid;
+		    border-bottom-color: #EA0000;
+		    border-bottom-width: 5px;
+		    background-position: 0px 0px;
+		}
+	/*Estilos para multimedia*/
+		section.contenedorMultimedia {
+		    width: 100%;
+		    height: auto;
+		    position: relative;
+		    z-index: 15;
+		    background-image: url("../img/fondoMultimedia980x1280.png");
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive980x1280.png");
+		    background-repeat: no-repeat;
+		    width: 500px;
+		    height: 150px;
+		    position: relative;
+		    /* z-index: 10; */
+		    margin-left: 24%;
+		    margin-top: 33%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		div#tituloMultimedia {
+		    font-size: 40pt;
+		    line-height: 35px;
+		    width: 100%;
+		    margin-left: 0%;
+		    font-weight: bold;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    margin-bottom: 0px;
+		    position: relative;
+		    top: 320px;
+		    color: #fff;
+		    text-align: center;
+		}
+	/*Estilos para resultados multimedia*/
+		.divDescarga{
+			width: 33.33%;
+			height: 40px;
+		}
+		.divShareFace{
+			width: 33.33%;
+			height: 40px;
+		}
+		.divShareTwitt{
+			width: 33.33%;
+			height: 40px;
+		}
+	/*estilos contacto*/
+		.formularioContacto {
+		    width: 90%;
+		    margin: auto;
+		    position: relative;
+		    top: 0px;
+		    height: 100%;
+		}
+	/*Estilos para el footer*/
+		.seccionIconos {
+		    margin: 0 auto;
+		    width: 33%;
+		}
+}
+@media screen and (min-width: 980px){
+	/*Estilos para el index*/	
+		h2#subtituloBlog {
+		    text-align: center;
+		    font-size: 25pt;
+		    width: 100%;
+		    margin-top: 1px;
+		    font-weight: bold;
+		    letter-spacing: 5px;
+		}		
+		.titleBlog {
+		    color: #000;
+		    font-size: 18pt;
+		    text-align: center;
+		    margin-top: 55px;
+		    font-weight: bold;
+		    margin-bottom: 10px;
+		}
+		.textblog {
+		    display: block;
+		    font-size: 14pt;
+		    margin-left: 10px;
+		    margin-right: 10px;
+		    color: #fff;
+		    text-align: justify;
+		    line-height: 16pt;
+		}
+		.vermas {
+		    font-size: 15pt;
+		    color: #009688;
+		}
+		.efectoBlog {
+		    width: 50%;
+		}
+		.img-responsiveblog {
+		    width: 100%;
+		    height: 300px;
+		    overflow: hidden;
+		}
+	/*Estilos para el CV*/
+		.cv-circulo {
+		    width: 200px;
+		    height: 200px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 39.9%;
+		    margin-top: -16%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+	/*Estilos para multimedia*/
+		div#tituloMultimedia {
+		    font-size: 40pt;
+		    line-height: 35px;
+		    width: 100%;
+		    margin-left: 0%;
+		    font-weight: bold;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    margin-bottom: 0px;
+		    position: relative;
+		    top: 415px;
+		    color: #fff;
+		    text-align: center;
+		}		
+		#chanitoMultimedia {
+			background-image: url("../img/chanitoResponsive980x1280.png");
+			background-repeat: no-repeat;
+			width: 500px;
+			height: 150px;
+			position: relative;
+			z-index: 10;
+			margin-left: 240px;
+			margin-top: 40%;
+			margin-bottom: 10px;
+			background-size: cover;
+		}
+		div#formularioBusqueda {
+		    position: relative;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    width: 100%;
+		    left: 0%;
+		    top: 55%;
+		}
+    /*Estilos para busqueda imagen*/
+		.itemMulti {
+		    width: 49.9%;
+		    float: none;
+		    margin-bottom: 2px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    display: block;
+		    margin-top: 1px;
+		}
+		.anchoColumna {
+		    width: 49.9%;
+		    overflow-y: hidden;
+		}
+		.divDescarga {
+		    width: 146.7px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+		    width: 146.7px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareTwitt {
+		    width: 146.7px;
+		    height: 40px;
+		    float: left;
+		}
+		#chanitoMultimediaFiltro {
+		    background-image: url("../img/chanitoResponsiveRojo.png");
+		    background-repeat: no-repeat;
+		    width: 270px;
+		    height: 85px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 140px;
+		    margin-top: 0px;
+		    background-size: cover;
+		}
+	/*Estilos para el footer*/
+		.seccionIconos {
+		    margin-left: 0px;
+		    margin: 0 auto;
+		}
+		.iconosSocialmedia {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-top: 0%;
+		    margin-right: 20px;
+		    margin-left: 20px;
+		    position: relative;
+		    right: 0px;
+		    left: 265px;
+		}
+		.form-control {
+		    display: block;
+		    width: 100%;
+		    height: 60px;
+		    padding: 6px 12px;
+		    font-size: 14px;
+		    line-height: 1.42857143;
+		    color: #555;
+		    background-color: #fff;
+		    background-image: none;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+		    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+		    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+		    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+		    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+		}
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 25.9%;
+		    height: auto;
+		}
+}
+@media screen and (min-width: 992px){
+	/*Estilos para resultados busqueda multimedia*/
+		.botonF1beforeScroll {
+		    width: 120px;
+		    height: 120px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 45%;
+		    bottom: 0px;
+		    position: fixed;
+		    margin-right: 0px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+		.botonF1AfterScroll {
+		    width: 120px;
+		    height: 120px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 85%;
+		    bottom: 10.5%;
+		    position: fixed;
+		    margin-right: 16px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+	/*Estilos para el footer*/
+		.iconosSocialmedia {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-top: 0%;
+		    margin-right: 0px;
+		    margin-left: 20px;
+		    position: relative;
+		    right: 0px;
+		    left: 70px;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 25pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 15%;
+		}
+		.titulosigueme {
+		    color: #fff;
+		    font-weight: bold;
+		    margin-left: 0%;
+		    font-size: 20pt;
+		    margin-top: 12%;
+		    text-align: center;
+		}
+}
+@media screen and (min-width: 1024px){
+	/*Estilos para el index*/
+		#logochanito {
+		    margin-top: 300px;
+		    margin-left: 190px;
+		    margin-right: 0%;
+		    margin-bottom: 0%;
+		}
+		.iconosRedes {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin: 5px;
+		    position: relative;
+		    left: 0px;
+		    margin-right: 15px;
+		}
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 30%;
+		    height: 40px;
+		    margin: 0 auto;
+		}
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 30%;
+		    height: 40px;
+		    margin: 0 auto;
+		}
+	/*Estilos para el menu*/
+		header nav ul {
+		    list-style: none;
+		    overflow: hidden;
+		    float: none;
+		    margin-bottom: 0px;
+		    margin-top: 0px;
+		    background-color: rgb(68, 65, 65);
+		    width: 100%;
+		    padding-left: 0px;
+		}
+		.menu_responsive .bt-menu {
+		    display: block;
+		    padding: 20px;
+		    padding-top: 30px;
+		    padding-right: 20px;
+		    padding-bottom: 20px;
+		    padding-left: 20px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-weight: bold;
+		    font-size: 25px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    width: 70px;
+		    padding-bottom: 10px;
+		}
+		.CLCCResponsive {
+		    display: block;
+		    width: 100px;
+		    height: 50px;
+		    float: left;
+		    margin: 20px;
+		    position: fixed;
+		    z-index: 1002;
+		}
+	/*Estilos para CV*/
+		#imgCV {
+		    background: url(../img/fondoCV.png) no-repeat center center fixed;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		    width: 100%;
+		    height: 40%;
+		    border-bottom-style: solid;
+		    border-bottom-color: #EA0000;
+		    border-bottom-width: 5px;
+		    background-position: 0px 0px;
+		}
+		.cv-circulo {
+		    width: 200px;
+		    height: 200px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 42%;
+		    margin-top: -16%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+	/*Estilos para multimedia*/
+		#chanitoMultimediaFiltro {
+		    background-image: url("../img/chanitoResponsiveRojo.png");
+		    background-repeat: no-repeat;
+		    width: 270px;
+		    height: 85px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 290px;
+		    margin-top: 0px;
+		    background-size: cover;
+		}
+		.cb-slideshow, .cb-slideshow:after {
+			display: none;
+		}
+		div#tituloMultimedia {
+		    font-size: 40pt;
+		    line-height: 35px;
+		    width: 100%;
+		    margin-left: 0%;
+		    font-weight: bold;
+		    margin-right: 0%;
+		    margin-top: 0px;
+		    margin-bottom: 0px;
+		    position: relative;
+		    top: 360px;
+		    color: #fff;
+		    text-align: center;
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive980x1280.png");
+		    background-repeat: no-repeat;
+		    width: 500px;
+		    height: 150px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 25%;
+		    margin-top: 35%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		.botonF1beforeScroll {
+		    width: 120px;
+		    height: 120px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 45%;
+		    bottom: 0px;
+		    position: fixed;
+		    margin-right: 0px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 14;
+		}
+	/*Estilos contacto*/
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 0%;
+		    height: auto;
+		}
+		#formulario {
+		    margin: 120px;
+		    position: relative;
+		    top: 0px;
+		    margin-top: 55px;
+		}
+		.formularioContacto {
+		    width: 100%;
+		    margin: 0px;
+		    position: relative;
+		    top: 0px;
+		    height: 100%;
+		}
+	/*Estilos para el footer*/
+		.seccionIconos {
+		    margin: 0 auto;
+		    width: 100%;
+		}
+}
+@media screen and (min-width: 1200px){
+	/*Estilos para el index*/
+		.CLCCResponsive {
+		    display: none;
+		    width: 100px;
+		    height: 50px;
+		    float: left;
+		    margin: 20px;
+		    position: fixed;
+		    z-index: 1002;
+		}
+		.carousel {
+		    position: relative;
+		    height: 100%;
+		}
+		.inicio {
+		    height: 100%;
+		}
+		.contenedorLogoChanitoCamara{
+		    width: 200px;
+		    height: 100px;
+		    display: inline;
+		    position: fixed;
+		    margin-left: 10px;
+		}
+		.logoChanitoCamara {
+		    width: 200px;
+		    height: 100px;
+		    display: inline;
+		    position: fixed;
+		}
+		.menu_responsive {
+		    display: none;
+		    width: 100%;
+		    position: fixed;
+		    z-index: 1001;
+		    -webkit-transition: all 0.3s ease-in-out;
+		}
+		.menu {
+		    width: 100%;
+		    height: 20%;
+		    margin: 0;
+		    left: 0%;
+		    top: 0;
+		    position: fixed;
+		    padding-right: 0px;
+		    -webkit-transition: all 0.3s ease-in-out;
+		}
+		#headerMultimediaFiltroBuscaImagenes{
+			height: 16.5%;
+		}
+		#contenedorMenu{
+	        width: 100%;
+	        height: 100px;
+	        z-index: 15;
+	        position: fixed;
+	        background-color: rgba(0,0,0,0);
+	    }
+		.btnEncuesta {
+		    display: inline-block;
+		    padding: 6px 12px;
+		    margin-bottom: 0;
+		    margin: 0px !important;
+		    font-size: 12pt;
+		    font-weight: 400;
+		    line-height: 1.42857143;
+		    text-align: center;
+		    white-space: nowrap;
+		    vertical-align: middle;
+		    -ms-touch-action: manipulation;
+		    touch-action: manipulation;
+		    cursor: pointer;
+		    -webkit-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		    background-image: none;
+		    border: 1px solid transparent;
+		    border-radius: 4px;
+		    width: 100% !important;
+		    height: 50px;
+		}
+		header nav { 
+	        margin-bottom:10px;
+	    }
+	     
+	    header nav ul {
+	        list-style: none;
+	        overflow: hidden;
+	        float: right;
+	        margin-bottom: 0px;
+	        margin-top: 0px;
+	        background-color: RGBA(68, 65, 65, 0);
+	        width: 100%;
+	        height: 100px;
+	        padding-top: 25px;
+	    } 
+		header nav ul li {
+		    display: inline;
+		    float: left;
+		    margin: 2px;
+		    border-bottom-style: none;
+		    position: relative;
+		    left: 40%;
+		}
+		header nav ul li a {
+		    position: relative;
+		    padding: 0px;
+		    padding-top: 15px;
+		    padding-right: 15px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-size: 13pt;
+		    padding-bottom: 3px;
+		    font-weight: 400;
+		    display: inline-block;
+		    letter-spacing: 7px;
+		}
+		.tamanilogochanito {
+    		width: 45%;
+		}
+		#logochanito {
+		    margin-top: 200px;
+		    margin-left: 300px;
+		    margin-right: 0%;
+		    margin-bottom: 0%;
+		}
+		.anchocustom {
+		    height: 200px;
+		    position: relative;
+		    top: -50%;
+		    z-index: 10;
+		    left: 0%;
+		    width: 50%;
+		    display: block;
+		    margin: auto;
+		}
+		.iconosRedes {
+		    width: 20%;
+		    height: 50px;
+		    float: left;
+		    margin: 5px;
+		    position: relative;
+		    left: 0px;
+		    /* margin-right: 25px; */
+		    margin: auto;
+		}
+		.iconofacebook {
+		    background-image: url("../img/iconos/facebook.png");
+		    width: 50px;
+		    height: 50px;
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		    -webkit-transition: ease-out 0.5s;
+		    -moz-transition: ease-out 0.5s;
+		    -o-transition: ease-out 0.5s;
+		    transition: ease-out 0.5s;
+		    margin: auto;
+		}
+		.iconotwitter {
+		    background-image: url("../img/iconos/twitter.png");
+		    width: 50px;
+		    height: 50px;
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		    -webkit-transition: ease-out 0.5s;
+		    -moz-transition: ease-out 0.5s;
+		    -o-transition: ease-out 0.5s;
+		    transition: ease-out 0.5s;
+		    margin: auto;
+		}
+		.iconoyoutube {
+		    background-image: url("../img/iconos/youtube.png");
+		    width: 50px;
+		    height: 50px;
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		    -webkit-transition: ease-out 0.5s;
+		    -moz-transition: ease-out 0.5s;
+		    -o-transition: ease-out 0.5s;
+		    transition: ease-out 0.5s;
+		    margin: auto;
+		}
+		.iconogoogleplus {
+		    background-image: url("../img/iconos/googleplus.png");
+		    width: 50px;
+		    height: 50px;
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		    -webkit-transition: ease-out 0.5s;
+		    -moz-transition: ease-out 0.5s;
+		    -o-transition: ease-out 0.5s;
+		    transition: ease-out 0.5s;
+		    margin: auto;
+		}
+		.iconoinstagram {
+		    background-image: url("../img/iconos/instagram.png");
+		    width: 50px;
+		    height: 50px;
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		    -webkit-transition: ease-out 0.5s;
+		    -moz-transition: ease-out 0.5s;
+		    -o-transition: ease-out 0.5s;
+		    transition: ease-out 0.5s;
+		    margin: auto;
+		}
+		.iconofacebook:hover {
+		    background-image: url("../img/iconos/facebookHover.png");
+		    width: 50px;
+		    height: 50px;
+		    opacity: 1;
+		}
+		.iconotwitter:hover {
+		    background-image: url("../img/iconos/twitterHover.png");
+		    width: 50px;
+		    height: 50px;
+		}
+		.iconoyoutube:hover {
+		    background-image: url("../img/iconos/youtubeHover.png");
+		    width: 50px;
+		    height: 50px;
+		}
+		.iconogoogleplus:hover {
+		    background-image: url("../img/iconos/googleplusHover.png");
+		    width: 50px;
+		    height: 50px;
+		}
+		.iconoinstagram:hover {
+		    background-image: url("../img/iconos/instagramHover.png");
+		    width: 50px;
+		    height: 50px;
+		}
+		/*Seccion blog*/
+		.img-responsiveblog {
+		    width: 100%;
+		    height: 400px;
+		    overflow: hidden;
+		}
+		.titleBlog {
+		    color: #000;
+		    font-size: 25pt;
+		    text-align: center;
+		    margin-top: 55px;
+		    font-weight: bold;
+		    margin-bottom: 10px;
+		}
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 80%;
+		    margin: 0 auto;
+		    height: 50px;
+		}
+		.fondo {
+		    width: 100%;
+		    height: 100%;
+		    background-color: rgba(42, 43, 41, 0.57);
+		}
+    /*Estilos para el cv*/
+		#imgCV {
+		    background: url(../img/fondoCV.png) no-repeat center center fixed;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		    width: 100%;
+		    height: 50%;
+		    border-bottom-style: solid;
+		    border-bottom-color: #EA0000;
+		    border-bottom-width: 5px;
+		    background-position: 0px 0px;
+		}
+		p.textoInfoCV {
+		    font-size: 14pt;
+		    text-align: justify;
+		}
+    /*Estilos para el modulo multimedia*/
+		#headerMultimedia {
+		    background-color: rgba(42, 43, 41, 0.57);
+		    z-index: 16;
+		    height: 16.8%;
+		    position: relative;
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanito.png");
+		    background-repeat: no-repeat;
+		    width: 500px;
+		    height: 170px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 105px;
+		    margin-top: 42%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+	    section.contenedorMultimedia {
+	        width: 43%;
+	        height: 100%;
+	        position: relative;
+	        z-index: 15;
+	        background-image: url("../img/fondoMultimedia1280.png");
+	    }
+		div#formularioBusqueda {
+		    position: fixed;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0%;
+		    width: 745px;
+		    left: 580px;
+		    top: -4%;
+		}
+		div#tituloMultimedia {
+		    font-size: 40pt;
+		    line-height: 80px;
+		    width: 100%;
+		    margin-left: 0%;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    margin-top: 0%;
+		    color: #000;
+		}
+		select#selectfiltro {
+		    width: 100%;
+		    height: 60px;
+		}
+	    #inputfiltro{
+	        width: 100%;
+	        height: 60px;
+	    }
+	    .btn-success {
+	        color: #fff;
+	        background-color: #5cb85c;
+	        border-color: #4cae4c;
+	        width: 130px;
+	        height: 60px;
+	    }
+	    button#btnSearch{
+	    	width: 140px;
+	    }
+		.form-inline .form-group {
+		    display: inline-block !important;
+		    margin-bottom: 0;
+		    vertical-align: middle;
+		    width: 40%;
+		    height: 60px;
+		}
+		form.form-inline {
+		    margin: 0px;
+		}
+    /*Estilos para resultados multimedia*/
+		.itemMulti {
+		    width: 25%;
+		    float: left;
+		    margin-bottom: 0px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    display: inline-block;
+		    margin-top: 0px;
+
+		}
+		.anchoColumna {
+		    width: 25%;
+		    overflow-y: hidden;
+		}
+		#galeriaChanito{
+			overflow-x:hidden;
+			overflow-y:hidden;
+			margin-bottom: 0px;
+		}
+		.divDescarga {
+		    width: 95.6px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+		    width: 95.6px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareTwitt {
+		    width: 95.6px;
+		    height: 40px;
+		    float: left;
+		}
+		#chanitoMultimediaFiltro {
+		    background-image: url("../img/chanitoResponsiveRojo.png");
+		    background-repeat: no-repeat;
+		    width: 270px;
+		    height: 85px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 300px;
+		    margin-top: 0px;
+		    background-size: cover;
+		}
+		section.contenedorMultimediafiltro {
+		    width: 100%;
+		    height: auto;
+		    min-height: 100%;
+		    margin-bottom: 70px;
+		}
+		.botonF1beforeScroll {
+		    width: 100px;
+		    height: 100px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 45%;
+		    bottom: 0px;
+		    position: fixed;
+		    margin-right: 0px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+		.botonF1AfterScroll {
+		    width: 100px;
+		    height: 100px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 45%;
+		    bottom: 27.5%;
+		    position: fixed;
+		    margin-right: 16px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+		.modal-dialog.modal-lg.modalGaleria{
+			position: relative;
+			top: 0px;
+		}
+	/*Estilos para el contacto*/
+		.formularioContacto {
+		    width: 60%;
+		    margin: 0px;
+		    position: relative;
+		    top: 10px;
+		    height: 100%;
+		}
+		#formulario {
+		    margin: 60px;
+		    position: relative;
+		    top: -20px;
+		    left: 270px;
+		}
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 0%;
+		    height: auto;
+		    top: 0px;
+		}
+		#btn_envia {
+		    color: #fff;
+		    background-color: #00BE65;
+		    border-color: #00BE65;
+		    width: 49.5%;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		}
+		#btn_cancela {
+		    color: #FFF;
+		    background-color: #DE2626;
+		    border-color: #E00202;
+		    width: 49.9%;
+		    font-weight: bold;
+		}
+		.cb-slideshow, .cb-slideshow:after {
+		    position: absolute;
+		    width: 100%;
+		    height: 100%;
+		    top: 0px;
+		    left: 0px;
+		    z-index: 0;
+		    list-style: none;
+		    padding: 0px;
+		}
+		#formulario {
+		    margin: 60px;
+		    margin-top: 0px;
+		    position: relative;
+		    top: 20px;
+		    left: 270px;
+		}
+	/*Estilos para el footer*/
+		.piePagina {
+		    width: 100%;
+		    height: 230px;
+		    background: #444141;
+		    z-index: 10;
+		    position: absolute;
+		}
+		.iconosSocialmedia {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-top: 0%;
+		    margin-right: 20px;
+		    margin-left: 20px;
+		    position: relative;
+		    right: 0px;
+		    left: 80px;
+		}
+		.titulosigueme {
+		    color: #fff;
+		    font-weight: bold;
+		    margin-left: 0%;
+		    font-size: 27pt;
+		    text-align: center;
+		    margin-top: 45px;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 30pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 60px;
+		}
+		.subtituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 25pt;
+		    font-weight: bold;
+		    letter-spacing: 10px;
+		    margin-top: 5px;
+		    width: 100%;
+		    margin-left: 0%;
+		}
+}
+@media screen and (min-width: 1280px){
+	/*Estilos para menu*/
+		header#headerContacto {
+		    background-color: rgba(68, 65, 65, 0.81);
+		    position: relative;
+		    height: 70px;
+		    border-bottom-style: none;
+		    border-bottom-color: #fff;
+		}		
+		header nav ul {
+		    list-style: none;
+		    overflow: hidden;
+		    float: right;
+		    margin-bottom: 0px;
+		    margin-top: 35px;
+		    background-color: RGBA(68, 65, 65, 0);
+		    width: 100%;
+		    height: 100px;
+		    padding: 0px;
+		    padding-right: 25px;
+		}
+		.contenedorLogoChanitoCamara {
+		    width: 200px;
+		    height: 100px;
+		    display: inline;
+		    position: fixed;
+		    margin-left: 0px;
+		    margin: 15px;
+		}
+	/*Estilos para multimedia*/
+		#headerMultimedia {
+		    background-color: rgba(42, 43, 41, 0.57);
+		    z-index: 16;
+		    height: 16.8%;
+		    position: relative;
+		}
+		section.contenedorMultimedia {
+		    width: 43%;
+		    height: 100%;
+		    position: relative;
+		    z-index: 15;
+		    background-size: cover;
+		    background-image: url("../img/fondoMultimedia1024.png");
+		}
+		div#formularioBusqueda {
+		    position: fixed;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0%;
+		    width: 745px;
+		    left: 500px;
+		    top: -4%;
+		}
+    /*Estilos para el contacto*/
+		header#headerContacto {
+		    background-color: rgba(68, 65, 65, 0.81);
+		    position: relative;
+		    height: 16.5%;
+		}
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 0%;
+		    height: auto;
+		    top: 0px;
+		}
+		.cb-slideshow, .cb-slideshow:after {
+		    position: absolute;
+		    width: 100%;
+		    height: 100%;
+		    top: 0px;
+		    left: 0px;
+		    z-index: 0;
+		    list-style: none;
+		    padding: 0px;
+		    display: block;
+		}
+		.cb-slideshow li span {
+		    width: 100%;
+		    height: 100%;
+		    position: absolute;
+		    /* top: 0px; */
+		    /* left: 0px; */
+		    color: transparent;
+		    background-size: cover;
+		    /* background-position: 50% 50%; */
+		    background-repeat: none;
+		    background-repeat: no-repeat;
+		    opacity: 0;
+		    z-index: 0;
+		    -webkit-backface-visibility: hidden;
+		    -webkit-animation: imageAnimation 36s linear infinite 0s;
+		    -moz-animation: imageAnimation 36s linear infinite 0s;
+		    -o-animation: imageAnimation 36s linear infinite 0s;
+		    -ms-animation: imageAnimation 36s linear infinite 0s;
+		    animation: imageAnimation 36s linear infinite 0s;
+		}
+		.formularioContacto {
+		    width: 50%;
+		    margin: auto;
+		    position: relative;
+		    top: 10px;
+		    height: 100%;
+		}
+		#formulario {
+		    margin: 60px;
+		    margin-top: 0px;
+		    position: relative;
+		    top: 20px;
+		    left: 0px;
+		}
+}
+@media screen and (min-width: 1310px){
+	/*Estilos para el index*/
+		header nav ul {
+		    list-style: none;
+		    overflow: hidden;
+		    float: right;
+		    margin-bottom: 0px;
+		    margin-top: 30px;
+		    background-color: RGBA(68, 65, 65, 0);
+		    width: 100%;
+		}
+		.anchocustom {
+		    height: 60px;
+		    position: relative;
+		    top: -51366	0%;
+		    z-index: 10;
+		    left: 0%;
+		    width: 50%;
+		    display: block;
+		    margin: auto;
+		}
+		/*Estilos para la seccion blog*/
+			.titleBlog {
+			    color: #000;
+			    font-size: 25pt;
+			    text-align: center;
+			    margin-top: 95px;
+			    font-weight: bold;
+			    margin-bottom: 10px;
+			}
+    /*Estilos para multimedia*/
+	    div#formularioBusqueda {
+		    position: absolute;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0%;
+		    width: 745px;
+		    left: 500px;
+		    top: -33%;
+		}
+	/*Estilos para contacto*/
+
+		#formulario {
+		    margin: 60px;
+		    margin-top: 0px;
+		    position: relative;
+		    top: -20px;
+		    left: 420px;
+		}
+}
+@media screen and (min-width: 1366px){
+	/*Estilos para menu*/
+		header nav ul {
+		    list-style: none;
+		    overflow: hidden;
+		    float: right;
+		    margin-bottom: 0px;
+		    margin-top: 35px;
+		    background-color: RGBA(68, 65, 65, 0);
+		    width: 100%;
+		}
+	/*Estilos index*/
+		.inicio {
+		    height: auto;
+		}
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 40%;
+		    margin: 0 auto;
+		    height: 50px;
+		}
+		#contenedorMenu {
+		    width: 100%;
+		    height: 127px;
+		    z-index: 15;
+		    position: fixed;
+		    background-color: rgba(42, 43, 41, 0);
+		}
+		.anchocustom {
+		    height: 60px;
+		    position: absolute;
+		    top: 70%;
+		    z-index: 10;
+		    left: 0%;
+		    width: 100%;
+		    display: block;
+		    margin: auto;
+		}
+	/*Estilos CV*/
+		.cv-circulo {
+		    width: 200px;
+		    height: 200px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 43%;
+		    margin-top: -13%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+	/*Estilos multimedia*/
+		div#tituloMultimedia {
+		    font-size: 40pt;
+		    line-height: 10px;
+		    width: 100%;
+		    margin-left: 0%;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    margin-top: 20%;
+		    color: #000;
+		}
+	/*Estilos para resultados multimedia*/
+		.botonF1beforeScroll {
+		    width: 100px;
+		    height: 100px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 50%;
+		    bottom: 0px;
+		    position: fixed;
+		    margin-right: 0px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}		
+		.botonF1AfterScroll {
+		    width: 100px;
+		    height: 100px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 50%;
+		    bottom: 20%;
+		    position: fixed;
+		    margin-right: 16px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+	/*Estilos contacto*/
+		#formulario {
+		    margin: 60px;
+		    margin-top: 0px;
+		    position: relative;
+		    top: 0px;
+		    left: 0px;
+		    margin-bottom: 15px;
+		}
+		.formularioContacto {
+		    width: 50%;
+		    margin: auto;
+		    position: relative;
+		    top: 0px;
+		    height: 100%;
+		}
+		header#headerContacto {
+		    background-color: rgba(68, 65, 65, 0.81);
+		    position: relative;
+		    height: 120px;
+		}
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 0%;
+		    height: auto;
+		    top: 0px;
+		}
+    /*Estilos footer*/
+		.seccionIconos {
+		    margin: 0 auto;
+		    width: 90%;
+		}
+}
+@media screen and (min-width: 1599px){
+	/*Estilos index*/
+		.inicio {
+		    height: auto;
+		}
+		.img-responsiveblog {
+		    width: 100%;
+		    height: 450px;
+		    overflow: hidden;
+		}
+		.anchocustom {
+		    height: 200px;
+		    position: absolute;
+		    top: 80%;
+		    z-index: 10;
+		    left: 0%;
+		    width: 100%;
+		    display: block;
+		    margin: auto;
+		}
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 40%;
+		    margin: 0 auto;
+		    height: 50px;
+		}
+		/*Estilos menu*/
+		.menu {
+		    width: 100%;
+		    height: 135px;
+		    margin: 0;
+		    left: 0%;
+		    top: 0;
+		    position: fixed;
+		    padding-right: 0px;
+		    -webkit-transition: all 0.3s ease-in-out;
+		}
+		header nav ul {
+		    list-style: none;
+		    overflow: hidden;
+		    float: right;
+		    margin-bottom: 0px;
+		    margin-top: 30px;
+		    background-color: RGBA(68, 65, 65, 0);
+		    width: 100%;
+		    height: 80px;
+		    padding-top: 0px;
+		    padding-left: 15%;
+		}
+		#contenedorMenu {
+		    width: 100%;
+		    height: 135px;
+		    z-index: 15;
+		    position: fixed;
+		    background-color: rgba(42, 43, 41, 0);
+		}
+		/*Estilos seccion blog*/
+		.titleBlog {
+		    color: #000;
+		    font-size: 25pt;
+		    text-align: center;
+		    margin-top: 130px;
+		    font-weight: bold;
+		    margin-bottom: 10px;
+		}
+	/*Estilos para CV*/
+		#imgCV {
+		    background: url(../img/fondoCV.png) no-repeat center center fixed;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		    width: 100%;
+		    height: 20%;
+		    border-bottom-style: solid;
+		    border-bottom-color: #EA0000;
+		    border-bottom-width: 5px;
+		    background-position: 0px 0px;
+		}
+		.cv-circulo {
+		    width: 200px;
+		    height: 200px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 43%;
+		    margin-top: -12%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+		.contenedorLogoChanitoCamara {
+		    width: 200px;
+		    height: 100px;
+		    display: inline;
+		    position: fixed;
+		    margin-left: 60px;
+		    margin-top: 20px;
+		}
+	/*Estilos para multimedia*/
+		#headerMultimedia {
+		    background-color: rgba(42, 43, 41, 0.57);
+		    z-index: 16;
+		    height: 100px;
+		}		
+		section.contenedorMultimedia {
+		    width: 100%;
+		    height: 100%;
+		    position: relative;
+		    z-index: 15;
+		    background-size: cover;
+		    background-image: url("../img/fondoMultimedia.png");
+		}
+		div#formularioBusqueda {
+		    position: absolute;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0%;
+		    width: 100%;
+		    left: 0px;
+		    top: 10%;
+		}
+		form.form-inline {
+		    margin: 0px;
+		    margin: auto;
+		    width: 90%;
+		}
+	/*Estilos para el footer*/
+		.piePagina {
+		    width: 100%;
+		    height: 290px;
+		    background: #444141;
+		    z-index: 10;
+		    position: absolute;
+		}
+		.titulosigueme {
+		    color: #fff;
+		    font-weight: bold;
+		    margin-left: 0%;
+		    font-size: 27pt;
+		    text-align: center;
+		    margin-top: 80px;
+		    margin-bottom: 20px;
+		}
+		.seccionIconos {
+		    margin: 0 auto;
+		    width: 80%;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 30pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 80px;
+		}
+}
+@media screen and (min-width: 1440px){
+	/*Estilos index*/
+		.menu {
+		    width: 100%;
+		    height: 125px;
+		    margin: 0;
+		    left: 0%;
+		    top: 0;
+		    position: fixed;
+		    padding-right: 0px;
+		    -webkit-transition: all 0.3s ease-in-out;
+		}
+		header nav ul {
+		    list-style: none;
+		    overflow: hidden;
+		    float: right;
+		    margin-bottom: 0px;
+		    margin-top: 35px;
+		    background-color: RGBA(68, 65, 65, 0);
+		    width: 100%;
+		    margin-left: 40px;
+		}
+		.inicio {
+		    height: auto;
+		}
+		.fondo {
+		    width: 100%;
+		    height: auto;
+		    background-color: rgba(42, 43, 41, 0.57);
+		}
+		.anchocustom {
+		    height: 60px;
+		    position: absolute;
+		    top: 80%;
+		    z-index: 10;
+		    left: 0%;
+		    width: 100%;
+		    display: block;
+		    margin: auto;
+		}
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 0px;
+		    width: 40%;
+		    margin: 0 auto;
+		    height: 50px;
+		}
+    /*Estilos Multimedia*/
+		div#formularioBusqueda {
+		    position: absolute;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0%;
+		    width: 745px;
+		    height: auto;
+		    left: 500px;
+		    top: -15%;
+		}
+	/*Estilos resultados multimedia*/
+		.divDescarga{
+			width: 33.33%;
+			height: 40px;
+		}
+		.divShareFace{
+			width: 33.33%;
+			height: 40px;
+		}
+		.divShareTwitt{
+			width: 33.33%;
+			height: 40px;
+		}
+    /*Estilos contacto*/
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 0%;
+		    height: auto;
+		    top: 0px;
+		}
+}
+@media screen and (min-width: 1500px){
+	/*Estilos menu*/
+		#headerMultimedia {
+		    background-color: rgba(42, 43, 41, 0.57);
+		    z-index: 16;
+		    height: 125px;
+		    position: relative;
+		}
+		header nav ul {
+		    list-style: none;
+		    overflow: hidden;
+		    float: right;
+		    margin-bottom: 0px;
+		    margin-top: 35px;
+		    background-color: RGBA(68, 65, 65, 0);
+		    width: 100%;
+		    margin-left: 80px;
+		}
+	/*Estilos cv*/
+		.seccionIconos {
+		    margin: 0 auto;
+		    width: 80%;
+		}
+	/*Estilos para multimedia*/
+		#headerMultimediaFiltroBuscaImagenes {
+		    height: 125px;
+		}
+		div#formularioBusqueda {
+		    position: absolute;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0%;
+		    width: 745px;
+		    height: auto;
+		    left: 620px;
+		    top: -15%;
+		}
+    /*Estilos contacto*/
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 0%;
+		    height: auto;
+		    top: 0px;
+		}
+		#formulario {
+		    margin: 60px;
+		    margin-top: 0px;
+		    position: relative;
+		    margin-bottom: 20%;
+		    top: 50px;
+		    left: 0px;
+		}
+
+}
+@media screen and (min-width: 1920px){
+	/*Estilos para el index*/
+		header nav ul li {
+		    display: inline;
+		    float: left;
+		    margin: 2px;
+		    border-bottom-style: none;
+		    position: relative;
+		    left: 95rem;
+		}
+		header nav ul {
+		    list-style: none;
+		    overflow: hidden;
+		    float: right;
+		    margin-bottom: 0px;
+		    margin-top: 40px;
+		    background-color: RGBA(68, 65, 65, 0);
+		    width: 100%;
+		    margin-left: 0px;
+		    padding-left: 0px;
+		}
+		header nav ul li a {
+		    position: relative;
+		    padding: 0px;
+		    padding-top: 10px;
+		    padding-right: 25px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-size: 20pt;
+		    padding-bottom: 3px;
+		    font-weight: 400;
+		    display: inline-block;
+		    letter-spacing: 7px;
+		}
+		.menu {
+		    width: 100%;
+		    height: 16.5%;
+		    margin: 0;
+		    left: 0%;
+		    top: 0;
+		    position: fixed;
+		    padding-right: 0px;
+		    -webkit-transition: all 0.3s ease-in-out;
+		}
+		.tamanilogochanito {
+		    width: 65%;
+		}
+		#logochanito {
+		    margin-top: 140px;
+		    margin-left: 190px;
+		    margin-right: 0%;
+		    margin-bottom: 0%;
+		}
+		/*Seccion blog*/
+		h1#tituloBlog {
+		    text-align: center;
+		    font-size: 40pt;
+		    font-weight: bold;
+		    width: 100%;
+		    margin-bottom: 2px;
+		}
+		h2#subtituloBlog {
+		    text-align: center;
+		    font-size: 30pt;
+		    width: 100%;
+		    margin-top: 1px;
+		    font-weight: bold;
+		    letter-spacing: 5px;
+		}
+		.img-responsiveblog {
+		    width: 100%;
+		    height: 500px;
+		    overflow: hidden;
+		}
+		.titleBlog {
+		    color: #000;
+		    font-size: 32pt;
+		    text-align: center;
+		    margin-top: 55px;
+		    font-weight: bold;
+		    margin-bottom: 10px;
+		}
+		.textblog {
+		    display: block;
+		    font-size: 27pt;
+		    margin-left: 10px;
+		    margin-right: 10px;
+		    color: #fff;
+		    text-align: justify;
+		    line-height: 30pt;
+		}
+		.vermas {
+		    font-size: 25pt;
+		    color: #009688;
+		}
+    /*Estilos para cv*/
+		.cv-circulo {
+		    width: 300px;
+		    height: 300px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 42.9%;
+		    margin-top: -13%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+		h1#tituloPrincipalCV {
+		    margin-left: 7.9%;
+		    font-size: 40pt;
+		    font-weight: bold;
+		    border-bottom-style: solid;
+		    width: 85%;
+		    text-align: center;
+		    color: #000;
+		    margin-top: 20px;
+		}
+		h1.tituloCV {
+		    color: #fff;
+		    font-weight: bold;
+		    line-height: 70px;
+		    font-size: 22pt;
+		}
+		label.fechasCV {
+		    font-weight: bold;
+		    font-size: 21pt;
+		    line-height: 40px;
+		}
+		p.textoInfoCV {
+		    font-size: 20pt;
+		    text-align: justify;
+		}
+	/*Estilos para multimedia*/
+		#headerMultimediaFiltroBuscaImagenes {
+		    background-color: rgba(42, 43, 41, 0.57);
+		    z-index: 15;
+		    position: relative;
+		    height: 77px;
+		    height: 16.5%;
+		}
+		section.contenedorMultimedia {
+		    width: 43%;
+		    height: 100%;
+		    position: relative;
+		    z-index: 15;
+		    background-image: url("../img/fondoMultimedia.png");
+		}
+		div#formularioBusqueda {
+		    position: absolute;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0%;
+		    width: 745px;
+		    left: 900px;
+		    top: 0%;
+		}
+		div#tituloMultimedia {
+		    font-size: 40pt;
+		    line-height: 80px;
+		    width: 100%;
+		    margin-left: -2%;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    margin-top: 0%;
+		    color: #000;
+		    top: 315px;
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanito.png");
+		    background-repeat: no-repeat;
+		    width: 500px;
+		    height: 170px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 105px;
+		    margin-top: 30%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		select#selectfiltro {
+		    width: 100%;
+		    height: 70px;
+		}
+		#inputfiltro {
+		    width: 100%;
+		    height: 70px;
+		}
+		.botonF1beforeScroll {
+		    width: 150px;
+		    height: 150px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 45%;
+		    bottom: 0px;
+		    position: fixed;
+		    margin-right: 0px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+		.botonF1AfterScroll {
+		    width: 150px;
+		    height: 150px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 45%;
+		    bottom: 15.5%;
+		    position: fixed;
+		    margin-right: 16px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+		.divDescarga {
+		    width: 143.422px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+		    width: 143.422px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareTwitt {
+		    width: 143.422px;
+		    height: 40px;
+		    float: left;
+		}
+	/*Estilos para contacto*/
+		header#headerContacto{
+			height: 16.5%;
+		}
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 0%;
+		    height: 100%;
+		    top: 0px;
+		}
+		.formularioContacto {
+		    width: 50%;
+		    margin: 0px;
+		    position: relative;
+		    top: 10px;
+		    height: 100%;
+		}
+		#formulario {
+		    margin: 120px;
+		    position: relative;
+		    top: 150px;
+		    left: 470px;
+		    margin-top: 0px;
+		}
+	/*Estilos para el footer*/		
+		.titulosigueme {
+		    color: #fff;
+		    font-weight: bold;
+		    margin-left: 0%;
+		    font-size: 35pt;
+		    text-align: center;
+		    margin-top: 45px;
+		    margin-bottom: 25px;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 40pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 55px;
+		}
+		.iconosSocialmedia {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-top: 0%;
+		    margin-right: 45px;
+		    margin-left: 35px;
+		    position: relative;
+		    right: 0px;
+		    left: 160px;
+		}
+}
+@media screen and (min-width: 2560px){
+	/*Estilos para el menu*/
+		#contenedorMenu {
+		    width: 100%;
+		    height: 170px;
+		    background-color: rgba(42, 43, 41, 0.57);
+		    z-index: 15;
+		    position: relative;
+		}
+		.contenedorLogoChanitoCamara {
+		    width: 200px;
+		    height: 100px;
+		    display: inline;
+		    position: fixed;
+		    margin-left: 60px;
+		    margin-top: 35px;
+		}
+		#headerMultimedia {
+		    background-color: rgba(42, 43, 41, 0.57);
+		    z-index: 16;
+		    height: 175px;
+		    position: relative;
+		}
+		.menu {
+		    width: 100%;
+		    height: 170px;
+		    margin: 0;
+		    left: 0%;
+		    top: 0;
+		    position: fixed;
+		    padding-right: 0px;
+		    -webkit-transition: all 0.3s ease-in-out;
+		}
+	/*Estilos para el index*/
+		#logochanito {
+		    margin-top: 300px;
+		    margin-left: 190px;
+		    margin-right: 0%;
+		    margin-bottom: 0%;
+		}
+		header nav ul {
+		    list-style: none;
+		    overflow: hidden;
+		    float: right;
+		    margin-bottom: 0px;
+		    margin-top: 60px;
+		    background-color: RGBA(68, 65, 65, 0);
+		    width: 90%;
+		}
+		/*Estilos para la seccion blog*/
+		.img-responsiveblog {
+		    width: 100%;
+		    height: 730px;
+		    overflow: hidden;
+		}
+		h1#tituloBlog {
+		    text-align: center;
+		    font-size: 55pt;
+		    font-weight: bold;
+		    width: 100%;
+		    margin-bottom: 2px;
+		}
+		h2#subtituloBlog {
+		    text-align: center;
+		    font-size: 45pt;
+		    width: 100%;
+		    margin-top: 1px;
+		    font-weight: bold;
+		    letter-spacing: 5px;
+		}
+		.titleBlog {
+		    color: #000;
+		    font-size: 35pt;
+		    text-align: center;
+		    margin-top: 220px;
+		    font-weight: bold;
+		    margin-bottom: 10px;
+		}
+	/*Estilos para multimedia*/
+		div#formularioBusqueda {
+		    position: absolute;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0%;
+		    width: 745px;
+		    left: 1200px;
+		    top: 0%;
+		}
+		button#btnSearch {
+		    width: 140px;
+		    height: 70px;
+		    margin-top: 10px
+		}
+		section.contenedorMultimedia {
+		    width: 50%;
+		    height: 100%;
+		    position: relative;
+		    z-index: 15;
+		    background-image: url("../img/fondoMultimedia.png");
+		}
+		div#formularioBusqueda {
+		    position: absolute;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0%;
+		    width: 80%;
+		    left: 100%;
+		    top: 15%;
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanito.png");
+		    background-repeat: no-repeat;
+		    width: 500px;
+		    height: 170px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 25%;
+		    margin-top: 30%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		div#tituloMultimedia {
+		    font-size: 40pt;
+		    line-height: 80px;
+		    width: 100%;
+		    margin-left: -2%;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    margin-top: 0%;
+		    color: #000;
+		    top: 380px;
+		}
+	/*Estilos resultado Multimedia*/
+	.divDescarga{
+		width: 33.33%;
+		height: 40px;
+	}
+	.divShareFace{
+		width: 33.33%;
+		height: 40px;
+	}
+	.divShareTwitt{
+		width: 33.33%;
+		height: 40px;
+	}
+	/*Estilos para el contacto*/
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 0%;
+		    height: 100%;
+		    top: 0px;
+		}
+		#formulario {
+		    margin: 60px;
+		    margin-top: 0px;
+		    position: relative;
+		    top: 100px;
+		    left: 590px;
+		}
+	/*Estilos CV*/
+		#imgCV {
+		    background: url(../img/fondoCV.png) no-repeat center center fixed;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		    width: 100%;
+		    height: 35%;
+		    border-bottom-style: solid;
+		    border-bottom-color: #EA0000;
+		    border-bottom-width: 5px;
+		    background-position: 0px 0px;
+		}
+	/*Estilos para el footer*/
+		.seccionIconos {
+		    margin: 0 auto;
+		    width: 100%;
+		}		
+		.subtituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 32pt;
+		    font-weight: bold;
+		    letter-spacing: 10px;
+		    margin-top: 5px;
+		    width: 100%;
+		    margin-left: 0%;
+		}
+		.iconosSocialmedia {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-top: 0%;
+		    margin-right: 45px;
+		    margin-left: 35px;
+		    position: relative;
+		    right: 0px;
+		    left: 315px;
+		}
+}
+
+
+
+
+
+

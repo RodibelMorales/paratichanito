@@ -1,0 +1,4664 @@
+@media screen and (max-width:1024px){
+	/*Estilos para el menu*/
+		header nav ul {
+		    list-style: none;
+		    overflow: hidden;
+		    float: right;
+		    margin-bottom: 0px;
+		    margin-top: 10px;
+		    background-color: rgba(23, 23, 23, 0);
+		    width: 75%;
+		}
+		header nav ul li a {
+		    position: relative;
+		    padding: 20px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-size: 18pt;
+		    padding-bottom: 3px;
+		    display: inline-block;
+		    left: 170px;
+		    margin-right: 0px;
+		}
+	/*Estilos para el modulo index*/
+		#logochanito {
+		    margin-top: 15%;
+		    margin-left: 20%;
+		    margin-right: 20%;
+		}
+		/*Seccion blog*/
+		.efectoBlog {
+		    float: left;
+		    padding-left: 0px !important;
+		    padding-right: 0px !important;
+		    width: 100% !important;
+		    overflow: hidden;
+		    margin: 0 auto;
+		    padding: 0;
+		    position: relative;
+		}
+		.efectoBlog section {
+		    margin: 0;
+		    padding: 0;
+		    padding-right: 1px;
+		    position: relative;
+		    cursor: pointer;
+		    width: 100%;
+		    height: auto;
+		}
+		.img-responsiveblog {
+		    width: 100%;
+		    height: auto;
+		    overflow: hidden;
+		}
+		.titleBlog {
+		    color: #000;
+		    font-size: 35pt;
+		    text-align: center;
+		    margin-top: 15%;
+		    font-weight: bold;
+		}
+		h2#subtituloBlog {
+		    text-align: center;
+		    font-size: 26pt;
+		    font-weight: bold;
+		    letter-spacing: 5px;
+		    margin-bottom: 0px;
+		}
+	/*Estilos para el footer*/
+		.seccionIconos {
+		    width: 100%;
+		    margin-left: 4%;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 30pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 8%;
+		}
+		.subtituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 20pt;
+		    font-weight: lighter;
+		    margin-top: 5px;
+		    width: 100%;
+		    margin-left: 0%;
+		}
+	/*Estilos para el CV*/
+		#imgCV {
+		    background: url(../img/fondoCV.png) no-repeat center center fixed;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		    width: 100%;
+		    height: 50%;
+		    border-bottom-style: solid;
+		    border-bottom-color: #EA0000;
+		    border-bottom-width: 5px;
+		    background-position: 0px 0px;
+		}
+		.cv-circulo {
+		    width: 250px;
+		    height: 250px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 37%;
+		    margin-top: -18%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+		h1#tituloPrincipalCV {
+		    margin-left: 5%;
+		    font-size: 35pt;
+		    font-weight: bold;
+		    border-bottom-style: solid;
+		    width: 90%;
+		    text-align: center;
+		    color: #000;
+		    margin-top: 30px;
+		}
+		.contenedorInfoCV {
+		    margin-left: 60px;
+		    margin-right: 60px;
+		    margin-top: 20px;
+		}
+		p.textoInfoCV {
+		    font-size: 15pt;
+		    text-align: justify;
+		}
+	/*Estilos para multimedia*/
+		.contenedorMultimedia {
+		    width: 100%;
+		    height: 100%;
+		    background-image: url("../img/fondoMultimedia1024.png");
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		}
+		div#tituloMultimedia {
+		    font-size: 40pt;
+		    line-height: 100px;
+		    width: 390px;
+		    margin-left: 11%;
+		    font-weight: bold;
+		    text-align: center;
+		}
+		div#formularioBusqueda {
+		    position: fixed;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 0%;
+		    width: 600px;
+		    left: 410px;
+		    top: 240px;
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanito.png");
+		    background-repeat: no-repeat;
+		    width: 415px;
+		    height: 145px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 90px;
+		    margin-top: -12%;
+		}
+		select#selectfiltro {
+		    width: 299px;
+		    height: 60px;
+		    margin-bottom: 10px;
+		}
+		#inputfiltro {
+		    width: 297px;
+		    height: 60px;
+		    margin-bottom: 10px;
+		}
+		button#btnSearch {
+		    width: 100%;
+		}
+	/*Estilos resultado para busqueda multimedia*/
+		.item {
+		    width: 33.2%;
+		    float: left;
+		    margin-bottom: 2px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		}
+		.anchoColumna {
+		    width: 33.2%;
+		    overflow-y: hidden;
+		}
+		.divDescarga {
+		    width: 101.98433px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+		    width: 101.98433px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareTwitt {
+		    width: 101.98433px;
+		    height: 40px;
+		    float: left;
+		}
+		section.contenedorMultimediafiltro {
+		    width: 100%;
+		    height: auto;
+		    min-height: 100%;
+		    margin-bottom: 50px;
+		}
+		.botonF1beforeScroll {
+		    width: 120px;
+		    height: 120px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 430px;
+		    bottom: 0px;
+		    position: fixed;
+		    margin-right: 16px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+		.botonF1AfterScroll {
+		    width: 120px;
+		    height: 120px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 43%;
+		    bottom: 160px;
+		    position: fixed;
+		    margin-right: 16px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+		#selectfiltroMultimedia {
+		    width: 368px;
+		    height: 60px;
+		    margin-bottom: 5px;
+		}
+		#inputfiltroMultimedia {
+		    width: 368px;
+		    height: 60px;
+		    margin-bottom: 5px;
+		}
+		.cb-slideshow, .cb-slideshow:after {
+		    position: fixed;
+		    width: 100%;
+		    height: 100%;
+		    top: 0px;
+		    left: 0px;
+		    z-index: 0;
+		    list-style: none;
+		    display: none;
+		}
+	/*Estilos Contacto*/
+		.formularioContacto {
+		    width: 650px;
+		    margin: 0 auto;
+		    position: relative;
+		    top: 50px;
+		}	
+}
+@media screen and (max-width:980px){
+	/*Estilos para el modulo index*/
+		.iconosRedes {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-right: 30px;
+		    left: 145px;
+		    position: relative;
+		}
+		.col-sm-12 {
+	    	width: 49%;
+		}
+		.iconosSocialmedia {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-top: 2%;
+		    margin-right: 5px;
+		    margin-left: 4%;
+		    position: relative;
+		    right: 0px;
+		    left: 50px;
+		}
+	/*Estilos para el footer*/
+		.piePagina {
+		    width: 100%;
+		    height: 150px;
+		    background: #444141;
+		    z-index: 10;
+		    position: absolute;
+		}
+		.imgCongreso {
+		    margin: 0 auto;
+		    position: relative;
+		    left: 20px;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 70%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 5%;
+		    float: right;
+		}
+		.subtituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 13pt;
+		    font-weight: lighter;
+		    margin-top: 5px;
+		    width: 70%;
+		    margin-left: 0%;
+		    float: right;
+		}
+		.cv-circulo {
+		    width: 200px;
+		    height: 200px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 40%;
+		    margin-top: -15%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+		.contenedorMultimedia {
+		    width: 100%;
+		    height: 100%;
+		    background-image: url("../img/fondoMultimedia980x1280.png");
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		}
+	/*Estilos para el modulo multimedia*/
+		div#tituloMultimedia {
+	    	line-height: 100px;
+	    	margin-top: 25px;
+	    	font-size: 60pt;
+	    	margin-bottom: 130px;
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive980x1280.png");
+		    background-repeat: no-repeat;
+		    width: 600px;
+		    height: 155px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 20%;
+		    margin-top: -30%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		div#tituloMultimedia {
+		    line-height: 65px;
+		    margin-top: -moz-calc29px;
+		    font-size: 54pt;
+		    margin-bottom: 145px;
+		    margin-top: 10px;
+		}
+	/*Estilos para el resultado modulo multimedia*/
+		.item {
+		    width: 49.8%;
+		    float: none;
+		    margin-bottom: 2px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    display: block;
+		    margin-top: 1px;
+		}
+		.anchoColumna {
+		    width: 49.8%;
+		    overflow-y: hidden;
+		}
+		.divDescarga {
+    		width: 144.05562px;
+    		height: 40px;
+    		float: left;
+		}
+		.divShareFace {
+		    width: 144.05562px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareTwitt {
+		    width: 144.05562px;
+		    height: 40px;
+		    float: left;
+		}
+		.botonF1beforeScroll {
+		    width: 100px;
+		    height: 100px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 45%;
+		    bottom: 0px;
+		    position: fixed;
+		    margin-right: 0px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+		.botonF1beforeScroll {
+		    width: 100px;
+		    height: 100px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 45%;
+		    bottom: 135px;
+		    position: fixed;
+		    margin-right: 0px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    z-index: 15;
+		    -webkit-transition:all 0.3s ease 0s;
+		    -moz-transition: all 0.3s ease 0s;
+		    transition: all 0.3s ease 0s;
+		}
+	/*Estilos para el boton encuesta*/
+		.btnEncuesta{
+			width: 98%;
+		}
+}
+@media screen and (max-width:800px){
+	/*Estilos para el modulo busqueda multimedia*/
+		div#tituloMultimedia {
+		    line-height: 100px;
+		    margin-top: 25px;
+		    font-size: 40pt;
+		    margin-bottom: 130px;
+		}
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 43%;
+		    height: auto;
+		}
+		.formularioContacto {
+		    width: 100%;
+		    margin: 0px;
+		    position: relative;
+		    top: 100px;
+		    height: 100%;
+		}
+	/*Estilos para el menu*/
+		.secciones {
+		    width: 100% !important;
+		    /* max-width: 1600px; */
+		    /* min-width: 960px; */
+		    z-index: 10;
+		    position: relative;
+		    /* margin: 0 auto; */
+		    /* padding: 0 0 2px 0; */
+		}	
+		.menu{
+			width: 100%;
+			height: 16.5%;
+			margin: 0;
+			left: -100%;
+			position: fixed;
+			padding-right: 0px;
+			-webkit-transition: all 0.3s ease-in-out;
+		}
+		.menu_responsive {
+		    display: block;
+		    width: 100%;
+		    position: fixed;
+		    z-index: 1001;
+		        -webkit-transition: all 0.3s ease-in-out;
+		}
+		.menu_responsive .bt-menu {
+		    display: block;
+		    padding: 20px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-weight: bold;
+		    font-size: 25px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    width: 70px;
+		}
+		.menu_responsive span {
+			float:right;
+			font-size:40px;
+		}
+		.btnMenuR{
+			font-size: 40pt;
+		}
+		.vermenu{
+			left: 0px;
+		}
+		header nav ul {
+		    list-style: none;
+		    overflow: hidden;
+		    float: none;
+		    margin-bottom: 0px;
+		    margin-top: 95px;
+		    background-color: #444141;
+		    width: 100%;
+		    padding-left: 0px;
+		}
+		header nav ul li {
+		    display: block;
+		    float: none;
+		    margin: 0;
+		    /* position: fixed; */
+		    border-bottom-style: solid;
+		    border-width: 0.4px;
+		    border-color: #9E9E9E;
+		    border-radius: 2px;
+		    margin: -3.5px;
+		    cursor: pointer;
+		}
+		header nav ul li a {
+		    position: relative;
+		    padding: 0px;
+		    padding-top: 15px;
+		    padding-right: 0px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-size: 25pt;
+		    padding-bottom: 3px;
+		    display: inline-block;
+		    text-align: center;
+		    margin-right: 0px;
+		    margin-left: 20px;
+		    left: 2px;
+		}
+		.btnEncuesta {
+	    	display: inline-block;
+		    padding: 6px 12px;
+		    margin: 8px;
+		    line-height: 1.42857143;
+		    text-align: center;
+		    text-decoration: none;
+		    white-space: nowrap;
+		    vertical-align: middle;
+		    -ms-touch-action: manipulation;
+		    touch-action: manipulation;
+		    cursor: pointer;
+		    -webkit-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		    background-image: none;
+		    border: 1px solid transparent;
+		    border-radius: 4px;
+		    color: #fff;
+		    background-color: rgba(2, 255, 2, 0.49);
+		    border-color: #4B8C4B;
+		    transition: width .5s ease, background-color .5s ease;
+		    width: 95%;
+		}
+		#logochanito {
+		    margin-top: 20%;
+		    margin-left: 16%;
+		    margin-right: 18%;
+		    margin-bottom: 5%;
+		}
+		.fondo {
+	    	width: 100%;
+	    	height: 100%;
+	    	background-color: rgba(42, 43, 41, 0.57);
+		}
+	/*Estilos para el modulo cv*/
+		.cv-circulo {
+		    width: 200px;
+		    height: 200px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 35%;
+		    margin-top: -20%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+		#imgCV {
+		    background: url(../img/fondoCV.png) no-repeat center center fixed;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		    width: 100%;
+		    height: 25%;
+		    border-bottom-style: solid;
+		    border-bottom-color: #EA0000;
+		    border-bottom-width: 5px;
+		    background-position: 0 -320px;
+		}
+		h1#tituloPrincipalCV {
+		    margin-left: 5%;
+		    font-size: 40pt;
+		    font-weight: bold;
+		    border-bottom-style: solid;
+		    width: 90%;
+		    text-align: center;
+		    color: #000;
+		    margin-top: 30px;
+		}
+		p.textoInfoCV {
+		    text-align: justify;
+		    font-size: 15pt;
+		}
+		.contenedorInfoCV {
+		    margin-left: 0px;
+		    margin-right: 0px;
+		    margin-top: 20px;
+		    width: 90%;
+		    height: auto;
+		    margin: 0 auto;
+		}
+		.iconosSocialmedia {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-top: 2%;
+		    margin-right: 5px;
+		    margin-left: 4%;
+		    position: relative;
+		    right: 0px;
+		    left: 165px;
+		}
+		.line {
+		    margin-left: 0;
+		    margin-top: 10px;
+		    float: left;
+		    display: block;
+		    width: 30%;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 60%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 4%;
+		    float: right;
+		}
+		.subtituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 13pt;
+		    font-weight: lighter;
+		    margin-top: 5px;
+		    width: 60%;
+		    margin-left: 0%;
+		    float: right;
+		}
+		.imgCongreso {
+		    margin: 0 auto;
+		    position: relative;
+		    left: 85px;
+		}
+		.form-group{
+			display: block !important;
+			margin-bottom: 15px !important;
+		}
+		div#tituloMultimedia {
+		    line-height: 100px;
+		    margin-top: -40px;
+		    font-size: 40pt;
+		    margin-bottom: 130px;
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 430px;
+		    height: 115px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 22%;
+		    margin-top: -35%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		div#formularioBusqueda {
+		    position: absolute;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 47%;
+		    width: 100%;
+		}
+		form.form-inline {
+		    margin: 35px;
+		}
+	/*Estilos para el modulo de contacto*/
+		#formulario {
+		    margin: 50px;
+		}
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 28.7%;
+		    height: auto;
+		}
+		.form-control {
+		    display: block;
+		    width: 100%;
+		    height: 60px;
+		    padding: 6px 12px;
+		    font-size: 14px;
+		    line-height: 1.42857143;
+		    color: #555;
+		    background-color: #fff;
+		    background-image: none;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+		    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+		    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+		    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+		    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+		}
+		#btn_envia {
+		    color: #fff;
+		    background-color: #00BE65;
+		    border-color: #00BE65;
+		    width: 100%;
+		    font-weight: bold;
+		    height: 45px;
+		    margin-bottom: 10px;
+		    font-size: 15pt;
+		}
+		#btn_cancela {
+		    color: #FFF;
+		    background-color: #DE2626;
+		    border-color: #E00202;
+		    width: 100%;
+		    font-weight: bold;
+		    height: 50px;
+		    font-size: 15pt;
+		}
+	/*Estilos para el modulo index*/
+		#iconosIntro {
+	    	margin-left: 0px;
+	    	margin-right: 0px;
+	    	position: absolute;
+	    	left: 10%;
+	    	width: 65%;
+		}
+		.iconosRedes {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-right: 50px;
+		    left: 90px;
+		    position: relative;
+		}
+		.titleBlog {
+		    color: #000;
+		    font-size: 35pt;
+		    text-align: center;
+		    margin-top: 10%;
+		    font-weight: bold;
+		}
+	/*EStilos para los iconos redes sociales*/
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 100px;
+		    width: 80%;
+		    margin: 0 auto;
+		}
+	    .iconosSocialmedia {
+	        width: 40px;
+	        height: 40px;
+	        float: left;
+	        margin-top: 2%;
+	        margin-right: 5px;
+	        margin-left: 4%;
+	        position: relative;
+	        right: 0px;
+	    }
+	    .iconofacebook{
+	        background-image: url("../img/iconosResponsive/facebook.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconotwitter{
+	        background-image: url("../img/iconosResponsive/twitter.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconoyoutube{
+	        background-image: url("../img/iconosResponsive/youtube.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconogoogleplus{
+	        background-image: url("../img/iconosResponsive/googleplus.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;  
+	    }
+	    .iconoinstagram{
+	        background-image: url("../img/iconosResponsive/instagram.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	/*Estilos hover para los iconos*/
+	    .iconofacebook:hover{
+	        background-image: url("../img/iconosResponsive/facebookHover.png");
+	        width: 40px;
+	        height: 40px;
+	        opacity: 1;
+	    }
+	    .iconotwitter:hover{
+	        background-image: url("../img/iconosResponsive/twitterHover.png");
+	        width: 40px;
+	        height: 40px;
+	    }
+	    .iconoyoutube:hover{
+	        background-image: url("../img/iconosResponsive/youtubeHover.png");
+	        width: 40px;
+	        height: 40px;
+	    }
+	    .iconogoogleplus:hover{
+	        background-image: url("../img/iconosResponsive/googleplusHover.png");
+	        width: 40px;
+	        height: 40px;  
+	    }
+	    .iconoinstagram:hover{
+	        background-image: url("../img/iconosResponsive/instagramHover.png");
+	        width: 40px;
+	        height: 40px;  
+	    }
+		.tamanilogochanito {
+		    width: 80%;
+		}
+		#logochanito {
+		    margin-top: 45%;
+		    margin-left: 10%;
+		    margin-right: 0%;
+		    margin-bottom: 5%;
+		}
+		/*Estilos para las entradas del blog*/
+		h1#tituloBlog {
+		    text-align: center;
+		    font-size: 40pt;
+		    font-weight: bold;
+		}
+		.img-responsiveblog {
+		    width: 100%;
+		    height: auto;
+		    overflow: hidden;
+		}
+		.efectoBlog{
+			width: 100%;
+		}
+		.efectoBlog section {
+		    margin: 0;
+		    padding: 0;
+		    position: relative;
+		    cursor: pointer;
+		    width: 100%;
+		    height: auto;
+		}
+	/*Estilos para el modulo multimedia*/
+		#headerMultimedia {
+		    background-color: rgba(42, 43, 41, 0);
+		    z-index: 16;
+		}
+		section.contenedorMultimedia {
+		    width: 100%;
+		    height: 100%;
+		    position: relative;
+		    z-index: 15;
+		}
+		div#tituloMultimedia {
+		    line-height: 100px;
+		    margin-top: -40px;
+		    font-size: 40pt;
+		    color: #fff;
+		    margin-bottom: 130px;
+		    width: 100%;
+		    margin-left: 0px;
+		    text-align: center;
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 430px;
+		    height: 115px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 22%;
+		    margin-top: -23%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		div#formularioBusqueda {
+		    position: absolute;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 20%;
+		    width: 100%;
+		    left: 0px;
+		}
+		select#selectfiltro {
+		    width: 100%;
+		    height: 80px;
+		}
+		#inputfiltro {
+		    width: 100%;
+		    height: 80px;
+		}
+		button#btnSearch {
+		    width: 100%;
+		    height: 80px;
+		    font-size: 20pt;
+		}
+	/*Estilos para el modulo resultado galeria*/
+		.botonF1beforeScroll {
+		    width: 80px;
+		    height: 80px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 45%;
+		    bottom: 0px;
+		    position: fixed;
+		    margin-right: 0px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+		.divDescarga {
+		    width: 114.73433px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+		    width: 114.73433px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareTwitt {
+		    width: 114.73433px;
+		    height: 40px;
+		    float: left;
+		}
+		.botonF1AfterScroll {
+		    bottom: 15%;
+		    left: 85%;
+		}
+		#chanitoMultimediaFiltro {
+		    margin-left: 95px;
+		    margin-top: -75px;
+		}
+		#tituloFormulario {
+		    font-size: 30pt;
+		    width: 70%;
+		    margin-left: 15%;
+		}
+		#fotoNotFound {
+		    margin-left: 41%;
+		    margin-right: 41%;
+		    margin-top: 30%;
+		}
+		#formularioBusquedaFiltro {
+		    z-index: 12;
+		    margin-top: 0%;
+		    width: 567px;
+		}
+		.formFiltro {
+		    width: 495px;
+		    margin: auto;
+		}
+		#inputfiltroMultimedia {
+		    width: 100%;
+		    height: 60px;
+		}
+		#selectfiltroMultimedia {
+		    width: 100%;
+		    height: 60px;
+		}
+		.formularioContacto {
+		    width: 100%;
+		    margin: 0px;
+		    position: relative;
+		    top: 40px;
+		    height: 100%;
+		}
+		#tituloMultimediaFiltro {
+		    font-size: 40pt;
+		    line-height: 100px;
+		    width: 50%;
+		    margin-left: 145px;
+		    font-weight: bold;
+		}
+
+
+	/*Estilos para el footer*/
+		.piePagina {
+		    width: 100%;
+		    height: 245px;
+		    background: #444141;
+		    z-index: 10;
+		    position: absolute;
+		}
+		.titulosigueme {
+		    color: #fff;
+		    font-weight: bold;
+		    margin-left: 0%;
+		    text-align: center;
+		    margin-bottom: 0px;
+		}
+		.seccionIconos {
+		    width: 100%;
+		    margin-left: 0%;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 30pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 4%;
+		    float: right;
+		}
+		.subtituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 23pt;
+		    font-weight: bold;
+		    letter-spacing: 5px;
+		    margin-top: 5px;
+		    width: 100%;
+		    margin-left: 0%;
+		    float: right;
+		}
+}
+@media screen and (max-width:768px){
+	/*Estilos para el menu*/
+		.secciones {
+		    width: 100% !important;
+		    /* max-width: 1600px; */
+		    /* min-width: 960px; */
+		    z-index: 10;
+		    position: relative;
+		    /* margin: 0 auto; */
+		    /* padding: 0 0 2px 0; */
+		}	
+		.menu{
+			width: 100%;
+			height: 16.5%;
+			margin: 0;
+			left: -100%;
+			position: fixed;
+			padding-right: 0px;
+			-webkit-transition: all 0.3s ease-in-out;
+		}
+		.menu_responsive {
+		    display: block;
+		    width: 100%;
+		    position: fixed;
+		    z-index: 1001;
+		        -webkit-transition: all 0.3s ease-in-out;
+		}
+		.menu_responsive .bt-menu {
+		    display: block;
+		    padding: 20px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-weight: bold;
+		    font-size: 25px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    width: 70px;
+		}
+		.menu_responsive span {
+			float:right;
+			font-size:40px;
+		}
+		.btnMenuR{
+			font-size: 25pt;
+		}
+		.vermenu{
+			left: 0px;
+		}
+		header nav ul {
+		    list-style: none;
+		    overflow: hidden;
+		    float: none;
+		    margin-bottom: 0px;
+		    margin-top: 70px;
+		    background-color: #444141;
+		    width: 100%;
+		    padding-left: 0px;
+		}
+		header nav ul li {
+		    display: block;
+		    float: none;
+		    margin: 0;
+		    /* position: fixed; */
+		    border-bottom-style: solid;
+		    border-width: 0.4px;
+		    border-color: #9E9E9E;
+		    border-radius: 2px;
+		    margin: -3.5px;
+		    cursor: pointer;
+		}
+		header nav ul li a {
+		    position: relative;
+		    padding: 0px;
+		    padding-top: 15px;
+		    padding-right: 0px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-size: 18pt;
+		    padding-bottom: 3px;
+		    display: inline-block;
+		    text-align: center;
+		    margin-right: 0px;
+		    margin-left: 20px;
+		    left: 2px;
+		}
+		.btnEncuesta {
+	    	display: inline-block;
+		    padding: 6px 12px;
+		    margin: 8px;
+		    line-height: 1.42857143;
+		    text-align: center;
+		    text-decoration: none;
+		    white-space: nowrap;
+		    vertical-align: middle;
+		    -ms-touch-action: manipulation;
+		    touch-action: manipulation;
+		    cursor: pointer;
+		    -webkit-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		    background-image: none;
+		    border: 1px solid transparent;
+		    border-radius: 4px;
+		    color: #fff;
+		    background-color: rgba(2, 255, 2, 0.49);
+		    border-color: #4B8C4B;
+		    transition: width .5s ease, background-color .5s ease;
+		    width: 95%;
+		}
+		#logochanito {
+		    margin-top: 20%;
+		    margin-left: 16%;
+		    margin-right: 18%;
+		    margin-bottom: 5%;
+		}
+		.fondo {
+	    	width: 100%;
+	    	height: 100%;
+	    	background-color: rgba(42, 43, 41, 0.57);
+		}
+	/*Estilos para el modulo cv*/
+		.cv-circulo {
+		    width: 200px;
+		    height: 200px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 35%;
+		    margin-top: -20%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+		#imgCV {
+		    background: url(../img/fondoCV.png) no-repeat center center fixed;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		    width: 100%;
+		    height: 25%;
+		    border-bottom-style: solid;
+		    border-bottom-color: #EA0000;
+		    border-bottom-width: 5px;
+		    background-position: 0 -320px;
+		}
+		h1#tituloPrincipalCV {
+		    margin-left: 5%;
+		    font-size: 40pt;
+		    font-weight: bold;
+		    border-bottom-style: solid;
+		    width: 90%;
+		    text-align: center;
+		    color: #000;
+		    margin-top: 30px;
+		}
+		p.textoInfoCV {
+		    text-align: justify;
+		    font-size: 15pt;
+		}
+		.contenedorInfoCV {
+		    margin-left: 0px;
+		    margin-right: 0px;
+		    margin-top: 20px;
+		    width: 90%;
+		    height: auto;
+		    margin: 0 auto;
+		}
+		.iconosSocialmedia {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-top: 2%;
+		    margin-right: 5px;
+		    margin-left: 4%;
+		    position: relative;
+		    right: 0px;
+		    left: 165px;
+		}
+		.line {
+		    margin-left: 0;
+		    margin-top: 10px;
+		    float: left;
+		    display: block;
+		    width: 30%;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 60%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 4%;
+		    float: right;
+		}
+		.subtituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 13pt;
+		    font-weight: lighter;
+		    margin-top: 5px;
+		    width: 60%;
+		    margin-left: 0%;
+		    float: right;
+		}
+		.imgCongreso {
+		    margin: 0 auto;
+		    position: relative;
+		    left: 85px;
+		}
+		.form-group{
+			display: block !important;
+			margin-bottom: 15px !important;
+		}
+		div#tituloMultimedia {
+		    line-height: 100px;
+		    margin-top: -40px;
+		    font-size: 40pt;
+		    margin-bottom: 130px;
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 430px;
+		    height: 115px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 22%;
+		    margin-top: -35%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		div#formularioBusqueda {
+		    position: absolute;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 47%;
+		    width: 100%;
+		}
+		form.form-inline {
+		    margin: 35px;
+		}
+	/*Estilos para el modulo de contacto*/
+		#formulario {
+		    margin: 40px;
+		}
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 17%;
+		    height: auto;
+		}
+	/*Estilos para el modulo index*/
+		#iconosIntro {
+	    	margin-left: 0px;
+	    	margin-right: 0px;
+	    	position: absolute;
+	    	left: 10%;
+	    	width: 65%;
+		}
+		.iconosRedes {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-right: 50px;
+		    left: 90px;
+		    position: relative;
+		}
+		.titleBlog {
+		    color: #000;
+		    font-size: 35pt;
+		    text-align: center;
+		    margin-top: 10%;
+		    font-weight: bold;
+		}
+	/*EStilos para los iconos redes sociales*/
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 80px;
+		    width: 80%;
+		    margin: 0 auto;
+		}
+	    .iconosSocialmedia {
+	        width: 40px;
+	        height: 40px;
+	        float: left;
+	        margin-top: 2%;
+	        margin-right: 5px;
+	        margin-left: 4%;
+	        position: relative;
+	        right: 0px;
+	    }
+	    .iconofacebook{
+	        background-image: url("../img/iconosResponsive/facebook.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconotwitter{
+	        background-image: url("../img/iconosResponsive/twitter.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconoyoutube{
+	        background-image: url("../img/iconosResponsive/youtube.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconogoogleplus{
+	        background-image: url("../img/iconosResponsive/googleplus.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;  
+	    }
+	    .iconoinstagram{
+	        background-image: url("../img/iconosResponsive/instagram.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	/*Estilos hover para los iconos*/
+	    .iconofacebook:hover{
+	        background-image: url("../img/iconosResponsive/facebookHover.png");
+	        width: 40px;
+	        height: 40px;
+	        opacity: 1;
+	    }
+	    .iconotwitter:hover{
+	        background-image: url("../img/iconosResponsive/twitterHover.png");
+	        width: 40px;
+	        height: 40px;
+	    }
+	    .iconoyoutube:hover{
+	        background-image: url("../img/iconosResponsive/youtubeHover.png");
+	        width: 40px;
+	        height: 40px;
+	    }
+	    .iconogoogleplus:hover{
+	        background-image: url("../img/iconosResponsive/googleplusHover.png");
+	        width: 40px;
+	        height: 40px;  
+	    }
+	    .iconoinstagram:hover{
+	        background-image: url("../img/iconosResponsive/instagramHover.png");
+	        width: 40px;
+	        height: 40px;  
+	    }
+		.tamanilogochanito {
+		    width: 80%;
+		}
+		#logochanito {
+		    margin-top: 25%;
+		    margin-left: 10%;
+		    margin-right: 0%;
+		    margin-bottom: 5%;
+		}
+		/*Estilos para las entradas del blog*/
+		h1#tituloBlog {
+		    text-align: center;
+		    font-size: 40pt;
+		    font-weight: bold;
+		}
+		.img-responsiveblog {
+		    width: 100%;
+		    height: auto;
+		    overflow: hidden;
+		}
+		.efectoBlog{
+			width: 100%;
+		}
+		.efectoBlog section {
+		    margin: 0;
+		    padding: 0;
+		    position: relative;
+		    cursor: pointer;
+		    width: 100%;
+		    height: auto;
+		}
+	/*Estilos para el modulo multimedia*/
+		#headerMultimedia {
+		    background-color: rgba(42, 43, 41, 0);
+		    z-index: 16;
+		}
+		section.contenedorMultimedia {
+		    width: 100%;
+		    height: 100%;
+		    position: relative;
+		    z-index: 15;
+		}
+		div#tituloMultimedia {
+		    line-height: 100px;
+		    margin-top: -40px;
+		    font-size: 40pt;
+		    color: #fff;
+		    margin-bottom: 130px;
+		    width: 100%;
+		    margin-left: 0px;
+		    text-align: center;
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 430px;
+		    height: 115px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 22%;
+		    margin-top: -23%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		div#formularioBusqueda {
+		    position: absolute;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 40%;
+		    width: 100%;
+		}
+		select#selectfiltro {
+		    width: 100%;
+		    height: 80px;
+		}
+		#inputfiltro {
+		    width: 100%;
+		    height: 80px;
+		}
+		button#btnSearch {
+		    width: 100%;
+		    height: 80px;
+		    font-size: 20pt;
+		}
+	/*Estilos para el modulo resultado galeria*/
+		.botonF1beforeScroll {
+		    width: 80px;
+		    height: 80px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 45%;
+		    bottom: 0px;
+		    position: fixed;
+		    margin-right: 0px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+		.divDescarga {
+		    width: 114.73433px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+		    width: 114.73433px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareTwitt {
+		    width: 114.73433px;
+		    height: 40px;
+		    float: left;
+		}
+		.botonF1AfterScroll {
+		    bottom: 17%;
+		    left: 85%;
+		}
+		#chanitoMultimediaFiltro {
+		    margin-left: 95px;
+		    margin-top: -75px;
+		}
+		#tituloFormulario {
+		    font-size: 25pt;
+		    width: 70%;
+		    margin-left: 15%;
+		}
+		#fotoNotFound {
+		    margin-left: 41%;
+		    margin-right: 41%;
+		    margin-top: 30%;
+		}
+		#formularioBusquedaFiltro {
+		    z-index: 12;
+		    margin-top: 0%;
+		    width: 567px;
+		}
+		.formFiltro {
+		    width: 495px;
+		    margin: auto;
+		}
+		#inputfiltroMultimedia {
+		    width: 100%;
+		    height: 60px;
+		}
+		#selectfiltroMultimedia {
+		    width: 100%;
+		    height: 60px;
+		}
+		.formularioContacto {
+		    width: 100%;
+		    margin: 0px;
+		    position: relative;
+		    top: 40px;
+		    height: 100%;
+		}
+	/*Estilos para el footer*/
+		.piePagina {
+		    width: 100%;
+		    height: 245px;
+		    background: #444141;
+		    z-index: 10;
+		    position: absolute;
+		}
+		.titulosigueme {
+		    color: #fff;
+		    font-weight: bold;
+		    margin-left: 0%;
+		    text-align: center;
+		    margin-bottom: 0px;
+		}
+		.seccionIconos {
+		    width: 100%;
+		    margin-left: 0%;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 30pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 4%;
+		    float: right;
+		}
+		.subtituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 23pt;
+		    font-weight: bold;
+		    letter-spacing: 5px;
+		    margin-top: 5px;
+		    width: 100%;
+		    margin-left: 0%;
+		    float: right;
+		}
+}
+@media screen and (max-width: 600px){
+	/*Estilos para el menu*/
+		.secciones {
+		    width: 100% !important;
+		    /* max-width: 1600px; */
+		    /* min-width: 960px; */
+		    z-index: 10;
+		    position: relative;
+		    /* margin: 0 auto; */
+		    /* padding: 0 0 2px 0; */
+		}	
+		.menu{
+			width: 100%;
+			height: 16.5%;
+			margin: 0;
+			left: -100%;
+			position: fixed;
+			padding-right: 0px;
+			-webkit-transition: all 0.3s ease-in-out;
+		}
+		.menu_responsive {
+		    display: block;
+		    width: 100%;
+		    position: fixed;
+		    z-index: 1001;
+		        -webkit-transition: all 0.3s ease-in-out;
+		}
+		.menu_responsive .bt-menu {
+		    display: block;
+		    padding: 20px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-weight: bold;
+		    font-size: 25px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    width: 70px;
+		}
+		.menu_responsive span {
+			float:right;
+			font-size:40px;
+		}
+		i.fa.fa-bars.btnMenuR {
+		    font-size: 35pt;
+		}
+		.vermenu{
+			left: 0px;
+		}
+		header nav ul {
+		    list-style: none;
+		    overflow: hidden;
+		    float: none;
+		    margin-bottom: 0px;
+		    margin-top: 75px;
+		    background-color: #444141;
+		    width: 100%;
+		    padding-left: 0px;
+		}
+		header nav ul li {
+		    display: block;
+		    float: none;
+		    margin: 0;
+		    /* position: fixed; */
+		    border-bottom-style: solid;
+		    border-width: 0.4px;
+		    border-color: #9E9E9E;
+		    border-radius: 2px;
+		    margin: -3.5px;
+		    cursor: pointer;
+		}
+		header nav ul li a {
+		    position: relative;
+		    padding: 0px;
+		    padding-top: 15px;
+		    padding-right: 0px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-size: 23pt;
+		    padding-bottom: 3px;
+		    display: inline-block;
+		    text-align: center;
+		    margin-right: 0px;
+		    margin-left: 20px;
+		    left: 2px;
+		}
+		.btnEncuesta {
+	    	display: inline-block;
+		    padding: 6px 12px;
+		    margin: 8px;
+		    line-height: 1.42857143;
+		    text-align: center;
+		    text-decoration: none;
+		    white-space: nowrap;
+		    vertical-align: middle;
+		    -ms-touch-action: manipulation;
+		    touch-action: manipulation;
+		    cursor: pointer;
+		    -webkit-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		    background-image: none;
+		    border: 1px solid transparent;
+		    border-radius: 4px;
+		    color: #fff;
+		    background-color: rgba(2, 255, 2, 0.49);
+		    border-color: #4B8C4B;
+		    transition: width .5s ease, background-color .5s ease;
+		    width: 95%;
+		}
+		#logochanito {
+		    margin-top: 40%;
+		    margin-left: 10%;
+		    margin-right: 0%;
+		    margin-bottom: 5%;
+		}
+		.fondo {
+	    	width: 100%;
+	    	height: 100%;
+	    	background-color: rgba(42, 43, 41, 0.57);
+		}
+	/*EStilos para los iconos redes sociales*/
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: 8%;
+		    width: 80%;
+		    margin: 0 auto;
+		}
+		.iconosRedes {
+	    	width: 40px;
+	    	height: 40px;
+	    	float: left;
+	    	margin-right: 30px;
+		}
+	    .iconosSocialmedia {
+	        width: 40px;
+	        height: 40px;
+	        float: left;
+	        margin-top: 2%;
+	        margin-right: 5px;
+	        margin-left: 4%;
+	        position: relative;
+	        right: 0px;
+	    }
+	    .iconofacebook{
+	        background-image: url("../img/iconosResponsive/facebook.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconotwitter{
+	        background-image: url("../img/iconosResponsive/twitter.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconoyoutube{
+	        background-image: url("../img/iconosResponsive/youtube.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconogoogleplus{
+	        background-image: url("../img/iconosResponsive/googleplus.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;  
+	    }
+	    .iconoinstagram{
+	        background-image: url("../img/iconosResponsive/instagram.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	/*Estilos hover para los iconos*/
+	    .iconofacebook:hover{
+	        background-image: url("../img/iconosResponsive/facebookHover.png");
+	        width: 40px;
+	        height: 40px;
+	        opacity: 1;
+	    }
+	    .iconotwitter:hover{
+	        background-image: url("../img/iconosResponsive/twitterHover.png");
+	        width: 40px;
+	        height: 40px;
+	    }
+	    .iconoyoutube:hover{
+	        background-image: url("../img/iconosResponsive/youtubeHover.png");
+	        width: 40px;
+	        height: 40px;
+	    }
+	    .iconogoogleplus:hover{
+	        background-image: url("../img/iconosResponsive/googleplusHover.png");
+	        width: 40px;
+	        height: 40px;  
+	    }
+	    .iconoinstagram:hover{
+	        background-image: url("../img/iconosResponsive/instagramHover.png");
+	        width: 40px;
+	        height: 40px;  
+	    }
+	/*Estilos para el modulo index*/
+		.tamanilogochanito {
+		    width: 80%;
+		}
+		/*seccion blog*/
+		h1#tituloBlog {
+		    text-align: center;
+		    font-size: 35pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		}
+		h2#subtituloBlog {
+		    text-align: center;
+		    font-size: 25pt;
+		    font-weight: bold;
+		    letter-spacing: 5px;
+		    margin-top: 0px;
+		}
+		.efectoBlog {
+    		width: 100%;
+		}
+		.efectoBlog section {
+		    margin: 0;
+		    padding: 0;
+		    position: relative;
+		    cursor: pointer;
+		    width: 100%;
+		    height: auto;
+		}
+		.img-responsiveblog {
+		    width: 100%;
+		    height: auto;
+		    overflow: hidden;
+		}
+		.titleBlog {
+		    color: #000;
+		    font-size: 25pt;
+		    text-align: center;
+		    margin-top: 10%;
+		    font-weight: bold;
+		}
+		.textblog {
+		    display: block;
+		    font-size: 15pt;
+		    margin-left: 10px;
+		    margin-right: 10px;
+		    color: #fff;
+		    text-align: center;
+		    line-height: 20pt;
+		}
+	/*Estilos para el footer*/
+		.titulosigueme {
+		    color: #fff;
+		    font-weight: bold;
+		    margin-left: 0%;
+		    text-align: center;
+		}
+		.seccionIconos {
+		    width: 100%;
+		    margin-left: -12%;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 25pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 4%;
+		    float: right;
+		}
+		.subtituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    letter-spacing: 5px;
+		    margin-top: 5px;
+		    width: 100%;
+		    margin-left: 0%;
+		    float: right;
+		}
+	/*Estilos para el modulo CV*/
+		#imgCV {
+		    background: url(../img/fondoCV.png) no-repeat center center fixed;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		    width: 100%;
+		    height: 30%;
+		    border-bottom-style: solid;
+		    border-bottom-color: #EA0000;
+		    border-bottom-width: 5px;
+		    background-position: 0px;
+		}
+		.cv-circulo {
+		    width: 200px;
+		    height: 200px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 33%;
+		    margin-top: -22%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+		h1#tituloPrincipalCV {
+		    margin-left: 70px;
+		    font-size: 30pt;
+		    font-weight: bold;
+		    border-bottom-style: solid;
+		    width: 75%;
+		    text-align: center;
+		    color: #000;
+		    margin-top: 30px;
+		}
+		article.bloquesCV {
+		    width: 100%;
+		    background-color: #fff;
+		    box-shadow: 0px 0px 3px 2px;
+		    border-radius: 2px;
+		    -webkit-box-shadow: 0px 0px 3px 2px #000;
+		    -webkit-border-radius: 2px;
+		    margin: 0 auto;
+		}
+	/*Estilos para el modulo multimedia*/
+		#headerMultimedia {
+		    background-color: rgba(42, 43, 41, 0);
+		    z-index: 16;
+		}
+		section.contenedorMultimedia {
+		    width: 100%;
+		    height: 100%;
+		    position: relative;
+		    z-index: 15;
+		    background-image: url("../img/fondoMultimedia980x1280.png");
+		}
+		div#formularioBusqueda {
+		    position: absolute;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 10%;
+		    width: 100%;
+		    left: 0%;
+		}
+		div#tituloMultimedia {
+		    line-height: 100px;
+		    margin-top: -55px;
+		    font-size: 40pt;
+		    margin-bottom: 130px;
+		    text-align: center;
+		    color: #fff;
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 430px;
+		    height: 115px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 15%;
+		    margin-top: -32%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		form.form-inline {
+		    margin: 35px;
+		    margin-top: 0px;
+		}
+		.form-inline .form-group {
+		    display: block !important;
+		    margin-bottom: 0;
+		    vertical-align: middle;
+		}
+		select#selectfiltro {
+		    width: 100%;
+		    height: 80px;
+		}
+		#inputfiltro {
+		    width: 100%;
+		    height: 80px;
+		}
+		button#btnSearch {
+		    width: 100%;
+		    height: 80px;
+		}
+		.fa {
+		    display: inline-block;
+		    font: normal normal normal 14px/1 FontAwesome;
+		    font-size: x-large;
+		    text-rendering: auto;
+		    -webkit-font-smoothing: antialiased;
+		    -moz-osx-font-smoothing: grayscale;
+		}
+	/*Estilos para el modulo resultado multimedia*/
+		.item {
+		    width: 100%;
+		    float: left;
+		    margin-bottom: 0px;
+		    margin: 1px;
+		    display: inline-block;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		}
+		.anchoColumna {
+		    width: 100%;
+		    overflow-y: hidden;
+		}
+		.divDescarga {
+		    width: 180px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+		    width: 180px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareTwitt {
+		    width: 180px;
+		    height: 40px;
+		    float: left;
+		}
+		a.btn.btnDescargas {
+		    background: #4CAF50;
+		    font-size: 12pt;
+		    color: #fff;
+		    width: 99%;
+		    margin: 1px;
+		}
+		a.btn.btnShareFacebook {
+		    width: 99%;
+		    font-size: 12pt;
+		    background-color: #428BCA;
+		    color: #fff;
+		    margin: 1px;
+		}
+		a.btn.btnShareTwitter {
+		    width: 99%;
+		    font-size: 12pt;
+		    background-color: #66A1D4;
+		    margin: 1px;
+		    color: #fff;
+		}
+		#formularioBusquedaFiltro {
+		    z-index: 12;
+		    margin-top: 0%;
+		    width: 600px;
+		}
+		#selectfiltroMultimedia {
+		    width: 80%;
+		    height: 60px;
+		}
+		#inputfiltroMultimedia {
+		    width: 80%;
+		    height: 60px;
+		}
+		button#btnSearch {
+		    width: 100%;
+		    height: 80px;
+		}
+		#chanitoMultimediaFiltro {
+		    margin-left: 85px;
+		}
+		.botonF1AfterScroll {
+		    bottom: 20%;
+		    left: 85%;
+		}
+		i.fa.fa-search.iconoBtnModal {
+		    font-size: 25pt;
+		}
+	/*Estilos para el modulo contacto*/
+		.formularioContacto {
+		    width: 100%;
+		    margin: 0px;
+		    position: relative;
+		    top: 0px;
+		    height: 100%;
+		}
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 0%;
+		    height: auto;
+		}
+}
+@media screen and (max-width: 568px){
+	/*Estilos para el modulo multimedia (galeria)*/
+		.divDescarga {
+		    width: 170.396px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+		    width: 170.396px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareTwitt {
+		    width: 170.396px;
+		    height: 40px;
+		    float: left;
+		}
+		#formularioBusquedaFiltro {
+		    z-index: 12;
+		    margin-top: 0%;
+		    width: 568px;
+		}
+		form.form-inline {
+    		margin: 0px;
+		}
+		#selectfiltroMultimedia {
+		    width: 90%;
+		    height: 60px;
+		}
+		#inputfiltroMultimedia {
+    		width: 90%;
+    		height: 60px;
+		}
+		button#btnSearch {
+		    width: 90%;
+		}
+		#tituloMultimediaFiltro {
+		    font-size: 40pt;
+		    text-align: center;
+		    line-height: 25px;
+		    width: 90%;
+		    margin-left: 0px;
+		    font-weight: bold;
+		}
+		.blueimp-gallery .modal-body {
+		    position: relative;
+		    text-align: center;
+		    padding: 0 0 35.25% 0;
+		    overflow: hidden;
+		    cursor: pointer;
+		}
+}
+@media screen and (max-width: 414px){
+	/*Estilos para el menu*/
+		#headerMultimedia {
+    		background-color: rgba(42, 43, 41, 0);
+    		z-index: 16;
+		}
+		.secciones {
+		    width: 100% !important;
+		    /* max-width: 1600px; */
+		    /* min-width: 960px; */
+		    z-index: 10;
+		    position: relative;
+		    /* margin: 0 auto; */
+		    /* padding: 0 0 2px 0; */
+		}	
+		.menu{
+			width: 100%;
+			height: 16.5%;
+			margin: 0;
+			left: -100%;
+			position: fixed;
+			padding-right: 0px;
+			-webkit-transition: all 0.3s ease-in-out;
+		}
+		.menu_responsive {
+		    display: block;
+		    width: 100%;
+		    position: fixed;
+		    z-index: 1001;
+		        -webkit-transition: all 0.3s ease-in-out;
+		}
+		.menu_responsive .bt-menu {
+		    display: block;
+		    padding: 20px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-weight: bold;
+		    font-size: 25px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    width: 70px;
+		}
+		.menu_responsive span {
+			float:right;
+			font-size:40px;
+		}
+		.btnMenuR{
+			font-size: 25pt;
+		}
+		.vermenu{
+			left: 0px;
+		}
+		header nav ul {
+		    list-style: none;
+		    overflow: hidden;
+		    float: none;
+		    margin-bottom: 0px;
+		    margin-top: 70px;
+		    background-color: #444141;
+		    width: 100%;
+		    padding-left: 0px;
+		}
+		header nav ul li {
+		    display: block;
+		    float: none;
+		    margin: 0;
+		    /* position: fixed; */
+		    border-bottom-style: solid;
+		    border-width: 0.4px;
+		    border-color: #9E9E9E;
+		    border-radius: 2px;
+		    margin: -3.5px;
+		    cursor: pointer;
+		}
+		header nav ul li a {
+		    position: relative;
+		    padding: 0px;
+		    padding-top: 15px;
+		    padding-right: 0px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-size: 18pt;
+		    padding-bottom: 3px;
+		    display: inline-block;
+		    text-align: center;
+		    margin-right: 0px;
+		    margin-left: 20px;
+		    left: 2px;
+		}
+		.btnEncuesta {
+	    	display: inline-block;
+		    padding: 6px 12px;
+		    margin: 8px;
+		    line-height: 1.42857143;
+		    text-align: center;
+		    text-decoration: none;
+		    white-space: nowrap;
+		    vertical-align: middle;
+		    -ms-touch-action: manipulation;
+		    touch-action: manipulation;
+		    cursor: pointer;
+		    -webkit-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		    background-image: none;
+		    border: 1px solid transparent;
+		    border-radius: 4px;
+		    color: #fff;
+		    background-color: rgba(2, 255, 2, 0.49);
+		    border-color: #4B8C4B;
+		    transition: width .5s ease, background-color .5s ease;
+		    width: 95%;
+		}
+		#logochanito {
+		    margin-top: 30%;
+		    margin-left: 12%;
+		    margin-right: 0%;
+		    margin-bottom: 5%;
+		}
+		.fondo {
+	    	width: 100%;
+	    	height: 100%;
+	    	background-color: rgba(42, 43, 41, 0.57);
+		}
+	/*Estilos para los iconos redes sociales*/
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: -30px;
+		    width: 80%;
+		    margin: 0 auto;
+		}
+		.iconosRedes {
+	    	width: 40px;
+	    	height: 40px;
+	    	float: left;
+	    	margin-right: 22px;
+		}
+	    .iconosSocialmedia {
+	        width: 40px;
+	        height: 40px;
+	        float: left;
+	        margin-top: 2%;
+	        margin-right: 5px;
+	        margin-left: 4%;
+	        position: relative;
+	        right: 0px;
+	    }
+	    .iconofacebook{
+	        background-image: url("../img/iconosResponsive/facebook.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconotwitter{
+	        background-image: url("../img/iconosResponsive/twitter.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconoyoutube{
+	        background-image: url("../img/iconosResponsive/youtube.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconogoogleplus{
+	        background-image: url("../img/iconosResponsive/googleplus.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;  
+	    }
+	    .iconoinstagram{
+	        background-image: url("../img/iconosResponsive/instagram.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	/*Estilos hover para los iconos*/
+	    .iconofacebook:hover{
+	        background-image: url("../img/iconosResponsive/facebookHover.png");
+	        width: 40px;
+	        height: 40px;
+	        opacity: 1;
+	    }
+	    .iconotwitter:hover{
+	        background-image: url("../img/iconosResponsive/twitterHover.png");
+	        width: 40px;
+	        height: 40px;
+	    }
+	    .iconoyoutube:hover{
+	        background-image: url("../img/iconosResponsive/youtubeHover.png");
+	        width: 40px;
+	        height: 40px;
+	    }
+	    .iconogoogleplus:hover{
+	        background-image: url("../img/iconosResponsive/googleplusHover.png");
+	        width: 40px;
+	        height: 40px;  
+	    }
+	    .iconoinstagram:hover{
+	        background-image: url("../img/iconosResponsive/instagramHover.png");
+	        width: 40px;
+	        height: 40px;  
+	    }
+	/*Estilos para el index*/
+		.tamanilogochanito {
+		    width: 80%;
+		}
+		h1#tituloBlog {
+		    text-align: center;
+		    font-size: 25pt;
+		    font-weight: bold;
+		    margin-bottom: 2px
+		}
+		h2#subtituloBlog {
+		    text-align: center;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    letter-spacing: 5px;
+		    margin-top: 0px
+		}
+		/*Estilos seccion blog*/
+		.efectoBlog {
+    		width: 100%;
+		}
+		.efectoBlog section {
+		    margin: 0;
+		    padding: 0;
+		    position: relative;
+		    cursor: pointer;
+		    width: 100%;
+		    height: auto;
+		}
+		.titleBlog {
+		    color: #000;
+		    font-size: 17pt;
+		    text-align: center;
+		    margin-top: 10%;
+		    font-weight: bold;
+		}
+		.textblog {
+		    display: block;
+		    font-size: 13pt;
+		    margin-left: 10px;
+		    margin-right: 10px;
+		    color: #fff;
+		    text-align: center;
+		    line-height: 15pt;
+		}
+		.vermas {
+		    font-size: 14pt;
+		    color: #009688;
+		}
+	/*Estilos para el footer*/
+		.piePagina {
+		    width: 100%;
+		    height: 200px;
+		    background: #444141;
+		    z-index: 10;
+		    position: absolute;
+		}
+		.seccionIconos {
+		    width: 100%;
+		    margin-left: -35%;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 4%;
+		    float: right;
+		}
+		.subtituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 13pt;
+		    font-weight: bold;
+		    margin-top: 5px;
+		    letter-spacing: 5px;
+		    width: 100%;
+		    margin-left: 0%;
+		    float: right;
+		}
+	/*Estilos para el CV*/
+		#imgCV {
+		    background: url(../img/fondoCV.png) no-repeat center center fixed;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		    width: 100%;
+		    height: 30%;
+		    border-bottom-style: solid;
+		    border-bottom-color: #EA0000;
+		    border-bottom-width: 5px;
+		    background-position: 0px;
+		}
+		.cv-circulo {
+		    width: 120px;
+		    height: 120px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 35%;
+		    margin-top: -20%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+		h1#tituloPrincipalCV {
+		    margin-left: 60PX;
+		    font-size: 25pt;
+		    font-weight: bold;
+		    border-bottom-style: solid;
+		    width: 70%;
+		    text-align: center;
+		    color: #000;
+		    margin-top: 30px;
+		}
+		h1.tituloCV {
+		    color: #fff;
+		    font-weight: bold;
+		    line-height: 50px;
+		    font-size: 20pt;
+		}
+		#headerCardCV1 {
+		    position: relative;
+		    height: 50px;
+		    background-color: #9E9E9E;
+		    text-align: center;
+		    border-radius: 3px;
+		    z-index: 0;
+		}
+		#headerCardCV2 {
+		    position: relative;
+		    height: 50px;
+		    background-color: #22242f;
+		    text-align: center;
+		    border-radius: 3px;
+		    z-index: 0;
+		}
+		#headerCardCV3 {
+		    position: relative;
+		    height: 50px;
+		    background-color: rgb(0, 86, 79);
+		    text-align: center;
+		    border-radius: 3px;
+		    z-index: 0;
+		}
+	/*EStilos para el modulo multimedia*/
+			#headerMultimediaFiltroBuscaImagenes {
+		    	background-color: rgba(42, 43, 41, 0.57);
+		    	z-index: 15;
+		    	position: relative;
+		    	height: 77px;
+			}
+			section.contenedorMultimedia {
+			    width: 100%;
+			    height: 100%;
+			    position: relative;
+			    z-index: 15;
+			    background-image: url("../img/fondoMultimedia980x1280.png");
+			}
+			div#formularioBusqueda {
+			    position: absolute;
+			    z-index: 12;
+			    margin-left: 0%;
+			    margin-right: 0%;
+			    margin-top: 55%;
+			    width: 100%;
+			    left: 0%;
+			    top: 0%;
+			}
+			.form-inline .form-group {
+	    		display: block !important;
+	    		margin-bottom: 15px;
+	    		vertical-align: middle;
+	    		/* margin-bottom: 0px !important; */
+			}
+			div#tituloMultimedia {
+			    font-size: 25pt;
+			    line-height: 35px;
+			    width: 100%;
+			    margin-left: 0%;
+			    font-weight: bold;
+			    margin-right: 0%;
+			    margin-top: 10px;
+			    margin-bottom: 0px;
+			    position: relative;
+			    top: -80px;
+			    color: #fff;
+			    text-align: center;
+			}
+			#chanitoMultimedia {
+			    background-image: url("../img/chanitoResponsive.png");
+			    background-repeat: no-repeat;
+			    width: 315px;
+			    height: 75px;
+			    position: relative;
+			    z-index: 10;
+			    margin-left: 50px;
+			    margin-top: -25%;
+			    margin-bottom: 10px;
+			    background-size: cover;
+			}
+			select#selectfiltro {
+			    width: 100%;
+			    height: 60px;
+			    margin-left: 2px;
+			}
+			#inputfiltro {
+			    width: 100%;
+			    height: 60px;
+			}
+			form.form-inline {
+			    margin: 10px;
+			}
+			.btn-success {
+			    color: #fff;
+			    background-color: #5cb85c;
+			    border-color: #4cae4c;
+			    width: 100%;
+			    height: 60px;
+			}
+			button#btnSearch {
+    			width: 100%;
+			}
+			span.fa.fa-search {
+			    font-size: 15pt;
+			}
+		/*Modulo Resultado Busqueda*/
+			.item {
+			    width: 100%;
+			    float: left;
+			    margin-bottom: 0px;
+			    margin: 1px;
+			    display: inline-block;
+			    -webkit-box-sizing: border-box;
+			    -moz-box-sizing: border-box;
+			    box-sizing: border-box;
+			}
+			.anchoColumna {
+			    width: 100%;
+			    overflow-y: hidden;
+			}
+			.divDescarga {
+			    width: 123.46567px;
+			    height: 40px;
+			    float: left;
+			}
+			.divShareFace {
+				width: 123.46567px;
+				height: 40px;
+				float: left;
+			}
+			.divShareTwitt {
+			    width: 123.46567px;
+			    height: 40px;
+			    float: left;
+			}
+			a.btn.btnDescargas {
+			    background: #4CAF50;
+			    font-size: 10pt;
+			    color: #fff;
+			    width: 99%;
+			    margin: 1px;
+			}
+			a.btn.btnShareFacebook {
+			    width: 99%;
+			    font-size: 10pt;
+			    background-color: #428BCA;
+			    color: #fff;
+			    margin: 1px;
+			}
+			a.btn.btnShareTwitter {
+			    width: 99%;
+			    font-size: 10pt;
+			    background-color: #66A1D4;
+			    margin: 1px;
+			    color: #fff;
+			}
+			#formularioBusquedaFiltro {
+			    z-index: 12;
+			    margin-top: 0%;
+			    width: 380px;
+			}
+			button#btnSearch {
+			    width: 100%;
+			}
+			#chanitoMultimediaFiltro {
+			    background-image: url("../img/chanito.png");
+			    background-repeat: no-repeat;
+			    background-size: cover;
+			    background-position: 0px;
+			    width: 330px;
+			    height: 100px;
+			    position: relative;
+			    z-index: 10;
+			    margin-left: 15px;
+			    margin-top: 0%;
+			}
+			.botonF1AfterScroll {
+			    bottom: 18%;
+			    left: 78%;
+			}
+			i.fa.fa-search.iconoBtnModal {
+			    font-size: 25pt;
+			}
+	/*Estilos para el modulo contacto*/
+		.formularioContacto {
+		    width: 100%;
+		    margin: 0px;
+		    position: relative;
+		    top: 0px;
+		    height: 100%;
+		}
+		#btn_envia {
+		   color: #fff;
+		    background-color: #00BE65;
+		    border-color: #00BE65;
+		    width: 100%;
+		    font-weight: bold;
+		    margin-bottom: 10px;
+		}
+		#btn_cancela {
+		    color: #FFF;
+		    background-color: #DE2626;
+		    border-color: #E00202;
+		    width: 100%;
+		    font-weight: bold;
+		}
+		#formulario {
+		    margin: 20px;
+		    margin-bottom: 0px;
+		}
+}
+@media screen and (max-width: 384px){
+	/*EStilos para el index*/
+		.iconosRedes {
+		    width: 40px;
+		    height: 40px;
+		    float: left;
+		    margin-right: 15px;
+		}
+		#logochanito {
+		    margin-top: 25%;
+		    margin-left: 12%;
+		    margin-right: 0%;
+		    margin-bottom: 5%;
+		}
+		i.fa.fa-bars.btnMenuR {
+    		font-size: 30pt;
+		}
+		/*Estilos para la seccion blog*/
+		.titleBlog {
+		    color: #000;
+		    font-size: 13pt;
+		    text-align: center;
+		    margin-top: 8%;
+		    font-weight: bold;
+		}
+		.textblog {
+		    display: block;
+		    font-size: 12pt;
+		    margin-left: 10px;
+		    margin-right: 10px;
+		    color: #fff;
+		    text-align: justify;
+		    line-height: 14pt;
+		}
+	/*Estilos para el footer*/
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 5%;
+		    float: right;
+		}
+		.subtituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 18pt;
+		    font-weight: bold;
+		    margin-top: 5px;
+		    letter-spacing: 5px;
+		    width: 100%;
+		    margin-left: 0%;
+		    float: right;
+		}
+		.seccionIconos {
+		    width: 100%;
+		    margin-left: -40%;
+		}
+	/*Estilos para el CV*/
+		.cv-circulo {
+		    width: 120px;
+		    height: 120px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 34%;
+		    margin-top: -20%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+		h1.tituloCV {
+		    color: #fff;
+		    font-weight: bold;
+		    line-height: 50px;
+		    font-size: 18pt;
+		}
+		p.textoInfoCV {
+		    text-align: justify;
+		    font-size: 12pt;
+		}
+		label.fechasCV {
+		    font-weight: bold;
+		    font-size: 15pt;
+		    line-height: 40px;
+		}
+    /*EStilos para multimedia*/
+		div#formularioBusqueda {
+		    position: absolute;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 55%;
+		    width: 100%;
+		    left: 0%;
+		    top: 0%;
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 315px;
+		    height: 75px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 35px;
+		    margin-top: -25%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+        /*Estilos para resultados de la busqueda multimedia*/
+		.divDescarga {
+		    width: 115.198px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+		    width: 115.198px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareTwitt {
+		    width: 115.198px;
+		    height: 40px;
+		    float: left;
+		}
+		.fa {
+		    display: inline-block;
+		    font: normal normal normal 14px/1 FontAwesome;
+		    font-size: 12pt;
+		    text-rendering: auto;
+		    -webkit-font-smoothing: antialiased;
+		    -moz-osx-font-smoothing: grayscale;
+		}
+		.iconoBtnModal{
+			font-size: 25pt;
+		}
+		.botonF1beforeScroll {
+		    width: 80px;
+		    height: 80px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 40%;
+		    bottom: 0px;
+		    position: fixed;
+		    margin-right: 0px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+		.botonF1AfterScroll {
+		    bottom: 33%;
+		    left: 78%;
+		}
+		#fotoNotFound {
+		    margin-left: 30%;
+		    margin-right: 0%;
+		    margin-top: 15%;
+		}
+		.tituloError {
+		    text-align: center;
+		    font-size: 20pt;
+		    line-height: 1.5;
+		}
+		.modal-dialog.modal-lg.modalGaleria {
+		    top: 150px;
+		}
+	/*Estilos para el modulo contacto*/
+		#btn_envia {
+		    color: #fff;
+		    background-color: #00BE65;
+		    border-color: #00BE65;
+		    width: 100%;
+		    font-weight: bold;
+		    margin-bottom: 10px;
+		    height: 35px;
+		    font-size: 12pt;
+		}
+		#btn_cancela {
+		    color: #FFF;
+		    background-color: #DE2626;
+		    border-color: #E00202;
+		    width: 100%;
+		    font-weight: bold;
+		    height: 35px;
+		    font-size: 12pt;
+		}
+}
+@media screen and (max-width: 375px){
+	/*Estilos para el menu*/
+		.secciones {
+		    width: 100% !important;
+		    /* max-width: 1600px; */
+		    /* min-width: 960px; */
+		    z-index: 10;
+		    position: relative;
+		    /* margin: 0 auto; */
+		    /* padding: 0 0 2px 0; */
+		}	
+		.menu{
+			width: 100%;
+			height: 16.5%;
+			margin: 0;
+			left: -100%;
+			position: fixed;
+			padding-right: 0px;
+			-webkit-transition: all 0.3s ease-in-out;
+		}
+		.menu_responsive {
+		    display: block;
+		    width: 100%;
+		    position: fixed;
+		    z-index: 1001;
+		        -webkit-transition: all 0.3s ease-in-out;
+		}
+		.menu_responsive .bt-menu {
+		    display: block;
+		    padding: 20px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-weight: bold;
+		    font-size: 25px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    width: 70px;
+		}
+		.menu_responsive span {
+			float:right;
+			font-size:40px;
+		}
+		.btnMenuR{
+			font-size: 25pt;
+		}
+		.vermenu{
+			left: 0px;
+		}
+		header nav ul {
+		    list-style: none;
+		    overflow: hidden;
+		    float: none;
+		    margin-bottom: 0px;
+		    margin-top: 70px;
+		    background-color: #444141;
+		    width: 100%;
+		    padding-left: 0px;
+		}
+		header nav ul li {
+		    display: block;
+		    float: none;
+		    margin: 0;
+		    /* position: fixed; */
+		    border-bottom-style: solid;
+		    border-width: 0.4px;
+		    border-color: #9E9E9E;
+		    border-radius: 2px;
+		    margin: -3.5px;
+		    cursor: pointer;
+		}
+		header nav ul li a {
+		    position: relative;
+		    padding: 0px;
+		    padding-top: 15px;
+		    padding-right: 0px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-size: 18pt;
+		    padding-bottom: 3px;
+		    display: inline-block;
+		    text-align: center;
+		    margin-right: 0px;
+		    margin-left: 20px;
+		    left: 2px;
+		}
+		.btnEncuesta {
+	    	display: inline-block;
+		    padding: 6px 12px;
+		    margin: 8px;
+		    line-height: 1.42857143;
+		    text-align: center;
+		    text-decoration: none;
+		    white-space: nowrap;
+		    vertical-align: middle;
+		    -ms-touch-action: manipulation;
+		    touch-action: manipulation;
+		    cursor: pointer;
+		    -webkit-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		    background-image: none;
+		    border: 1px solid transparent;
+		    border-radius: 4px;
+		    color: #fff;
+		    background-color: rgba(2, 255, 2, 0.49);
+		    border-color: #4B8C4B;
+		    transition: width .5s ease, background-color .5s ease;
+		    width: 95%;
+		}
+		#logochanito {
+		    margin-top: 20%;
+		    margin-left: 16%;
+		    margin-right: 0%;
+		    margin-bottom: 5%;
+		}
+		.fondo {
+	    	width: 100%;
+	    	height: 100%;
+	    	background-color: rgba(42, 43, 41, 0.57);
+		}
+	/*EStilos para los iconos redes sociales*/
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: -30px;
+		    width: 80%;
+		    margin: 0 auto;
+		}
+		.iconosRedes {
+	    	width: 40px;
+	    	height: 40px;
+	    	float: left;
+	    	margin-right: 10px;
+		}
+	    .iconosSocialmedia {
+	        width: 40px;
+	        height: 40px;
+	        float: left;
+	        margin-top: 2%;
+	        margin-right: 5px;
+	        margin-left: 4%;
+	        position: relative;
+	        right: 0px;
+	    }
+	    .iconofacebook{
+	        background-image: url("../img/iconosResponsive/facebook.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconotwitter{
+	        background-image: url("../img/iconosResponsive/twitter.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconoyoutube{
+	        background-image: url("../img/iconosResponsive/youtube.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconogoogleplus{
+	        background-image: url("../img/iconosResponsive/googleplus.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;  
+	    }
+	    .iconoinstagram{
+	        background-image: url("../img/iconosResponsive/instagram.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	/*Estilos hover para los iconos*/
+	    .iconofacebook:hover{
+	        background-image: url("../img/iconosResponsive/facebookHover.png");
+	        width: 40px;
+	        height: 40px;
+	        opacity: 1;
+	    }
+	    .iconotwitter:hover{
+	        background-image: url("../img/iconosResponsive/twitterHover.png");
+	        width: 40px;
+	        height: 40px;
+	    }
+	    .iconoyoutube:hover{
+	        background-image: url("../img/iconosResponsive/youtubeHover.png");
+	        width: 40px;
+	        height: 40px;
+	    }
+	    .iconogoogleplus:hover{
+	        background-image: url("../img/iconosResponsive/googleplusHover.png");
+	        width: 40px;
+	        height: 40px;  
+	    }
+	    .iconoinstagram:hover{
+	        background-image: url("../img/iconosResponsive/instagramHover.png");
+	        width: 40px;
+	        height: 40px;  
+	    }
+    /*Estilos para los titulos*/
+		h1#tituloBlog {
+		    text-align: center;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    width: 100%;
+		    margin-bottom: 2px;
+		}
+		h2#subtituloBlog {
+		    text-align: center;
+		    font-size: 15pt;
+		    width: 100%;
+		    margin-top: 1px;
+		    font-weight: bold;
+		    letter-spacing: 5px;
+		}
+	/*Estilos para las entradas del blog*/
+		.img-responsiveblog {
+		    width: 100%;
+		    height: 275px;
+		    overflow: hidden;
+		}
+		.efectoBlog{
+			width: 100%;
+		}
+		.efectoBlog section {
+		    margin: 0;
+		    padding: 0;
+		    position: relative;
+		    cursor: pointer;
+		    width: 100%;
+		    height: 275px;
+		}
+	/*Estilos para los articulos textos*/
+		.titleBlog {
+		    color: #000;
+		    font-size: 15pt;
+		    text-align: center;
+		    margin-top: 10%;
+		    font-weight: bold;
+		}
+		.vermas {
+		    font-size: 12pt;
+		    color: #009688;
+		}
+		.textblog {
+		    display: block;
+		    font-size: 11pt;
+		    margin-left: 10px;
+		    margin-right: 10px;
+		    color: #fff;
+		    text-align: center;
+		    line-height: 15pt;
+		}
+	/*Estilos para el footer*/
+		.titulosigueme {
+		    color: #fff;
+		    font-weight: bold;
+		    margin-left: 0%;
+		    font-size: 20pt;
+		    text-align: center;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 10%;
+		}
+		.subtituloFooter {
+			text-align: center;
+		    color: #fff;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    letter-spacing: 4px;
+		    margin-top: 5px;
+		    width: 100%;
+		    margin-left: 0%;
+		}
+		.line {
+		    margin-left: 0;
+		    float: left;
+		    display: none;
+		}
+		.seccionIconos{
+			margin-left: -42%;
+		}
+	/*Estilos para el modulo cv*/
+		#imgCV {
+		    background: url(../img/fondoCV.png) no-repeat center center fixed;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		    width: 100%;
+		    height: 30%;
+		    border-bottom-style: solid;
+		    border-bottom-color: #EA0000;
+		    border-bottom-width: 5px;
+		    background-position: 0px 0px;
+		}
+		.cv-circulo {
+		    width: 120px;
+		    height: 120px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 30%;
+		    margin-top: -25%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+		h1#tituloPrincipalCV {
+		    margin-left: 5%;
+		    font-size: 18pt;
+		    font-weight: bold;
+		    border-bottom-style: solid;
+		    width: 90%;
+		    text-align: center;
+		    color: #000;
+		    margin-top: 20px;
+		}
+		.contenedorInfoCV {
+	    	margin-left: 5%;
+	    	margin-right: 5%;
+	    	margin-top: 0px;
+		}
+		h1.tituloCV {
+	    	color: #fff;
+	    	font-weight: bold;
+	    	line-height: 70px;
+	    	font-size: 17pt;
+		}
+		#headerCardCV1 {
+		    position: relative;
+		    height: 80px;
+		    background-color: #9E9E9E;
+		    text-align: center;
+		    border-radius: 1px;
+		    z-index: 0;
+		}
+		#headerCardCV2 {
+		    position: relative;
+		    height: 80px;
+		    background-color: #22242f;
+		    text-align: center;
+		    border-radius: 1px;
+		    z-index: 0;
+		}
+		#headerCardCV3 {
+	    	position: relative;
+	    	height: 80px;
+	    	background-color: rgb(0, 86, 79);
+	    	text-align: center;
+	    	border-radius: 1px;
+		    z-index: 0;
+		}
+		label.fechasCV {
+		    font-weight: bold;
+		    font-size: 13pt;
+		    line-height: 40px;
+		}
+		p.textoInfoCV {
+	    	font-size: 12pt;
+	    	text-align: justify;
+		}
+		article.bloquesCV{
+			width: 100%;
+		    background-color: #fff;
+		    box-shadow: 0px 0px 3px 2px;
+		    border-radius: 2px;
+		    -webkit-box-shadow: 0px 0px 3px 2px #000;
+		    -webkit-border-radius: 2px;
+		    margin: 0 auto;	
+		}
+	/*EStilos para el modulo multimedia*/
+		#headerMultimediaFiltroBuscaImagenes {
+	    	background-color: rgba(42, 43, 41, 0.57);
+	    	z-index: 15;
+	    	position: relative;
+	    	height: 77px;
+		}
+		section.contenedorMultimedia {
+		    width: 100%;
+		    height: 100%;
+		    position: relative;
+		    z-index: 15;
+		    background-image: url("../img/fondoMultimedia980x1280.png");
+		}
+		div#formularioBusqueda {
+		    position: absolute;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 45%;
+		    width: 100%;
+		    left: 0%;
+		    top: 0%;
+		}
+		.form-inline .form-group {
+    		display: block !important;
+    		margin-bottom: 15px;
+    		vertical-align: middle;
+    		/* margin-bottom: 0px !important; */
+		}
+		div#tituloMultimedia {
+		    font-size: 25pt;
+		    line-height: 35px;
+		    width: 100%;
+		    margin-left: 0%;
+		    font-weight: bold;
+		    margin-right: 0%;
+		    margin-top: 10px;
+		    margin-bottom: 40px;
+		    position: relative;
+		    top: -80px;
+		    color: #fff;
+		    text-align: center;
+		}
+		#chanitoMultimedia {
+		    background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 225px;
+		    height: 75px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 70px;
+		    margin-top: -35%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		select#selectfiltro {
+		    width: 100%;
+		    height: 60px;
+		    margin-left: 2px;
+		}
+		#inputfiltro {
+		    width: 100%;
+		    height: 60px;
+		}
+		form.form-inline {
+		    margin: 10px;
+		}
+		.btn-success {
+		    color: #fff;
+		    background-color: #5cb85c;
+		    border-color: #4cae4c;
+		    width: 100%;
+		    height: 60px;
+		}
+		span.fa.fa-search {
+		    font-size: 15pt;
+		}
+	/*Estilos para el modulo galeria*/
+		.item {
+		    width: 100%;
+		    float: none;
+		    margin-bottom: 2px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    display: block;
+		    margin-top: 1px;
+		}
+		.anchoColumna {
+		    width: 100%;
+		    overflow-y: hidden;
+		}
+		.divDescarga {
+		    width: 112.5px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+	    	width: 112.5px;
+	    	height: 40px;
+	    	float: left;
+		}
+		.divShareTwitt {
+	    	width: 112.5px;
+	    	height: 40px;
+	    	float: left;
+		}
+		a.btn.btnDescargas {
+		    background: #4CAF50;
+		    font-size: 10pt;
+		    color: #fff;
+		    width: 99%;
+		    margin: 1px;
+		}
+		a.btn.btnShareFacebook {
+		    width: 99%;
+		    background-color: #428BCA;
+		    color: #fff;
+		    margin: 1px;
+		    font-size: 10pt;
+		}
+		a.btn.btnShareTwitter {
+		    width: 99%;
+		    background-color: #66A1D4;
+		    margin: 1px;
+		    color: #fff;
+		    font-size: 10pt;
+		}
+		#fotoNotFound {
+    		margin-left: 28%;
+    		margin-right: 41%;
+    		margin-top: 20%;
+		}
+		.tituloError {
+		    text-align: center;
+		    font-size: 15pt;
+		    line-height: 2;
+		}
+	/*Estilos para los botones contacto*/
+	   	button.btn.btnDescargas{
+	        width: 99%;
+	        background-color: #2CA944;
+	        color: #fff;
+	        margin: 1px;
+	    }
+	    button.btn.btnDescargas:hover{
+	        background: rgb(10, 97, 26);
+	        color: #fff;
+	    }
+	    a.btn.btnShareFacebook {
+	        width: 99%;
+	        background-color: #428BCA;
+	        color: #fff;
+	        margin: 1px;
+	    }
+	    a.btn.btnShareTwitter {
+	        width: 99%;
+	        background-color: #66A1D4;
+	        margin: 1px;
+	        color: #fff;
+	    }
+    /*Estilos para el boton nueva busqueda*/
+	    .botonF1beforeScroll {
+		    width: 80px;
+		    height: 80px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 40%;
+		    bottom: 0px;
+		    position: fixed;
+		    margin-right: 0px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+		.botonF1AfterScroll {
+			width: 80px;
+		    height: 80px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 70%;
+		    bottom: 38%;
+		    position: fixed;
+		    margin-right: 16px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+	/*Estilos para el modal nueva busqueda*/
+		#formularioBusquedaFiltro {
+	    	z-index: 12;
+	    	margin-top: 0%;
+	    	width: 100%;
+		}
+		.formFiltro {
+		    width: 100%;
+		    margin: 0px !important;
+		}
+		#tituloMultimediaFiltro {
+		    font-size: 25pt;
+		    line-height: 15px;
+		    width: 100%;
+		    font-weight: bold;
+		    text-align: center;
+		    margin-left: 0px;
+		}
+		#chanitoMultimediaFiltro {
+		    background-image: url("../img/chanitoResponsiveRojo.png");
+		    background-repeat: no-repeat;
+		    width: 270px;
+		    height: 85px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 25px;
+		    margin-top: 0px;
+		    background-size: cover;
+		}
+		#selectfiltroMultimedia {
+	    	width: 100%;
+	    	height: 60px;
+		}
+		#inputfiltroMultimedia {
+	    	width: 100%;
+	    	height: 60px;
+		}
+		button#btnSearch {
+	    	width: 100%;
+		}
+	/*Estilos modulos multimedia*/
+		#headerMultimedia {
+	    	background-color: rgba(42, 43, 41, 0);
+	    	z-index: 17;
+		}
+		#headerMultimediaFiltroBuscaImagenes{
+			background-color: rgba(42, 43, 41, 0.57);
+	    	z-index: 15;
+	    	position: relative;
+	    	height: 77px;
+		}
+		#galeriaChanito {
+	    	overflow-x: hidden !important;
+	    	margin-bottom: 45px;
+		}
+		.btnFancyGaleriaBefore {
+	    	color: #FFF;
+	    	background-color: #2D2D2D;
+	    	border-color: #0C6122;
+	    	width: 49%;
+	    	height: 40px;
+		}
+		.btnFancyGaleriaNext {
+	    	color: #fff;
+	    	background-color: #2D2D2D;
+	    	border-color: #0C6122;
+	    	width: 49%;
+	    	height: 40px;
+		}
+	/*Estilos para el modulo contacto*/
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 10%;
+		    height: auto;
+		}
+		#formulario {
+		    margin: 20px;
+		    position: relative;
+		    top: 0px;
+		}
+		.formularioContacto {
+		    width: 100%;
+		    margin: 0px;
+		    position: relative;
+		    top: 10px;
+		    height: 100%;
+		}	
+		#tituloFormulario {
+		    font-size: 20pt;
+		    text-align: center;
+		    font-weight: bold;
+		    border-bottom-style: solid;
+		    width: 90%;
+		    margin-left: 5%;
+		    margin-right: 5%;
+		}
+		#btn_envia {
+		    color: #fff;
+		    background-color: #00BE65;
+		    border-color: #00BE65;
+		    width: 100%;
+		    font-weight: bold;
+		    margin-bottom:10px;
+		}
+		#btn_cancela {
+		    color: #FFF;
+		    background-color: #DE2626;
+		    border-color: #E00202;
+		    width: 100%;
+		    font-weight: bold;
+		}
+		.cb-slideshow, .cb-slideshow:after {
+		    position: fixed;
+		    width: 100%;
+		    height: 100%;
+		    top: 0px;
+		    left: 0px;
+		    z-index: 0;
+		    list-style: none;
+		    padding: 0px;
+		}
+		.form-horizontal .form-group {
+	    	margin-right: 0px;
+	    	margin-left: 0px;
+		}																	
+	/*Estilos para el modulo index*/
+		.tamanilogochanito{
+			width: 70%;
+		}
+}
+@media screen and (max-width:360px){
+	/*Estilos del index*/
+		.titleBlog {
+		    color: #000;
+		    font-size: 15pt;
+		    text-align: center;
+		    margin-top: 15%;
+		    font-weight: bold;
+		}
+	/*Estilos del logochanito*/
+		#logochanito {
+		    margin-top: 35%;
+		    margin-left: 15%;
+		    margin-right: 15%;
+		    margin-bottom: 2%;
+		}
+		.tamanilogochanito {
+	    	width: 70%;
+		}
+		#iconosIntro {
+		    margin-left: 0px;
+		    margin-right: 0px;
+		    position: absolute;
+		    left: -10%;
+		}
+	/*Estilos para el modulo busqueda mi foto con chanito*/
+		div#formularioBusqueda {
+		    position: absolute;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 50% !important;
+		    width: 100%;
+		    left: 0%;
+		    top: 0%;
+		}
+		#chanitoMultimedia{
+			margin-left: 40px;
+			margin-top: -35%;
+		}
+		div#tituloMultimedia{
+			line-height: 70px;
+			margin-top: 30px;
+		}
+		#chanitoMultimedia {
+		    margin-left: 60px;
+		    margin-top: -42%;
+		}
+		.botonF1AfterScroll {
+		    bottom: 33%;
+		    left: 75%;
+		}
+	/*Estilos para el modulo resultado galeria mi foto con chanito*/
+		.divDescarga {
+	    	width: 108px;
+	    	height: 40px;
+	    	float: left;
+		}
+		.divShareFace {
+	    	width: 108px;
+	    	height: 40px;
+	    	float: left;
+		}
+		.divShareTwitt {
+	    	width: 108px;
+	    	height: 40px;
+	    	float: left;
+		}
+		.botonF1AfterScroll{
+			bottom: 26%;
+		}
+	/*Estilos del footer*/
+		.seccionIconos {
+		    margin-left: -45%;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 7%;
+		}
+	/*Estilos para el modulo cv*/
+		#headerCardCV1 {
+		    position: relative;
+		    height: 60px;
+		    background-color: #9E9E9E;
+		    text-align: center;
+		    border-radius: 1px;
+		    z-index: 0;
+		}
+		#headerCardCV2 {
+		    position: relative;
+		    height: 60px;
+		    background-color: #22242f;
+		    text-align: center;
+		    border-radius: 1px;
+		    z-index: 0;
+		}
+		#headerCardCV3 {
+		    position: relative;
+		    height: 60px;
+		    background-color: rgb(0, 86, 79);
+		    text-align: center;
+		    border-radius: 1px;
+		    z-index: 0;
+		}
+}
+@media screen and (max-width:320px){
+	/*Estilos para el menu*/
+		.secciones {
+		    width: 100% !important;
+		    /* max-width: 1600px; */
+		    /* min-width: 960px; */
+		    z-index: 10;
+		    position: relative;
+		    /* margin: 0 auto; */
+		    /* padding: 0 0 2px 0; */
+		}	
+		.menu{
+			width: 100%;
+			height: 16.5%;
+			margin: 0;
+			left: -100%;
+			position: fixed;
+			padding-right: 0px;
+			-webkit-transition: all 0.3s ease-in-out;
+		}
+		.menu_responsive {
+		    display: block;
+		    width: 100%;
+		    position: fixed;
+		    z-index: 1001;
+		        -webkit-transition: all 0.3s ease-in-out;
+		}
+		.menu_responsive .bt-menu {
+		    display: block;
+		    padding: 20px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-weight: bold;
+		    font-size: 25px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    width: 70px;
+		}
+		.menu_responsive span {
+			float:right;
+			font-size:40px;
+		}
+		.btnMenuR{
+			font-size: 25pt;
+		}
+		.vermenu{
+			left: 0px;
+		}
+		header nav ul {
+		    list-style: none;
+		    overflow: hidden;
+		    float: none;
+		    margin-bottom: 0px;
+		    margin-top: 70px;
+		    background-color: #444141;
+		    width: 100%;
+		    padding-left: 0px;
+		}
+		header nav ul li {
+		    display: block;
+		    float: none;
+		    margin: 0;
+		    /* position: fixed; */
+		    border-bottom-style: solid;
+		    border-width: 0.4px;
+		    border-color: #9E9E9E;
+		    border-radius: 2px;
+		    margin: -3.5px;
+		    cursor: pointer;
+		}
+		header nav ul li a {
+		    position: relative;
+		    padding: 0px;
+		    padding-top: 15px;
+		    padding-right: 0px;
+		    color: #fff;
+		    text-decoration: none;
+		    font-size: 18pt;
+		    padding-bottom: 3px;
+		    display: inline-block;
+		    text-align: center;
+		    margin-right: 0px;
+		    margin-left: 20px;
+		    left: 2px;
+		}
+		.btnEncuesta {
+	    	display: inline-block;
+		    padding: 6px 12px;
+		    margin: 8px;
+		    line-height: 1.42857143;
+		    text-align: center;
+		    text-decoration: none;
+		    white-space: nowrap;
+		    vertical-align: middle;
+		    -ms-touch-action: manipulation;
+		    touch-action: manipulation;
+		    cursor: pointer;
+		    -webkit-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		    background-image: none;
+		    border: 1px solid transparent;
+		    border-radius: 4px;
+		    color: #fff;
+		    background-color: rgba(2, 255, 2, 0.49);
+		    border-color: #4B8C4B;
+		    transition: width .5s ease, background-color .5s ease;
+		    width: 95%;
+		}
+		#logochanito {
+		    margin-top: 20%;
+		    margin-left: 16%;
+		    margin-right: 0%;
+		    margin-bottom: 5%;
+		}
+		.fondo {
+	    	width: 100%;
+	    	height: 100%;
+	    	background-color: rgba(42, 43, 41, 0.57);
+		}
+	/*EStilos para los iconos redes sociales*/
+		#iconosIntro {
+		    margin-left: 0px;
+		    left: -30px;
+		    width: 80%;
+		    margin: 0 auto;
+		}
+		.iconosRedes {
+	    	width: 40px;
+	    	height: 40px;
+	    	float: left;
+	    	margin-right: 5px;
+		}
+	    .iconosSocialmedia {
+	        width: 40px;
+	        height: 40px;
+	        float: left;
+	        margin-top: 2%;
+	        margin-right: 5px;
+	        margin-left: 4%;
+	        position: relative;
+	        right: 0px;
+	    }
+	    .iconofacebook{
+	        background-image: url("../img/iconosResponsive/facebook.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconotwitter{
+	        background-image: url("../img/iconosResponsive/twitter.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconoyoutube{
+	        background-image: url("../img/iconosResponsive/youtube.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	    .iconogoogleplus{
+	        background-image: url("../img/iconosResponsive/googleplus.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;  
+	    }
+	    .iconoinstagram{
+	        background-image: url("../img/iconosResponsive/instagram.png");
+	        width: 40px;
+	        height: 40px;
+	        background-repeat: no-repeat;
+	        -webkit-transition:ease-out 0.5s;
+	        -moz-transition:ease-out 0.5s;
+	        -o-transition:ease-out 0.5s;
+	        transition:ease-out 0.5s;
+	    }
+	/*Estilos hover para los iconos*/
+	    .iconofacebook:hover{
+	        background-image: url("../img/iconosResponsive/facebookHover.png");
+	        width: 40px;
+	        height: 40px;
+	        opacity: 1;
+	    }
+	    .iconotwitter:hover{
+	        background-image: url("../img/iconosResponsive/twitterHover.png");
+	        width: 40px;
+	        height: 40px;
+	    }
+	    .iconoyoutube:hover{
+	        background-image: url("../img/iconosResponsive/youtubeHover.png");
+	        width: 40px;
+	        height: 40px;
+	    }
+	    .iconogoogleplus:hover{
+	        background-image: url("../img/iconosResponsive/googleplusHover.png");
+	        width: 40px;
+	        height: 40px;  
+	    }
+	    .iconoinstagram:hover{
+	        background-image: url("../img/iconosResponsive/instagramHover.png");
+	        width: 40px;
+	        height: 40px;  
+	    }
+    /*Estilos para los titulos*/
+		h1#tituloBlog {
+		    text-align: center;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    width: 100%;
+		    margin-bottom: 2px;
+		}
+		h2#subtituloBlog {
+		    text-align: center;
+		    font-size: 12pt;
+		    width: 100%;
+		    margin-top: 1px;
+		}
+	/*Estilos para las entradas del blog*/
+		.img-responsiveblog {
+		    width: 100%;
+		    height: 275px;
+		    overflow: hidden;
+		}
+		.efectoBlog{
+			width: 100%;
+		}
+		.efectoBlog section {
+		    margin: 0;
+		    padding: 0;
+		    position: relative;
+		    cursor: pointer;
+		    width: 100%;
+		    height: 275px;
+		}
+	/*Estilos para los articulos textos*/
+		.titleBlog {
+		    color: #000;
+		    font-size: 15pt;
+		    text-align: center;
+		    margin-top: 10%;
+		    font-weight: bold;
+		}
+		.vermas {
+		    font-size: 12pt;
+		    color: #009688;
+		}
+		.textblog {
+		    display: block;
+		    font-size: 11pt;
+		    margin-left: 10px;
+		    margin-right: 10px;
+		    color: #fff;
+		    text-align: center;
+		    line-height: 15pt;
+		}
+	/*Estilos para el footer*/
+		.titulosigueme {
+		    color: #fff;
+		    font-weight: bold;
+		    margin-left: 0%;
+		    font-size: 20pt;
+		    text-align: center;
+		}
+		.tituloFooter {
+		    text-align: center;
+		    color: #fff;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    margin-bottom: 0px;
+		    width: 100%;
+		    margin-left: 0%;
+		    border-bottom-style: solid;
+		    border-bottom-width: 1px;
+		    margin-top: 10%;
+		}
+		.subtituloFooter {
+			text-align: center;
+		    color: #fff;
+		    font-size: 20pt;
+		    font-weight: bold;
+		    letter-spacing: 4px;
+		    margin-top: 5px;
+		    width: 100%;
+		    margin-left: 0%;
+		}
+		.line {
+		    margin-left: 0;
+		    float: left;
+		    display: none;
+		}
+		.seccionIconos{
+			margin-left: -55%;
+		}
+	/*Estilos para el modulo cv*/
+		#imgCV {
+		    background: url(../img/fondoCV.png) no-repeat center center fixed;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		    width: 100%;
+		    height: 30%;
+		    border-bottom-style: solid;
+		    border-bottom-color: #EA0000;
+		    border-bottom-width: 5px;
+		    background-position: 0px 0px;
+		}
+		.cv-circulo {
+		    width: 120px;
+		    height: 120px;
+		    border-radius: 265px;
+		    -webkit-border-radius: 265px;
+		    -moz-border-radius: 265px;
+		    background: url(../img/cvchanitoledo.png) no-repeat;
+		    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		    background-position-x: 0px;
+		    background-position: 0px 0px;
+		    margin-left: 30%;
+		    margin-top: -25%;
+		    border-style: solid;
+		    border-color: #FBFBFB;
+		    border-width: 2px;
+		    background-size: cover;
+		    box-shadow: 2px 1px 7px 4px;
+		}
+		h1#tituloPrincipalCV {
+		    margin-left: 5%;
+		    font-size: 18pt;
+		    font-weight: bold;
+		    border-bottom-style: solid;
+		    width: 90%;
+		    text-align: center;
+		    color: #000;
+		    margin-top: 20px;
+		}
+		.contenedorInfoCV {
+	    	margin-left: 5%;
+	    	margin-right: 5%;
+	    	margin-top: 0px;
+		}
+		h1.tituloCV {
+	    	color: #fff;
+	    	font-weight: bold;
+	    	line-height: 70px;
+	    	font-size: 17pt;
+		}
+		#headerCardCV1 {
+		    position: relative;
+		    height: 80px;
+		    background-color: #9E9E9E;
+		    text-align: center;
+		    border-radius: 1px;
+		    z-index: 0;
+		}
+		#headerCardCV2 {
+		    position: relative;
+		    height: 80px;
+		    background-color: #22242f;
+		    text-align: center;
+		    border-radius: 1px;
+		    z-index: 0;
+		}
+		#headerCardCV3 {
+	    	position: relative;
+	    	height: 80px;
+	    	background-color: rgb(0, 86, 79);
+	    	text-align: center;
+	    	border-radius: 1px;
+		    z-index: 0;
+		}
+		label.fechasCV {
+		    font-weight: bold;
+		    font-size: 13pt;
+		    line-height: 40px;
+		}
+		p.textoInfoCV {
+	    	font-size: 12pt;
+	    	text-align: justify;
+		}
+		article.bloquesCV{
+			width: 100%;
+		    background-color: #fff;
+		    box-shadow: 0px 0px 3px 2px;
+		    border-radius: 2px;
+		    -webkit-box-shadow: 0px 0px 3px 2px #000;
+		    -webkit-border-radius: 2px;
+		    margin: 0 auto;	
+		}
+	/*EStilos para el modulo multimedia*/
+		#headerMultimediaFiltroBuscaImagenes {
+	    	background-color: rgba(42, 43, 41, 0.57);
+	    	z-index: 15;
+	    	position: relative;
+	    	height: 77px;
+		}
+		section.contenedorMultimedia {
+		    width: 100%;
+		    height: 100%;
+		    position: relative;
+		    z-index: 15;
+		    background-image: url("../img/fondoMultimedia980x1280.png");
+		}
+		div#formularioBusqueda {
+		    position: absolute;
+		    z-index: 12;
+		    margin-left: 0%;
+		    margin-right: 0%;
+		    margin-top: 45%;
+		    width: 100%;
+		    left: 0%;
+		    top: 0%;
+		}
+		.form-inline .form-group {
+    		display: block !important;
+    		margin-bottom: 15px;
+    		vertical-align: middle;
+    		/* margin-bottom: 0px !important; */
+		}
+		div#tituloMultimedia {
+		    font-size: 25pt;
+		    line-height: 35px;
+		    width: 100%;
+		    margin-left: 0%;
+		    font-weight: bold;
+		    margin-right: 0%;
+		    margin-top: 10px;
+		    margin-bottom: 40px;
+		    position: relative;
+		    top: -80px;
+		    color: #fff;
+		    text-align: center;
+		}
+		#chanitoMultimedia {
+			background-image: url("../img/chanitoResponsive.png");
+		    background-repeat: no-repeat;
+		    width: 225px;
+		    height: 75px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 30px;
+		    margin-top: -40%;
+		    margin-bottom: 10px;
+		    background-size: cover;
+		}
+		select#selectfiltro {
+		    width: 100%;
+		    height: 60px;
+		    margin-left: 2px;
+		}
+		#inputfiltro {
+		    width: 100%;
+		    height: 60px;
+		}
+		form.form-inline {
+		    margin: 10px;
+		}
+		.btn-success {
+		    color: #fff;
+		    background-color: #5cb85c;
+		    border-color: #4cae4c;
+		    width: 100%;
+		    height: 60px;
+		}
+		span.fa.fa-search {
+		    font-size: 15pt;
+		}
+	/*Estilos para el modulo galeria*/
+		.item {
+		    width: 100%;
+		    float: none;
+		    margin-bottom: 2px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    display: block;
+		    margin-top: 1px;
+		}
+		.anchoColumna {
+		    width: 100%;
+		    overflow-y: hidden;
+		}
+		.divDescarga {
+		    width: 96px;
+		    height: 40px;
+		    float: left;
+		}
+		.divShareFace {
+	    	width: 96px;
+	    	height: 40px;
+	    	float: left;
+		}
+		.divShareTwitt {
+	    	width: 96px;
+	    	height: 40px;
+	    	float: left;
+		}
+		a.btn.btnDescargas {
+		    background: #4CAF50;
+		    font-size: 10pt;
+		    color: #fff;
+		    width: 99%;
+		    margin: 1px;
+		}
+		a.btn.btnShareFacebook {
+		    width: 99%;
+		    background-color: #428BCA;
+		    color: #fff;
+		    margin: 1px;
+		    font-size: 10pt;
+		}
+		a.btn.btnShareTwitter {
+		    width: 99%;
+		    background-color: #66A1D4;
+		    margin: 1px;
+		    color: #fff;
+		    font-size: 10pt;
+		}
+		#fotoNotFound {
+    		margin-left: 28%;
+    		margin-right: 41%;
+    		margin-top: 20%;
+		}
+		.tituloError {
+		    text-align: center;
+		    font-size: 15pt;
+		    line-height: 2;
+		}
+	/*Estilos para los botones contacto*/
+	   	button.btn.btnDescargas{
+	        width: 99%;
+	        background-color: #2CA944;
+	        color: #fff;
+	        margin: 1px;
+	    }
+	    button.btn.btnDescargas:hover{
+	        background: rgb(10, 97, 26);
+	        color: #fff;
+	    }
+	    a.btn.btnShareFacebook {
+	        width: 99%;
+	        background-color: #428BCA;
+	        color: #fff;
+	        margin: 1px;
+	    }
+	    a.btn.btnShareTwitter {
+	        width: 99%;
+	        background-color: #66A1D4;
+	        margin: 1px;
+	        color: #fff;
+	    }
+    /*estilos para el boton nueva busqueda*/
+	    .botonF1beforeScroll {
+		    width: 80px;
+		    height: 80px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 40%;
+		    bottom: 0px;
+		    position: fixed;
+		    margin-right: 0px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+		.botonF1AfterScroll {
+			width: 80px;
+		    height: 80px;
+		    border-radius: 100%;
+		    background: #F44336 none repeat scroll 0% 0%;
+		    right: 0%;
+		    left: 70%;
+		    bottom: 38%;
+		    position: fixed;
+		    margin-right: 16px;
+		    margin-bottom: 16px;
+		    border: medium none;
+		    outline: medium none;
+		    color: #FFF;
+		    font-size: 36px;
+		    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+		    transition: all 0.3s ease 0s;
+		    z-index: 15;
+		}
+	/*Estilos para el modal nueva busqueda*/
+		#formularioBusquedaFiltro {
+	    	z-index: 12;
+	    	margin-top: 0%;
+	    	width: 100%;
+		}
+
+		.formFiltro {
+		    width: 100%;
+		    margin: 0px !important;
+		}
+		#tituloMultimediaFiltro {
+		    font-size: 25pt;
+		    line-height: 15px;
+		    width: 100%;
+		    font-weight: bold;
+		    text-align: center;
+		    margin-left: 0px;
+		}
+		#chanitoMultimediaFiltro {
+		    background-image: url("../img/chanitoResponsiveRojo.png");
+		    background-repeat: no-repeat;
+		    width: 270px;
+		    height: 85px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: 0px;
+		    margin-top: 0px;
+		    background-size: cover;
+		}
+		#selectfiltroMultimedia {
+	    	width: 100%;
+	    	height: 60px;
+		}
+		#inputfiltroMultimedia {
+	    	width: 100%;
+	    	height: 60px;
+		}
+		button#btnSearch {
+	    	width: 100%;
+		}
+	/*Estilos modulos multimedia*/
+		#headerMultimedia {
+	    	background-color: rgba(42, 43, 41, 0);
+	    	z-index: 17;
+		}
+		#headerMultimediaFiltroBuscaImagenes{
+			background-color: rgba(42, 43, 41, 0.57);
+	    	z-index: 15;
+	    	position: relative;
+	    	height: 77px;
+		}
+		#galeriaChanito {
+	    	overflow-x: hidden !important;
+	    	margin-bottom: 45px;
+		}
+		.btnFancyGaleriaBefore {
+	    	color: #FFF;
+	    	background-color: #2D2D2D;
+	    	border-color: #0C6122;
+	    	width: 49%;
+	    	height: 40px;
+		}
+		.btnFancyGaleriaNext {
+	    	color: #fff;
+	    	background-color: #2D2D2D;
+	    	border-color: #0C6122;
+	    	width: 49%;
+	    	height: 40px;
+		}
+	/*Estilos para el modulo contacto*/
+		section.contenedorContacto {
+		    width: 100%;
+		    margin-bottom: 10%;
+		    height: auto;
+		}
+		#formulario {
+		    margin: 10px;
+		    position: relative;
+		    top: 0px;
+		}
+		.formularioContacto {
+		    width: 100%;
+		    margin: 0px;
+		    position: relative;
+		    top: 10px;
+		    height: 100%;
+		}	
+		#tituloFormulario {
+		    font-size: 20pt;
+		    text-align: center;
+		    font-weight: bold;
+		    border-bottom-style: solid;
+		    width: 90%;
+		    margin-left: 5%;
+		    margin-right: 5%;
+		}
+		#btn_envia {
+		    color: #fff;
+		    background-color: #00BE65;
+		    border-color: #00BE65;
+		    width: 100%;
+		    font-weight: bold;
+		    margin-bottom:10px;
+		}
+		#btn_cancela {
+		    color: #FFF;
+		    background-color: #DE2626;
+		    border-color: #E00202;
+		    width: 100%;
+		    font-weight: bold;
+		}
+		.cb-slideshow, .cb-slideshow:after {
+		    position: fixed;
+		    width: 100%;
+		    height: 100%;
+		    top: 0px;
+		    left: 0px;
+		    z-index: 0;
+		    list-style: none;
+		    padding: 0px;
+		}
+		.form-horizontal .form-group {
+	    	margin-right: 0px;
+	    	margin-left: 0px;
+		}																
+}
